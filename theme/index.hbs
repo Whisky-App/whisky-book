@@ -71,6 +71,13 @@
             } catch (e) { }
         </script>
 
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
