@@ -5,7 +5,7 @@
 - [What's Where?](./paths.md)
 - [Whisky vs. CrossOver](./cx.md)
 - [Game Support](./game-support/README.md)
-  - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md) 
+  - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
   - [Cities: Skylines II](./game-support/cities-skylines-2.md)
   - [Control](./game-support/control.md)
@@ -29,3 +29,4 @@
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
   - [Star Wars: Squadron](./game-support/sw-squadrons.md)
   - [Warframe](./game-support/warframe.md)
+  - [Kenshi](./game-support/kenshi.md)
