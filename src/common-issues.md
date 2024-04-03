@@ -1,5 +1,5 @@
 
-## Common Issues
+# Common Issues
 
 Several things can lead to a program not working. The most common reasons are listed below.
 

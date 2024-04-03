@@ -1,4 +1,4 @@
-## Whisky or CrossOver?
+# Whisky or CrossOver?
 
 There are a lot of questions about which is better, here's an easy chart:
 
