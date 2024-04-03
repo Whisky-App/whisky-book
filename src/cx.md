@@ -20,6 +20,6 @@ There are a lot of questions about which is better, here's an easy chart:
 | Wine 9 Support                  | ❌      | ✅         |
 | Proper Technical Support        | ❌      | ✅         |
 | Future Updates to Wine          | ❌      | ✅         |
-| Future Updates to Wine          | ❌      | ❌         |
+| Fortnite Support                | ❌      | ❌         |
 
 TLDR; CrossOver supports more apps than Whisky, and provides a more seamless user experience when Wine doesn't want to work out of the box. Which ever is best will depend on your needs and use case. 
