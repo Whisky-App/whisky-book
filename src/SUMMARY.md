@@ -18,7 +18,7 @@
   - [Dorfromantik](./game-support/dorfromantik.md)
   - [Elden Ring](./game-support/elden-ring.md)
   - [Elite Dangerous](./game-support/elite-dangerous.md)
-  - [Fortnite](./game-support/fornite.md)
+  - [Fortnite](./game-support/fortnite.md)
   - [Grand Theft Auto V](./game-support/gta-5.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [Kenshi](./game-support/kenshi.md)
