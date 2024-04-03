@@ -19,6 +19,7 @@ title is partially left to the article author, but some general guidelines apply
 ### Index
 - [Cities: Skylines II](./game-support/cities-skylines-2.md)
 - [Counter-Strike 2](./game-support/counter-strike-2.md)
+- [Dark Souls III](./dark-souls-3.md)
 - [Diablo IV (Battle.net)](./game-support/diablo-4-battle-net.md)
 - [Diablo IV (Steam)](./game-support/diablo-4-steam.md)
 - [Elden Ring](./game-support/elden-ring.md)
@@ -26,5 +27,6 @@ title is partially left to the article author, but some general guidelines apply
 - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
 - [Persona 3 Reload](./p3r.md)
 - [Palworld](./game-support/palworld.md)
+- [Sekiro: Shadows Die Twice](./sekiro.md)
 - [Skyrim SE](./game-support/skyrim-se.md)
 - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
