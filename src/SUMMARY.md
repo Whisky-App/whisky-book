@@ -31,3 +31,5 @@
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
   - [Star Wars: Squadron](./game-support/sw-squadrons.md)
   - [Warframe](./game-support/warframe.md)
+  - [Rain World](./game-support/rain-world.md)
+  - [Dishonored](./game-support/dishonored.md)
