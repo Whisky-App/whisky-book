@@ -34,3 +34,4 @@
   - [Rain World](./game-support/rain-world.md)
   - [Dishonored](./game-support/dishonored.md)
   - [Geometry Wars 3: Dimensions Evolved](./game-support/gw3-dimensions-evolved.md)
+  - [Deep Rock Galactic](./game-support/deep-rock-galactic.md)
