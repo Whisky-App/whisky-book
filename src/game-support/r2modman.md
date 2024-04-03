@@ -1,11 +1,11 @@
-## r2modman
+# r2modman
 
 {{#template ../templates/rating.md status=Silver date=02/27/24 installs=Yes opens=Yes}}
 
 ## Setup
 
 (thank you to 1halon on the discord for writing this up!)
-- Download the standalone executable from https://github.com/ebkr/r2modmanPlus/releases/latest into the Bottle's C drive (or some arbitary location Bottle can access to)
+- Download the standalone executable from [https://github.com/ebkr/r2modmanPlus/releases/latest](https://github.com/ebkr/r2modmanPlus/releases/latest) into the Bottle's C drive (or some arbitary location Bottle can access to)
 - Pin the program, right click, Open Config
 - Add `--disable-gpu --no-sandbox` into arguments
 - Add environment variable with key `WINEDLLOVERRIDES` and value `libglesv2=d`
