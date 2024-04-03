@@ -4,9 +4,11 @@
 
 ## Setup
 
-(thank you to 1halon on the discord for writing this up!)
-- Download the standalone executable from [https://github.com/ebkr/r2modmanPlus/releases/latest](https://github.com/ebkr/r2modmanPlus/releases/latest) into the Bottle's C drive (or some arbitary location Bottle can access to)
-- Pin the program, right click, Open Config
+> Thank you to `1halon` on the Discord for writing this up!
+
+- In `Bottle Configuration`, change `Enhanced Sync` to `ESync`
+- Download the standalone executable from [here](https://github.com/ebkr/r2modmanPlus/releases/latest) into your bottle's C-Drive
+- Pin the program and `Right Click > Config`
 - Add `--disable-gpu --no-sandbox` into arguments
 - Add environment variable with key `WINEDLLOVERRIDES` and value `libglesv2=d`
 > [!WARNING]
@@ -14,6 +16,3 @@
 
 > [!NOTE]
 > If using the BepInEx framework, install `winhttp` through `Winetricks > DLLs` or override `winhttp` to `Native then Builtin` from `Wine Configuration` (console may not show up)
-
-> [!NOTE]
-> Use `ESync` instead of `MSync` for `Enhanced Sync`

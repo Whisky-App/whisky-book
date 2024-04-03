@@ -20,6 +20,7 @@
   - [Elden Ring](./game-support/elden-ring.md)
   - [Elite Dangerous](./game-support/elite-dangerous.md)
   - [Fear and Hunger](./game-support/fear-and-hunger.md)
+  - [Fortnite](./game-support/fortnite.md)
   - [Grand Theft Auto V](./game-support/gta-5.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [Kenshi](./game-support/kenshi.md)
