@@ -17,6 +17,8 @@ title is partially left to the article author, but some general guidelines apply
 | Garbage | Game does not work at all.                                                                     |
 
 ### Index
+- [Armored Core VI: Fires of Rubicon](./armored-core-6.md)
+- [Blasphemous 2](./blasphemous-2.md)
 - [Cities: Skylines II](./game-support/cities-skylines-2.md)
 - [Counter-Strike 2](./game-support/counter-strike-2.md)
 - [Dark Souls III](./dark-souls-3.md)
