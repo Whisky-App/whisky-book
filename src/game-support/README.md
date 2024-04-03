@@ -31,7 +31,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Dorfromantik](./dorfromantik.md)
 - [Elden Ring](./elden-ring.md)
 - [Elite Dangerous](./elite-dangerous.md)
-- [Fortnite](./fornite.md)
+- [Fortnite](./fortnite.md)
 - [Grand Theft Auto V](./gta-5.md)
 - [Horizon Zero Dawn](./horizon-zero-dawn.md)
 - [Kenshi](./kenshi.md)
