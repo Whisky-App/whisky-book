@@ -14,5 +14,6 @@
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [Persona 3 Reload](./game-support/p3r.md)
   - [Palworld](./game-support/palworld.md)
+  - [r2modman](./game-support/r2modman.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
