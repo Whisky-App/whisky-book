@@ -26,6 +26,7 @@
   - [Overwatch 2](./game-support/overwatch-2.md)
   - [Persona 3 Reload](./game-support/p3r.md)
   - [Palworld](./game-support/palworld.md)
+  - [r2modman](./game-support/r2modman.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)

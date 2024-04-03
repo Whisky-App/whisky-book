@@ -39,6 +39,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Overwatch 2](./overwatch-2.md)
 - [Persona 3 Reload](./p3r.md)
 - [Palworld](./palworld.md)
+- [r2modman](./r2modman.md)
 - [Sekiro: Shadows Die Twice](./sekiro.md)
 - [Skyrim SE](./skyrim-se.md)
 - [Star Wars Jedi: Fallen Order](./sw-fallen-order.md)
