@@ -1,0 +1,22 @@
+[book]
+authors = ["Isaac Marovitz"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Whisky Documentation"
+
+[preprocessor.alerts]
+
+[preprocessor.template]
+
+[output.html]
+default-theme = "dark"
+git-repository-url = "https://github.com/Whisky-App/Whisky"
+git-repository-icon = "fa-github"
+input-404 = "not-found.md"
+
+[output.html.print]
+enable = false
+
+[output.html.fold]
+enable = true
