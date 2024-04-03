@@ -10,9 +10,11 @@ title = "Whisky Documentation"
 [preprocessor.template]
 
 [output.html]
-default-theme = "dark"
+default-theme = "whisky"
+preferred-dark-theme = "whisky"
 git-repository-url = "https://github.com/Whisky-App/Whisky"
 git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/Whisky-App/whisky-book/edit/main/{path}"
 input-404 = "not-found.md"
 
 [output.html.print]

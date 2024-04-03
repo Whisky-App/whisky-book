@@ -1,0 +1,54 @@
+:root {
+    --sidebar-width: 300px;
+    --sidebar-resize-indicator-width: 8px;
+    --sidebar-resize-indicator-space: 2px;
+    --page-padding: 15px;
+    --content-max-width: 750px;
+    --menu-bar-height: 50px;
+    --mono-font: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace;
+    --code-font-size: 0.875em /* please adjust the ace font size accordingly in editor.js */
+}
+
+.whisky {
+    --bg: rgb(17, 24, 39);
+    --fg: #ffffff;
+
+    --sidebar-bg: rgb(31, 41, 55);
+    --sidebar-fg: rgb(255, 255, 255);
+    --sidebar-non-existant: #505254;
+    --sidebar-active: rgb(245, 158, 11);
+    --sidebar-spacer: #393939;
+
+    --scrollbar: var(--sidebar-fg);
+
+    --icons: rgb(107, 114, 128);
+    --icons-hover: #b3c0cc;
+
+    --links: rgb(245, 158, 11);
+
+    --inline-code-color: #c5c8c6;
+
+    --theme-popup-bg: #141617;
+    --theme-popup-border: #43484d;
+    --theme-hover: #1f2124;
+
+    --quote-bg: hsl(234, 21%, 18%);
+    --quote-border: hsl(234, 21%, 23%);
+
+    --warning-border: #ff8e00;
+
+    --table-border-color: rgba(255, 255, 255, 15%);
+    --table-header-bg: transparent;
+    --table-alternate-bg:  rgba(255, 255, 255, 15%);
+
+    --searchbar-border-color: #aaa;
+    --searchbar-bg: #b7b7b7;
+    --searchbar-fg: #000;
+    --searchbar-shadow-color: #aaa;
+    --searchresults-header-fg: #666;
+    --searchresults-border-color: #98a3ad;
+    --searchresults-li-bg: #2b2b2f;
+    --search-mark-bg: #355c7d;
+
+    --color-scheme: dark;
+}
