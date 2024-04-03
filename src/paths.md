@@ -7,7 +7,7 @@ Whisky installs files to the following locations:
 | GPTK      | `~/Library/Application Support/com.isaacmarovitz.Whisky/Libraries` |
 | Bottles   | `~/Library/Containers/com.isaacmarovitz.Whisky/Bottles`            |
 | Logs      | `~/Library/Logs/com.isaacmarovitz.Whisky`                          |
-| WhiskyCMD | `/usr/local/bin/whisky`                                            |
+| WhiskyCmd | `/usr/local/bin/whisky`                                            |
 
 # Uninstalling Whisky
 

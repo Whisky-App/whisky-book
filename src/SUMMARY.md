@@ -3,6 +3,7 @@
 - [Guide](./guide.md)
 - [Common Issues](./common-issues.md)
 - [What's Where?](./paths.md)
+- [WhiskyCmd](./whiskycmd.md)
 - [Whisky vs. CrossOver](./cx.md)
 - [Game Support](./game-support/README.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
