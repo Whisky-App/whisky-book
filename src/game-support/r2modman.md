@@ -1,7 +1,8 @@
 ## r2modman
 
-{{#template ../templates/rating.md status=Silver date=4/3/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver date=2/27/24 installs=Yes opens=Yes}}
 
+(thank you to 1halon on the discord for writing this up!)
 - Install in Steam as normal
 - Start the game so Steam install the requirements
 - Download the standalone executable from https://github.com/ebkr/r2modmanPlus/releases/latest into the Bottle's C drive (or some arbitary location Bottle can access to)
