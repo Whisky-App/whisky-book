@@ -1,6 +1,6 @@
 ## r2modman
 
-{{#template ../templates/rating.md status=Silver date=10/24/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver date=4/3/24 installs=Yes opens=Yes}}
 
 - Install in Steam as normal
 - Start the game so Steam install the requirements
