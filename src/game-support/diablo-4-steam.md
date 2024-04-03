@@ -1,8 +1,8 @@
 # Diablo IV - Steam Version
 
-{{#template ../templates/rating.md status=Silver date=07/13/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage date=02/04/24 installs=Yes opens=No}}
 
-## Setup
+<!--## Setup
 
 - Go to Config
     - Change Windows Version to 19042 (Make sure to press enter to submit the change)
@@ -11,5 +11,8 @@
 - Install Diablo IV as normal
 - Delete `dstorage.dll` at `Program Files(x86)/steam/steamapps/common/Diablo IV`
 - Start Diablo IV as normal
+-->
+
+Diablo IV is currently **unplayable** in Whisky.
 
 {{#template ../templates/steam.md id=2344520}}

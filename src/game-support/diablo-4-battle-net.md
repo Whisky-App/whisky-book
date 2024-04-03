@@ -1,7 +1,8 @@
 # Diablo IV - Battle.net Version
 
-{{#template ../templates/rating.md status=Silver date=07/13/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage date=02/04/24 installs=Yes opens=No}}
 
+<!--
 ## Setup
 
 - Go to Config
@@ -12,3 +13,6 @@
 - Go back to Whisky. Click on `File` > `Kill All Bottles`
 - Restart Battle.net
 - Login and install Diablo IV as normal
+-->
+
+Diablo IV is currently **unplayable** in Whisky.
