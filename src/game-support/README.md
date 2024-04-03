@@ -33,6 +33,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Elite Dangerous](./elite-dangerous.md)
 - [Grand Theft Auto V](./gta-5.md)
 - [Horizon Zero Dawn](./horizon-zero-dawn.md)
+- [Kenshi](./kenshi.md)
 - [Metal Gear Solid V: The Phantom Pain](./mgs-5.md)
 - [Monster Hunter World: Iceborne](./monster-hunter-world-iceborne.md)
 - [Overwatch 2](./overwatch-2.md)
@@ -41,4 +42,3 @@ title is partially left to the article author, but some general guidelines apply
 - [Sekiro: Shadows Die Twice](./sekiro.md)
 - [Skyrim SE](./skyrim-se.md)
 - [Star Wars Jedi: Fallen Order](./sw-fallen-order.md)
-- [Kenshi](./kenshi.md)

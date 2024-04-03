@@ -19,6 +19,7 @@
   - [Elite Dangerous](./game-support/elite-dangerous.md)
   - [Grand Theft Auto V](./game-support/gta-5.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
+  - [Kenshi](./game-support/kenshi.md)
   - [Metal Gear Solid V: The Phantom Pain](./game-support/mgs-5.md)
   - [Monster Hunter World: Iceborne](./game-support/monster-hunter-world-iceborne.md)
   - [Overwatch 2](./game-support/overwatch-2.md)
@@ -29,4 +30,3 @@
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
   - [Star Wars: Squadron](./game-support/sw-squadrons.md)
   - [Warframe](./game-support/warframe.md)
-  - [Kenshi](./game-support/kenshi.md)
