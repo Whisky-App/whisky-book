@@ -4,16 +4,17 @@
 
 ## Setup
 
-(fix found here: [https://www.youtube.com/watch?v=ymuTp8JuK4A](https://www.youtube.com/watch?v=ymuTp8JuK4A))
-- Install as normal
-- Navigate to install location of game
+> [Source](https://www.youtube.com/watch?v=ymuTp8JuK4A)
+
+- Install in Steam as normal
+- Right-click on the game in Steam and browse local files
 - Open `path/ph/work/bin/x64/`
-- rename `runtime_dx11.dll` to `runtime_dx11.dll.bak`
+- Rename `runtime_dx11.dll` to `runtime_dx11.dll.bak`
 
 > [!WARNING]
-> Changing the upscaling method to XeSS will break the game and put it into a softlock until you change the settings in a document.
+> Changing the upscaling method to XeSS will soft-lock.
 > To fix this, click `Open C: Drive` and navigate to `/users/crossover/Documents/dying light 2/out/settings/video.scr`, and open this file in a text editor.
-> Change `Upscaler(5)` to `Upscaler(0)` to fix this. You can then set your desired upscaling method in-game.
+> Change `Upscaler(5)` to `Upscaler(0)`
 
 > [!WARNING]
 > You may experience issues if using DX11 as your graphics backend, depending on your bottle configuration. If this is the case, use the above method.
