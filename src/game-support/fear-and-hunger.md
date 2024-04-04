@@ -14,4 +14,4 @@
 > The game is terribly optimized and runs very poorly without community-made fixes, which have not yet been compatible with macOS and Whisky.
 > You can find those fixes [here](https://www.pcgamingwiki.com/wiki/Fear_%26_Hunger#Essential_Improvements), however at the current time they **do not work** on macOS and will prevent your game from running.
 
-{{#template ../templates/steam.md id=534380}}
+{{#template ../templates/steam.md id=1002300}}
