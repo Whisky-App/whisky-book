@@ -46,6 +46,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Persona 3 Reload](./p3r.md)
 - [Persona 4 Golden](./p4g.md)
 - [Palworld](./palworld.md)
+- [Quake 2](./game-support/quake2.md)
 - [r2modman](./r2modman.md)
 - [Rain World](./rain-world.md)
 - [Sekiro: Shadows Die Twice](./sekiro.md)
