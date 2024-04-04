@@ -22,6 +22,7 @@
   - [Elden Ring](./game-support/elden-ring.md)
   - [Elite Dangerous](./game-support/elite-dangerous.md)
   - [Fear and Hunger](./game-support/fear-and-hunger.md)
+  - [Forgive Me Father 2](./game-support/forgive-me-father-2.md)
   - [Fortnite](./game-support/fortnite.md)
   - [Geometry Wars 3: Dimensions Evolved](./game-support/gw3-dimensions-evolved.md)
   - [Grand Theft Auto V](./game-support/gta-5.md)

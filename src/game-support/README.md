@@ -35,6 +35,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Elden Ring](./elden-ring.md)
 - [Elite Dangerous](./elite-dangerous.md)
 - [Fear and Hunger](./fear-and-hunger.md)
+- [Forgive Me Father 2](./forgive-me-father-2.md)
 - [Fortnite](./fortnite.md)
 - [Geometry Wars 3: Dimensions Evolved](./gw3-dimensions-evolved.md)
 - [Grand Theft Auto V](./gta-5.md)
