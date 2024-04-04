@@ -52,4 +52,5 @@ title is partially left to the article author, but some general guidelines apply
 - [Sekiro: Shadows Die Twice](./sekiro.md)
 - [Skyrim SE](./skyrim-se.md)
 - [Star Wars Jedi: Fallen Order](./sw-fallen-order.md)
+- [Turbo Overkill](./turbo-overkill.md)
 - [Ultrakill](./ultrakill.md)

@@ -40,5 +40,6 @@
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
   - [Star Wars: Squadron](./game-support/sw-squadrons.md)
+  - [Turbo Overkill](./game-support/turbo-overkill.md)
   - [Ultrakill](./game-support/ultrakill.md)
   - [Warframe](./game-support/warframe.md)
