@@ -44,6 +44,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Persona 4 Golden](./p4g.md)
 - [Palworld](./palworld.md)
 - [r2modman](./r2modman.md)
+- [Risk of Rain 2](./risk-of-rain-2.md)
 - [Sekiro: Shadows Die Twice](./sekiro.md)
 - [Skyrim SE](./skyrim-se.md)
 - [Star Wars Jedi: Fallen Order](./sw-fallen-order.md)
