@@ -26,6 +26,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Counter-Strike 2](./counter-strike-2.md)
 - [Cyberpunk 2077](./cyberpunk-2077.md)
 - [Dark Souls III](./dark-souls-3.md)
+- [Deadlink](./deadlink.md)
 - [Deep Rock Galactic](./deep-rock-galactic.md)
 - [Diablo IV (Battle.net)](./diablo-4-battle-net.md)
 - [Diablo IV (Steam)](./diablo-4-steam.md)

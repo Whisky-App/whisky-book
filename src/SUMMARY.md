@@ -13,6 +13,7 @@
   - [Counter-Strike 2](./game-support/counter-strike-2.md)
   - [Cyberpunk 2077](./game-support/cyberpunk-2077.md)
   - [Dark Souls III](./game-support/dark-souls-3.md)
+  - [Deadlink](./game-support/deadlink.md)
   - [Deep Rock Galactic](./game-support/deep-rock-galactic.md)
   - [Diablo IV (Battle.net)](./game-support/diablo-4-battle-net.md)
   - [Diablo IV (Steam)](./game-support/diablo-4-steam.md)
