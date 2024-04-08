@@ -49,6 +49,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Palworld](./palworld.md)
 - [Quake 2](./game-support/quake2.md)
 - [r2modman](./r2modman.md)
+- [Risk of Rain 2](./risk-of-rain-2.md)
 - [Rain World](./rain-world.md)
 - [Sekiro: Shadows Die Twice](./sekiro.md)
 - [Skyrim SE](./skyrim-se.md)
