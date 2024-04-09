@@ -39,6 +39,7 @@
   - [r2modman](./game-support/r2modman.md)
   - [Rain World](./game-support/rain-world.md)
   - [Risk of Rain 2](./game-support/risk-of-rain-2.md)
+  - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
