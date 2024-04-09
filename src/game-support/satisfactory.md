@@ -1,4 +1,4 @@
-# Risk of Rain 2
+# Satisfactory
 
 {{#template ../templates/rating.md status=Gold date=09/04/24 installs=Yes opens=Yes}}
 
