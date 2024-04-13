@@ -12,10 +12,8 @@ There are a lot of questions about which is better, here's an easy chart:
 | GStreamer Support               | ✅      | ✅         |
 | Automated Installation          | ❌      | ✅         |
 | Denuvo Support                  | ❌      | ✅         |
-| EA App Support                  | ❌      | ✅         |
 | Epic Games Launcher Support     | ❌      | ✅         |
 | Battle.net Support              | ❌      | ✅         |
-| Rockstar Games Launcher Support | ❌      | ✅         |
 | Ubisoft Connect Support         | ❌      | ✅         |
 | Wine 9 Support                  | ❌      | ✅         |
 | Proper Technical Support        | ❌      | ✅         |
