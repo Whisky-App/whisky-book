@@ -1,7 +1,7 @@
 # Grand Theft Auto V
 
-{{#template ../templates/rating.md status=Garbage date=09/10/23 installs=No opens=Yes}}
+{{#template ../templates/rating.md status=Silver date=13/04/24 installs=Yes opens=Yes}}
 
-Due to an issue with the Rockstar Launcher, Grand Theft Auto V is currently **unplayable** in Whisky.
+Works with DXVK.
 
 {{#template ../templates/steam.md id=271590}}

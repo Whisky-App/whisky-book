@@ -8,6 +8,7 @@
 
 - In `Bottle Configuration`, change `Enhanced Sync` to `ESync`
 - Download the standalone executable from [here](https://github.com/ebkr/r2modmanPlus/releases/latest) into your bottle's C-Drive
+  - Ensure you're downloading the one named `r2modman-x.x.xx.exe` where `x.x.xx` is the current version of the mod manager.
 - Pin the program and `Right Click > Config`
 - Add `--disable-gpu --no-sandbox` into arguments
 - Add environment variable with key `WINEDLLOVERRIDES` and value `libglesv2=d`
