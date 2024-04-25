@@ -22,14 +22,12 @@ Debugging in Wine can be difficult, but Whisky comes equipped with some tools an
 > Being stopped at a `SIGUSR1` signal is normal. If you get a `EXC_BAD_ACCESS` or other error the next steps will not work.
 
 8. In the LLDB console run `pro hand -p true -s false SIGUSR1` and then `continue`
-9. In the bar above the LLDB console there should be a Metal logo. 
+9. In the bar above the LLDB console there should be a Metal logo, click on it and adjust the scope and count as needed and press `Capture`
 
 > [!WARNING]
-> If it hs not appeared Xcode has not detected the GPU workload for this process, and you will not be able to create a capture.
+> If it does not appear Xcode has not detected the GPU workload for this process, and you will not be able to create a capture.
 
-10. Click on the Metal logo and adjust the scope and count as needed and press `Capture`
-
-> [!WARNING]
+> [!NOTE]
 > Metal GPU captures can grow very quickly in size for complex titles.
 > Captures larger than the amount of RAM available on your system will likely crash and be unusable.
 
