@@ -5,6 +5,7 @@
 - [What's Where?](./paths.md)
 - [WhiskyCmd](./whiskycmd.md)
 - [Whisky vs. CrossOver](./cx.md)
+- [Debugging](./debugging.md)
 - [Game Support](./game-support/README.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
