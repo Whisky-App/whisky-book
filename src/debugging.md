@@ -8,10 +8,10 @@ Debugging in Wine can be difficult, but Whisky comes equipped with some tools an
 > Debugging GPU issues experienced under Wine on macOS can be an arduous task.
 > This guide will assume that you have prior experience with Xcode, LLDB, and Metal GPU tools.
 
-1. In Xcode, create a new empty macOS project. This will be used to attach to the process but the project itself used does not matter. 
+1. In Xcode, create a new empty macOS project. This will be used to attach to the process but the project itself does not matter. 
 2. Enable both `Metal HUD` and `Metal Trace` in your Bottle Configuration 
 3. Launch the intended target in Whisky
-4. Open `Activity Monitor` and find the `PID` of `wine64-preloader` process that is utilising the GPU
+4. Open `Activity Monitor` and find the `PID` of the `wine64-preloader` process that is utilising the GPU
 5. In Xcode click on `Debug > Attach to Process by PID or Name...`
 6. Type in the `PID` of the target process and press `TAB` so that Xcode recognises that you've changed the value of the field.
 7. Leave the rest of the options as their defaults and press `Attach`
