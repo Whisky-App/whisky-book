@@ -21,6 +21,7 @@ title is partially left to the article author, but some general guidelines apply
 
 - [Armored Core VI: Fires of Rubicon](./armored-core-6.md)
 - [Blasphemous 2](./blasphemous-2.md)
+- [Buckshot Roulette](./buckshot-roulette.md)
 - [Cities: Skylines II](./cities-skylines-2.md)
 - [Control](./control.md)
 - [Counter-Strike 2](./counter-strike-2.md)

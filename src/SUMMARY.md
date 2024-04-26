@@ -9,6 +9,7 @@
 - [Game Support](./game-support/README.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
+  - [Buckshot Roulette](./game-support/buckshot-roulette.md)
   - [Cities: Skylines II](./game-support/cities-skylines-2.md)
   - [Control](./game-support/control.md)
   - [Counter-Strike 2](./game-support/counter-strike-2.md)
