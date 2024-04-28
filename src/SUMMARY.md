@@ -45,6 +45,7 @@
   - [r2modman](./game-support/r2modman.md)
   - [Rain World](./game-support/rain-world.md)
   - [Risk of Rain 2](./game-support/risk-of-rain-2.md)
+  - [Rocket League](./game-support/rocket-league.md)
   - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
