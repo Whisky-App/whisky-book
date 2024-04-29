@@ -39,6 +39,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Fear and Hunger](./fear-and-hunger.md)
 - [Forgive Me Father 2](./forgive-me-father-2.md)
 - [Fortnite](./fortnite.md)
+- [Friends vs Friends](./friends-vs-friends.md)
 - [Geometry Wars 3: Dimensions Evolved](./gw3-dimensions-evolved.md)
 - [Grand Theft Auto V](./gta-5.md)
 - [Half-Life 1](./half-life-1.md)

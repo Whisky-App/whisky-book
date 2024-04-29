@@ -26,6 +26,7 @@
   - [Fear and Hunger](./game-support/fear-and-hunger.md)
   - [Forgive Me Father 2](./game-support/forgive-me-father-2.md)
   - [Fortnite](./game-support/fortnite.md)
+  - [Friends vs Friends](./game-support/friends-vs-friends.md)
   - [Geometry Wars 3: Dimensions Evolved](./game-support/gw3-dimensions-evolved.md)
   - [Half-Life 1](./game-support/half-life-1.md)
   - [Half-Life 2](./game-support/half-life-2.md)
