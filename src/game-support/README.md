@@ -65,7 +65,7 @@ title is partially left to the article author, but some general guidelines apply
 - [r2modman](./r2modman.md)
 - [Rain World](./rain-world.md)
 - [Risk of Rain 2](./risk-of-rain-2.md)
-- [Risk of Rain Returns](./risk-of-rain-returns.md)
+- [Rain World](./rain-world.md)
 - [Satisfactory](./satisfactory.md)
 - [Sekiro: Shadows Die Twice](./sekiro.md)
 - [Skyrim SE](./skyrim-se.md)
