@@ -44,6 +44,7 @@
   - [Lethal Company](./game-support/lethal-company.md)
   - [Metal Gear Solid V: The Phantom Pain](./game-support/mgs-5.md)
   - [Metro 2033 Redux](./game-support/metro-2033-rx.md)
+  - [Metro: Last Light Redux](./game-support/metro-ll-rx.md)
   - [Monster Hunter World: Iceborne](./game-support/monster-hunter-world-iceborne.md)
   - [Neon White](./game-support/neon-white.md)
   - [Overwatch 2](./game-support/overwatch-2.md)
