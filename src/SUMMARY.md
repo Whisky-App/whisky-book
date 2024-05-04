@@ -36,6 +36,7 @@
   - [Grand Theft Auto V](./game-support/gta-5.md)
   - [Half-Life 1](./game-support/half-life-1.md)
   - [Half-Life 2](./game-support/half-life-2.md)
+  - [Hitman: Contracts](./game-support/hitman-3-c.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [JoJo's Bizarre Adventure: All Star Battle R](./game-support/jjba-asbr.md)
   - [Kenshi](./game-support/kenshi.md)

@@ -48,6 +48,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Grand Theft Auto V](./gta-5.md)
 - [Half-Life 1](./half-life-1.md)
 - [Half-Life 2](./half-life-2.md)
+- [Hitman: Contracts](./hitman-3-c.md)
 - [Horizon Zero Dawn](./horizon-zero-dawn.md)
 - [JoJo's Bizarre Adventure: All Star Battle R](./jjba-asbr.md)
 - [Kenshi](./kenshi.md)
