@@ -72,6 +72,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Palworld](./palworld.md)
 - [People Playground](./people-playground.md)
 - [Phasmophobia](./phasmophobia.md)
+- [Ruiner](./ruiner.md)
 - [Quake 2](./game-support/quake2.md)
 - [r2modman](./r2modman.md)
 - [Rain World](./rain-world.md)
