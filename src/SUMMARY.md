@@ -24,6 +24,7 @@
   - [Diablo IV (Battle.net)](./game-support/diablo-4-battle-net.md)
   - [Diablo IV (Steam)](./game-support/diablo-4-steam.md)
   - [Dishonored](./game-support/dishonored.md)
+  - [Dishonored 2](./game-support/dishonored-2.md)
   - [Dorfromantik](./game-support/dorfromantik.md)
   - [Dying Light 2](./game-support/dying-light-2.md)
   - [Elden Ring](./game-support/elden-ring.md)

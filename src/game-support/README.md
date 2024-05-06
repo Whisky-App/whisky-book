@@ -36,6 +36,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Diablo IV (Battle.net)](./diablo-4-battle-net.md)
 - [Diablo IV (Steam)](./diablo-4-steam.md)
 - [Dishonored](./dishonored.md)
+- [Dishonored 2](./dishonored-2.md)
 - [Dorfromantik](./dorfromantik.md)
 - [Dying Light 2](./dying-light-2.md)
 - [Elden Ring](./elden-ring.md)
