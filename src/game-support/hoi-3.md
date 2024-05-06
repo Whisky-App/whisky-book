@@ -3,7 +3,7 @@
 {{#template ../templates/rating.md status=Bronze date=06/04/24 installs=Yes opens=Yes}}
 
 > [!NOTE]
-> Gecko setup is required to run the game launcher.
+> When running the game launcher, Gecko installation popup appears. It is required for the launcher to render online content in launcher.
 
 > [!WARNING]
 > Music does not play in the game.
