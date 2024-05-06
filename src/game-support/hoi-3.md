@@ -1,6 +1,6 @@
 # Hearts of Iron III
 
-{{#template ../templates/rating.md status=Bronze date=06/05/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver date=06/05/24 installs=Yes opens=Yes}}
 
 > [!NOTE]
 > When running the game launcher, Gecko installation popup appears. It is required for the launcher to render online content in launcher.
