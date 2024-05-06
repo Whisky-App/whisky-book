@@ -12,6 +12,7 @@
   - [Betrayer](./game-support/betrayer.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
   - [Buckshot Roulette](./game-support/buckshot-roulette.md)
+  - [Call of Cthulhu](./game-support/cthulhu.md)
   - [Call of Juarez: Gunslinger](./game-support/coj-gunslinger.md)
   - [Cities: Skylines II](./game-support/cities-skylines-2.md)
   - [Content Warning](./game-support/content-warning.md)
