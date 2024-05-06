@@ -9,6 +9,8 @@ Whisky installs files to the following locations:
 | Logs      | `~/Library/Logs/com.isaacmarovitz.Whisky`                          |
 | WhiskyCmd | `/usr/local/bin/whisky`                                            |
 
+Note that you may need to press `⌘ + Shift + .` to view hidden files, and that `com.isaacmarovitz.Whisky` may show up as a folder simply titled `Whisky`.
+
 # Uninstalling Whisky
 
 If you're looking to do a complete uninstall, remove the following files and folders:
