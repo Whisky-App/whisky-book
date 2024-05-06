@@ -20,6 +20,7 @@
   - [Control](./game-support/control.md)
   - [Counter-Strike 2](./game-support/counter-strike-2.md)
   - [Cyberpunk 2077](./game-support/cyberpunk-2077.md)
+  - [Dagon: by H. P. Lovecraft](./game-support/dagon.md)
   - [Dark Souls III](./game-support/dark-souls-3.md)
   - [Dead Space (2023)](./game-support/dead-space-2023.md)
   - [Deadlink](./game-support/deadlink.md)
