@@ -58,6 +58,7 @@
   - [Palworld](./game-support/palworld.md)
   - [People Playground](./game-support/people-playground.md)
   - [Phasmophobia](./game-support/phasmophobia.md)
+  - [Prey (2017)](./game-support/prey-2017.md)
   - [Quake II](./game-support/quake2.md)
   - [r2modman](./game-support/r2modman.md)
   - [Rain World](./game-support/rain-world.md)
