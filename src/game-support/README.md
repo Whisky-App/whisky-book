@@ -21,6 +21,7 @@ title is partially left to the article author, but some general guidelines apply
 
 - [Among Us](./among-us.md)
 - [Armored Core VI: Fires of Rubicon](./armored-core-6.md)
+- [Betrayer](./betrayer.md)
 - [Blasphemous 2](./blasphemous-2.md)
 - [Buckshot Roulette](./buckshot-roulette.md)
 - [Cities: Skylines II](./cities-skylines-2.md)
@@ -51,6 +52,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Grand Theft Auto V](./gta-5.md)
 - [Half-Life 1](./half-life-1.md)
 - [Half-Life 2](./half-life-2.md)
+- [Hearts of Iron III](./hoi-3.md)
 - [Hitman: Contracts](./hitman-3-c.md)
 - [Horizon Zero Dawn](./horizon-zero-dawn.md)
 - [JoJo's Bizarre Adventure: All Star Battle R](./jjba-asbr.md)
