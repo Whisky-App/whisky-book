@@ -82,6 +82,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Star Wars: Squadrons](./sw-squadrons.md)
 - [Tom Clancy's Rainbow Six Siege](./tcr6s.md)
 - [The Stanley Parable: Ultra Deluxe](./tsp-ud.md)
+- [The Vanishing of Ethan Carter](./vanishing-of-ethan.md)
 - [The Wolf Among Us](./wolf-among-us.md)
 - [Turbo Overkill](./turbo-overkill.md)
 - [Ultrakill](./ultrakill.md)

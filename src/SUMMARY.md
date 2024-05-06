@@ -70,6 +70,7 @@
   - [Star Wars: Squadrons](./game-support/sw-squadrons.md)
   - [Tom Clancy's Rainbow Six Siege](./game-support/tcr6s.md)
   - [The Stanley Parable: Ultra Deluxe](./game-support/tsp-ud.md)
+  - [The Vanishing of Ethan Carter](./game-support/vanishing-of-ethan.md)
   - [The Wolf Among Us](./game-support/wolf-among-us.md)
   - [Turbo Overkill](./game-support/turbo-overkill.md)
   - [Ultrakill](./game-support/ultrakill.md)
