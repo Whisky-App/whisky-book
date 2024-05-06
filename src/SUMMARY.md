@@ -35,6 +35,7 @@
   - [Fortnite](./game-support/fortnite.md)
   - [Friends vs Friends](./game-support/friends-vs-friends.md)
   - [Geometry Wars 3: Dimensions Evolved](./game-support/gw3-dimensions-evolved.md)
+  - [Guild Wars 2](./game-support/gw2.md)
   - [Grand Theft Auto V](./game-support/gta-5.md)
   - [Half-Life 1](./game-support/half-life-1.md)
   - [Half-Life 2](./game-support/half-life-2.md)

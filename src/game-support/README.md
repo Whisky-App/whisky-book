@@ -47,6 +47,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Fortnite](./fortnite.md)
 - [Frieds vs Friends](./friends-vs-friends.md)
 - [Geometry Wars 3: Dimensions Evolved](./gw3-dimensions-evolved.md)
+- [Guild Wars 2](./gw2.md)
 - [Grand Theft Auto V](./gta-5.md)
 - [Half-Life 1](./half-life-1.md)
 - [Half-Life 2](./half-life-2.md)
