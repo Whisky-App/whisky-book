@@ -24,6 +24,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Betrayer](./betrayer.md)
 - [Blasphemous 2](./blasphemous-2.md)
 - [Buckshot Roulette](./buckshot-roulette.md)
+- [Call of Juarez: Gunslinger](./coj-gunslinger.md)
 - [Cities: Skylines II](./cities-skylines-2.md)
 - [Content Warning](./content-warning.md)
 - [Contraband Police](./contraband-police.md)
