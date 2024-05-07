@@ -47,6 +47,7 @@ title is partially left to the article author, but some general guidelines apply
 - [F1 Manager 2023](./f1m23.md)
 - [Fallout 4](./fallout-4.md)
 - [Fear and Hunger](./fear-and-hunger.md)
+- [FlatOut](./flatout.md)
 - [Forgive Me Father 2](./forgive-me-father-2.md)
 - [Fortnite](./fortnite.md)
 - [Frieds vs Friends](./friends-vs-friends.md)
