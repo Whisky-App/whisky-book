@@ -1,8 +1,8 @@
 # Persona 4 Golden
 
-{{#template ../templates/rating.md status=Garbage date=03/31/24 installs=Yes opens=No}}
+{{#template ../templates/rating.md status=Gold date=04/21/24 installs=Yes opens=Yes}}
 
-Persona 4 Golden is currently **unplayable** in Whisky.
+Works out-of-the-box.
 
 <!--
 ## Setup
