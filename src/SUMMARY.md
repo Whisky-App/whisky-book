@@ -6,6 +6,7 @@
 - [WhiskyCmd](./whiskycmd.md)
 - [Whisky vs. CrossOver](./cx.md)
 - [Debugging](./debugging.md)
+- [Whisky x Heroic](./whisky-x-heroic.md)
 - [Game Support](./game-support/README.md)
   - [Among Us](./game-support/among-us.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
