@@ -47,6 +47,7 @@
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [JoJo's Bizarre Adventure: All Star Battle R](./game-support/jjba-asbr.md)
   - [Kenshi](./game-support/kenshi.md)
+  - [Kingdom Come: Deliverance](./game-support/kcd.md)
   - [Kingsway](./game-support/kingsway.md)
   - [Lego Star Wars: The Skywalker Saga](./game-support/lego-sw-skywalker-saga.md)
   - [Lethal Company](./game-support/lethal-company.md)

@@ -58,6 +58,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Horizon Zero Dawn](./horizon-zero-dawn.md)
 - [JoJo's Bizarre Adventure: All Star Battle R](./jjba-asbr.md)
 - [Kenshi](./kenshi.md)
+- [Kingdom Come: Deliverance](./kcd.md)
 - [Kingsway](./kingsway.md)
 - [Lego Star Wars: The Skywalker Saga](./lego-sw-skywalker-saga.md)
 - [Lethal Company](./lethal-company.md)
