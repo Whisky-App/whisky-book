@@ -21,6 +21,7 @@ title is partially left to the article author, but some general guidelines apply
 
 - [Among Us](./among-us.md)
 - [Armored Core VI: Fires of Rubicon](./armored-core-6.md)
+- [Battle Brothers](./battle-brothers.md)
 - [Blasphemous 2](./blasphemous-2.md)
 - [Buckshot Roulette](./buckshot-roulette.md)
 - [Cities: Skylines II](./cities-skylines-2.md)
@@ -30,6 +31,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Counter-Strike 2](./counter-strike-2.md)
 - [Cyberpunk 2077](./cyberpunk-2077.md)
 - [Dark Souls III](./dark-souls-3.md)
+- [Dark Souls: Remastered](./dark-souls-remastered.md)
 - [Dead Space (2023)](./dead-space-2023.md)
 - [Deadlink](./deadlink.md)
 - [Deep Rock Galactic](./deep-rock-galactic.md)
@@ -56,6 +58,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Horizon Zero Dawn](./horizon-zero-dawn.md)
 - [JoJo's Bizarre Adventure: All Star Battle R](./jjba-asbr.md)
 - [Kenshi](./kenshi.md)
+- [Kingdom Come: Deliverance](./kcd.md)
 - [Kingsway](./kingsway.md)
 - [Lego Star Wars: The Skywalker Saga](./lego-sw-skywalker-saga.md)
 - [Lethal Company](./lethal-company.md)
