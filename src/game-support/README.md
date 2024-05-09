@@ -83,7 +83,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Phasmophobia](./phasmophobia.md)
 - [Ruiner](./ruiner.md)
 - [Prey (2017)](./prey-2017.md)
-- [Quake 2](./quake2.md)
+- [Quake II](./quake2.md)
 - [r2modman](./r2modman.md)
 - [Rain World](./rain-world.md)
 - [Risk of Rain 2](./risk-of-rain-2.md)
