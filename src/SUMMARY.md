@@ -8,7 +8,7 @@
 - [Whisky x Heroic](./whisky-x-heroic.md)
 - [Debugging](./debugging.md)
 - [Game Support](./game-support/README.md)
-<!-- script:Generate Start -->
+    <!-- script:Generate Start -->
   - [Among Us](./game-support/among-us.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Battle Brothers](./game-support/battle-brothers.md)
