@@ -21,6 +21,7 @@ title is partially left to the article author, but some general guidelines apply
 
 - [Among Us](./among-us.md)
 - [Armored Core VI: Fires of Rubicon](./armored-core-6.md)
+- [Assassin's Creed: Director's Cut Edition](./ac.md)
 - [Betrayer](./betrayer.md)
 - [Blasphemous 2](./blasphemous-2.md)
 - [Buckshot Roulette](./buckshot-roulette.md)
