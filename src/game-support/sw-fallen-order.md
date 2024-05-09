@@ -1,4 +1,7 @@
 # Star Wars Jedi: Fallen Order
+<!-- script:Aliases [
+    "Star Wars Jedi Fallen Order"
+] -->
 
 {{#template ../templates/rating.md status=Gold date=07/17/23 installs=Yes opens=Yes}}
 

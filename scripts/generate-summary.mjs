@@ -3,7 +3,7 @@
  * Generates a SUMMARY.md file for rust book.
  */
 import { readdir, readFile, writeFile } from 'node:fs/promises';
-import { resolve, dirname } from 'node:path';
+import { resolve, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { format } from 'node:util';
 
@@ -101,8 +101,11 @@ const logging = {
 
 const SCRIPT_GENERATE_START = '<!-- script:Generate Start -->';
 const SCRIPT_GENERATE_END = '<!-- script:Generate End -->';
+// After the aliases start, we will find a json array of aliases (match everything until the closing comment)
+const SCRIPT_ALIASES_REGEX = /<!-- script:Aliases (.+?) -->/s;
 const GAME_SUPPORT_DIR = 'game-support';
 const INDEX_FILE = 'README.md';
+const GAMES_OUT_FILE = 'games.json';
 const FILES_SKIP = ['README.md', 'template.md'];
 
 /**
@@ -134,6 +137,7 @@ const main = async () => {
     const summaryFilePath = resolve(dirName, 'SUMMARY.md');
     const indexFilePath = resolve(dirName, 'game-support', INDEX_FILE);
     const gameSupportDirPath = resolve(dirName, GAME_SUPPORT_DIR);
+    const gamesOutFilePath = resolve(dirName, GAMES_OUT_FILE);
 
     // Read the SUMMARY.md file
     const [summaryFileContent, summaryFileReadError] = await readFile(summaryFilePath, 'utf-8')
@@ -178,7 +182,7 @@ const main = async () => {
 
     // For all, generate a markdown link
     /**
-     * @type {Array<{name: string, title: string}>}
+     * @type {Array<{name: string, path: string, title: string, aliases: string[]}>}
      */
     const links = [];
     for (const file of markdownFiles) {
@@ -202,9 +206,48 @@ const main = async () => {
         // Add the link
         const title = titleMatch[1];
 
+        // Look for aliases
+        const aliasesMatch = fileContent.match(SCRIPT_ALIASES_REGEX);
+        if (!aliasesMatch || aliasesMatch.length < 2) {
+            links.push({
+                name: file.name,
+                title,
+                aliases: [],
+            });
+            continue;
+        }
+
+        let [aliasesParsed, aliasesError] = (() => {
+            try {
+                return [JSON.parse(aliasesMatch[1]), null];
+            } catch (error) {
+                return [null, error];
+            }
+        })();
+        if (aliasesError) {
+            logging.warning('Failed to parse aliases in file %s: %o', filePath, aliasesError);
+        }
+        if (!aliasesParsed || !Array.isArray(aliasesParsed) || !aliasesParsed.every((alias) => typeof alias === 'string')) {
+            logging.warning('Invalid aliases in file %s: %o', filePath, aliasesParsed);
+            aliasesParsed = null;
+        }
+
+        // Remove duplicates
+        const dupeMap = new Map();
+        let aliases = (aliasesParsed ?? []).map((alias) => alias.toLocaleLowerCase());
+        aliases.push(title.toLocaleLowerCase());
+        aliases = aliases.filter((alias) => {
+            if (dupeMap.has(alias)) {
+                return false;
+            }
+            dupeMap.set(alias, true);
+            return true;
+        });
+
         links.push({
             name: file.name,
             title,
+            aliases
         });
     }
 
@@ -249,6 +292,23 @@ const main = async () => {
         return 1;
     }
     logging.info('Index file generated successfully.');
+
+    // Write the games.json file
+    const gamesOutFileContent = JSON.stringify(links.map((link) => {
+        return {
+            url: `/${GAME_SUPPORT_DIR}/${encodeURIComponent(basename(link.name) + '.html')}`,
+            title: link.title,
+            aliases: link.aliases,
+        };
+    }), null, 2);
+    const [_c, writeGamesError] = await writeFile(gamesOutFilePath, gamesOutFileContent)
+        .then(() => [null, null])
+        .catch((error) => [null, error]);
+    if (writeGamesError) {
+        logging.error('Failed to write games.json: %o', writeGamesError);
+        return 1;
+    }
+    logging.info('games.json generated successfully.');
 
     return 0;
 };

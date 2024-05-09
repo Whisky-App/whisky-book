@@ -1,4 +1,10 @@
 # Diablo IV - Steam Version
+<!-- script:Aliases [
+    "Diablo 4 Steam",
+    "Diablo IV Steam",
+    "Diablo IV",
+    "Diablo 4"
+] -->
 
 {{#template ../templates/rating.md status=Garbage date=02/04/24 installs=Yes opens=No}}
 

@@ -1,4 +1,7 @@
 # Geometry Wars 3: Dimensions Evolved
+<!-- script:Aliases [
+    "Geometry Wars 3"
+] -->
 
 {{#template ../templates/rating.md status=Gold date=03/04/23 installs=Yes opens=Yes}} 
 

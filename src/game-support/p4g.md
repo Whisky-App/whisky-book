@@ -1,4 +1,7 @@
 # Persona 4 Golden
+<!-- script:Aliases [
+    "P4G"
+] -->
 
 {{#template ../templates/rating.md status=Garbage date=05/07/24 installs=Yes opens=Yes}}
 
