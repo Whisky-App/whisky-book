@@ -3,7 +3,7 @@
  * Generates a SUMMARY.md file for rust book.
  */
 import { readdir, readFile, writeFile } from 'node:fs/promises';
-import { resolve, dirname, basename } from 'node:path';
+import { resolve, dirname, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { format } from 'node:util';
 
@@ -295,8 +295,12 @@ const main = async () => {
 
     // Write the games.json file
     const gamesOutFileContent = JSON.stringify(links.map((link) => {
+        // Strip the extension
+        const name = link.name;
+        const ext = extname(name);
+        const base = name.slice(0, -ext.length);
         return {
-            url: `/${GAME_SUPPORT_DIR}/${encodeURIComponent(basename(link.name) + '.html')}`,
+            url: `/${GAME_SUPPORT_DIR}/${encodeURIComponent(base + '.html')}`,
             title: link.title,
             aliases: link.aliases,
         };
