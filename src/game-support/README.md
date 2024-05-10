@@ -98,6 +98,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Tom Clancy's Rainbow Six Siege](./tcr6s.md)
 - [The Stanley Parable: Ultra Deluxe](./tsp-ud.md)
 - [The Vanishing of Ethan Carter](./vanishing-of-ethan-carter.md)
+- [The Witcher 3: Wild Hunt](./witcher3.md)
 - [The Wolf Among Us](./wolf-among-us.md)
 - [Turbo Overkill](./turbo-overkill.md)
 - [Ultrakill](./ultrakill.md)
