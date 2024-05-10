@@ -62,6 +62,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Half-Life 1](./half-life-1.md)
 - [Half-Life 2](./half-life-2.md)
 - [Hearts of Iron III](./hoi-3.md)
+- [Hellblade: Senua's Sacrifice](./hellblade.md)
 - [Hitman: Contracts](./hitman-3-c.md)
 - [Horizon Zero Dawn](./horizon-zero-dawn.md)
 - [JoJo's Bizarre Adventure: All Star Battle R](./jjba-asbr.md)

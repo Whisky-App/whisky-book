@@ -51,6 +51,7 @@
   - [Half-Life 1](./game-support/half-life-1.md)
   - [Half-Life 2](./game-support/half-life-2.md)
   - [Hearts of Iron III](./game-support/hoi-3.md)
+  - [Hellblade: Senua's Sacrifice](./game-support/hellblade.md)
   - [Hitman: Contracts](./game-support/hitman-3-c.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [JoJo's Bizarre Adventure: All Star Battle R](./game-support/jjba-asbr.md)
