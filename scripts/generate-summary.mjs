@@ -212,7 +212,7 @@ const main = async () => {
             links.push({
                 name: file.name,
                 title,
-                aliases: [],
+                aliases: [title.toLocaleLowerCase()]
             });
             continue;
         }
