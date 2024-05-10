@@ -14,6 +14,7 @@
   - [Battle Brothers](./game-support/battle-brothers.md)
   - [Betrayer](./game-support/betrayer.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
+  - [Blitzkrieg 2 Anthology](./game-support/blitzkrieg-2-anthology.md)
   - [Buckshot Roulette](./game-support/buckshot-roulette.md)
   - [Call of Cthulhu](./game-support/call-of-cthulhu.md)
   - [Call of Juarez: Gunslinger](./game-support/coj-gunslinger.md)

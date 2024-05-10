@@ -25,6 +25,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Battle Brothers](./battle-brothers.md)
 - [Betrayer](./betrayer.md)
 - [Blasphemous 2](./blasphemous-2.md)
+- [Blitzkrieg 2 Anthology](./blitzkrieg-2-anthology.md)
 - [Buckshot Roulette](./buckshot-roulette.md)
 - [Call of Cthulhu](./call-of-cthulhu.md)
 - [Call of Juarez: Gunslinger](./coj-gunslinger.md)
