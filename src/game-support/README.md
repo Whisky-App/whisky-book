@@ -50,6 +50,7 @@ title is partially left to the article author, but some general guidelines apply
 - [Elden Ring](./elden-ring.md)
 - [Elite Dangerous](./elite-dangerous.md)
 - [F1 Manager 2023](./f1m23.md)
+- [Fallout 3: Game of the Year Edition](./fallout-3-goty.md)
 - [Fallout 4](./fallout-4.md)
 - [Fear and Hunger](./fear-and-hunger.md)
 - [FlatOut](./flatout.md)

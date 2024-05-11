@@ -39,6 +39,7 @@
   - [Elden Ring](./game-support/elden-ring.md)
   - [Elite Dangerous](./game-support/elite-dangerous.md)
   - [F1 Manager 2023](./game-support/f1m23.md)
+  - [Fallout 3: Game of the Year Edition](./game-support/fallout-3-goty.md)
   - [Fallout 4](./game-support/fallout-4.md)
   - [Fear and Hunger](./game-support/fear-and-hunger.md)
   - [FlatOut](./game-support/flatout.md)
