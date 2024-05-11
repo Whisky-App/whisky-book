@@ -64,7 +64,6 @@ title is partially left to the article author, but some general guidelines apply
 - [Lego Star Wars: The Skywalker Saga](./lego-sw-skywalker-saga.md)
 - [Lethal Company](./lethal-company.md)
 - [Manor Lords](./manor-lords.md)
-- [Metal Gear Solid V: The Phantom Pain](./mgs-5.md)
 - [Metro 2033 Redux](./metro-2033-rx.md)
 - [Metro: Last Light Redux](./metro-ll-rx.md)
 - [Metal Gear Solid V: The Phantom Pain](./mgs-5.md)

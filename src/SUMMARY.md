@@ -53,7 +53,6 @@
   - [Lego Star Wars: The Skywalker Saga](./game-support/lego-sw-skywalker-saga.md)
   - [Lethal Company](./game-support/lethal-company.md)
   - [Manor Lords](./game-support/manor-lords.md)
-  - [Metal Gear Solid V: The Phantom Pain](./game-support/mgs-5.md)
   - [Metro 2033 Redux](./game-support/metro-2033-rx.md)
   - [Metro: Last Light Redux](./game-support/metro-ll-rx.md)
   - [Metal Gear Solid V: The Phantom Pain](./game-support/mgs-5.md)
