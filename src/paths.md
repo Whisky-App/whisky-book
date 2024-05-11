@@ -5,7 +5,7 @@ Whisky installs files to the following locations:
 | Item      | Location                                                           |
 |-----------|--------------------------------------------------------------------|
 | GPTK      | `~/Library/Application Support/com.isaacmarovitz.Whisky/Libraries` |
-| Bottles   | `~/Library/Containers/com.isaacmarovitz.Whisky/Bottles`            |
+| Bottles   | `~/Library/Containers/Whisky/Bottles`            |
 | Logs      | `~/Library/Logs/com.isaacmarovitz.Whisky`                          |
 | WhiskyCmd | `/usr/local/bin/whisky`                                            |
 
@@ -15,7 +15,7 @@ Note that you may need to press `⌘ + Shift + .` to view hidden files, and that
 
 If you're looking to do a complete uninstall, remove the following files and folders:
 - `~/Library/Application Support/com.isaacmarovitz.Whisky`
-- `~/Library/Containers/com.isaacmarovitz.Whisky`
+- `~/Library/Containers/Whisky`
 - `~/Library/Logs/com.isaacmarovitz.Whisky`
 - `/usr/local/bin/whisky` (if it exists)
 - `/Applications/Whisky.app` (or wherever you have it installed)
