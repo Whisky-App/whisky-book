@@ -1,4 +1,5 @@
 # Metro 2033 Redux
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 

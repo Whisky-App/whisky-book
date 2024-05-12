@@ -1,4 +1,5 @@
 # Buckshot Roulette
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 

@@ -16,3 +16,5 @@ title is partially left to the article author, but some general guidelines apply
 | Silver  | Game requires some workarounds, but they are simple and/or there are minor in-game issues      |
 | Bronze  | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
 | Garbage | Game does not work at all.                                                                     |
+
+

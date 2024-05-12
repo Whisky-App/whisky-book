@@ -1,4 +1,5 @@
 # Call of Juarez: Gunslinger
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

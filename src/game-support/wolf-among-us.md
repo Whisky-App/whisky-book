@@ -1,4 +1,5 @@
 # The Wolf Among Us
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 

@@ -1,4 +1,7 @@
 # Hellblade: Senua's Sacrifice
+<!-- script:Aliases [
+    "Hellblade Senua's Sacrifice"
+] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 

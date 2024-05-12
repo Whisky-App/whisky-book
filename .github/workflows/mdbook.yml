@@ -20,13 +20,14 @@ jobs:
     env:
       MDBOOK_VERSION: 0.4.37
       CARGO_TERM_COLOR: always
+      GITHUB_ACTIONS: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: latest
       - name: Generate summary
-        run: node scripts/generate-summary.mjs
+        run: node scripts/generate.mjs
       - uses: Swatinem/rust-cache@v2
       - name: Install mdBook
         run: |

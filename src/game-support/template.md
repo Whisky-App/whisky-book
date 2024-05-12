@@ -1,4 +1,5 @@
 # Game Name
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=[RATING] installs=[Y/N] opens=[Y/N]}}
 

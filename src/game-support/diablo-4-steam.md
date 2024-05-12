@@ -1,4 +1,4 @@
-# Diablo IV - Steam Version
+# Diablo IV (Steam)
 <!-- script:Aliases [
     "Diablo 4 Steam",
     "Diablo IV Steam",

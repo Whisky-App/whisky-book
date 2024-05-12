@@ -1,4 +1,7 @@
 # Fallout 3: Game of the Year Edition
+<!-- script:Aliases [
+    "Fallout 3"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 
