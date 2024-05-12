@@ -1,4 +1,4 @@
-# Lego Star Wars: The Skywalker Saga
+# LEGO Star Wars: The Skywalker Saga
 <!-- script:Aliases [
     "Lego Star Wars The Skywalker Saga"
 ] -->

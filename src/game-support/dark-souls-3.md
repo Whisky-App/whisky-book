@@ -3,6 +3,6 @@
     "Dark Souls 3"
 ] -->
 
-{{#template ../templates/rating.md status=Gold date=04/09/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Gold date=09/04/23 installs=Yes opens=Yes}}
 
 {{#template ../templates/steam.md id=374320}}
