@@ -175,7 +175,7 @@ export const generateLinks = links => {
             .map(link => {
                 return `  - [${markdownEscape(
                     link.game.title
-                )}](/game-support/${encodeURIComponent(basename(link.path))})`;
+                )}](./game-support/${encodeURIComponent(basename(link.path))})`;
             })
             .join('\n') +
         '\n'
