@@ -194,8 +194,14 @@ const parseRating = (content) => {
 const getLastUpdated = (path) => {
     try {
         const lastUpdated = new Date(execSync(`git log -1 --format=%cd -- ${path}`).toString().trim());
+
+        if (isNaN(lastUpdated.getTime())) {
+            throw new Error('Invalid date');
+        }
+
         return [lastUpdated, null];
     } catch (error) {
+        logging.warning('Failed to get last updated for file %s: %o', path, error);
         return [null, 'git-error'];
     }
 }
