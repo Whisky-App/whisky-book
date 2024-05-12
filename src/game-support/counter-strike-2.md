@@ -4,7 +4,7 @@
     "CS2"
 ] -->
 
-{{#template ../templates/rating.md status=Silver date=24/10/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 ## Setup
 

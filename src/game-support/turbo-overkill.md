@@ -1,6 +1,6 @@
 # Turbo Overkill
 
-{{#template ../templates/rating.md status=Silver date=04/04/23 installs=Yes opens=Yes}} 
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}} 
 
 The game has longer than normal loading times, and some audio doesn't play during cutscenes. Otherwise, it runs very well.
 

@@ -3,7 +3,7 @@
     "Star Wars Jedi Fallen Order"
 ] -->
 
-{{#template ../templates/rating.md status=Gold date=17/07/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
 ## Setup
 

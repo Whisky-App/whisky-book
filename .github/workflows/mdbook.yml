@@ -35,6 +35,7 @@ jobs:
           cargo install --version ${MDBOOK_VERSION} mdbook
           cargo install mdbook-template
           cargo install mdbook-alerts
+          cargo install mdbook-last-changed
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

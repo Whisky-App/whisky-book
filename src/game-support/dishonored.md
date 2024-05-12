@@ -1,6 +1,6 @@
 # Dishonored
 
-{{#template ../templates/rating.md status=Silver date=03/04/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 The game runs with constant stutters.
 

@@ -1,6 +1,6 @@
 # Fear and Hunger
 
-{{#template ../templates/rating.md status=Bronze date=28/03/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 ## Setup
 

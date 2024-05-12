@@ -18,6 +18,7 @@ Documentation for Whisky.
    cargo install mdbook
    cargo install mdbook-alerts
    cargo install mdbook-template
+   cargo install mdbook-last-changed
    ```
 5. Install [Node.js](https://nodejs.org/en/download/).
    You can also install it through [Homebrew](https://brew.sh/) with `brew install node`.

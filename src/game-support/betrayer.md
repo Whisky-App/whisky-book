@@ -1,6 +1,6 @@
 # Betrayer
 
-{{#template ../templates/rating.md status=Silver date=06/05/24 installs=Yes opens=Yes}} 
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}} 
 
 > [!NOTE]
 > This game is no longer available on Steam.

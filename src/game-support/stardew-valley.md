@@ -1,6 +1,6 @@
 # Stardew Valley
 
-{{#template ../templates/rating.md status=Gold date=28/02/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
 > [!NOTE]
 > This game has a native Mac port.

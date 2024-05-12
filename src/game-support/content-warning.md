@@ -1,6 +1,6 @@
 # Content Warning
 
-{{#template ../templates/rating.md status=Silver date=05/05/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 > [!WARNING]
 > If you host a game then press "Invite Players" the game experiences a fatal error and crashes
