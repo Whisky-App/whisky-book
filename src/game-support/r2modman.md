@@ -1,6 +1,6 @@
 # r2modman
 
-{{#template ../templates/rating.md status=Silver date=02/27/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver date=27/02/24 installs=Yes opens=Yes}}
 
 ## Setup
 

@@ -1,6 +1,6 @@
 # Battle Brothers
 
-{{#template ../templates/rating.md status=Garbage date=05/08/24 installs=Yes opens=No}}
+{{#template ../templates/rating.md status=Garbage date=08/05/24 installs=Yes opens=No}}
 
 ## Startup error
 The game fails to launch with the following error message.

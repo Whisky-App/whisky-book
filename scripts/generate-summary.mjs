@@ -103,6 +103,7 @@ const SCRIPT_GENERATE_START = '<!-- script:Generate Start -->';
 const SCRIPT_GENERATE_END = '<!-- script:Generate End -->';
 // After the aliases start, we will find a json array of aliases (match everything until the closing comment)
 const SCRIPT_ALIASES_REGEX = /<!-- script:Aliases (.+?) -->/s;
+const TEMPLATE_METADATA = /{{#template \.\.\/templates\/rating.md status=(Gold|Silver|Bronze|Garbage) date=(\d{2})\/(\d{2})\/(\d{2}) installs=(Yes|No) opens=(Yes|No)}}/;
 const GAME_SUPPORT_DIR = 'game-support';
 const INDEX_FILE = 'README.md';
 const GAMES_OUT_FILE = 'games.json';
@@ -125,6 +126,96 @@ const getStartAndEndSections = (content) => {
     const [_, end] = replaceAndEnd.split(SCRIPT_GENERATE_END);
     return [start, end];
 }
+
+/**
+ * Parse aliases from a file.
+ * @param {string} content
+ * @returns {[string[], null] | [null, 'not-found' | 'bad-json' | 'bad-json-format']}
+ */
+const parseAliases = (content) => {
+    // Match the aliases section
+    const aliasesMatch = content.match(SCRIPT_ALIASES_REGEX);
+    if (!aliasesMatch || aliasesMatch.length < 2) {
+        return [null, 'not-found'];
+    }
+
+    // Parse the aliases
+    let [aliasesParsed, aliasesError] = (() => {
+        try {
+            return [JSON.parse(aliasesMatch[1]), null];
+        } catch (error) {
+            return [null, error];
+        }
+    })();
+    if (aliasesError) {
+        return [null, 'bad-json'];
+    }
+    if (!aliasesParsed || !Array.isArray(aliasesParsed) || !aliasesParsed.every((alias) => typeof alias === 'string')) {
+        return [null, 'bad-json-format'];
+    }
+
+    return [aliasesParsed, null];
+}
+
+/**
+ * Parse rating information from a file.
+ * @param {string} content
+ * @returns {[{
+ *  status: 'Gold' | 'Silver' | 'Bronze' | 'Garbage',
+ *  date: Date,
+ *  installs: 'Yes' | 'No',
+ *  opens: 'Yes' | 'No',
+ * }, null] | [null, 'not-found' | 'bad-date']
+ */
+const parseRating = (content) => {
+    // Match the rating section
+    const ratingMatch = content.match(TEMPLATE_METADATA);
+    if (!ratingMatch || ratingMatch.length < 5) {
+        return [null, 'not-found'];
+    }
+
+    const status = ratingMatch[1];
+    // Guaranteed to be numbers by regex
+    const dateDD = parseInt(ratingMatch[2], 10);
+    const dateMM = parseInt(ratingMatch[3], 10);
+    const dateYY = parseInt(ratingMatch[4], 10);
+    const installs = ratingMatch[5];
+    const opens = ratingMatch[6];
+
+    // Make sure date month is < 12 and date day is < 31 because stupid people put MM/DD/YYYY
+    if (dateMM > 12 || dateDD > 31) {
+        return [null, 'bad-date'];
+    }
+
+
+    const date = new Date(Date.UTC(2000 + dateYY, dateMM - 1, dateDD));
+
+    // Also date can't be greater than today
+    if (isNaN(date.getTime()) || date > new Date()) {
+        return [null, 'bad-date'];
+    }    
+
+    return [{
+        status,
+        date,
+        installs,
+        opens,
+    }, null];
+}
+
+/**
+ * 
+ */
+
+/**
+ * Remove duplicates from an array.
+ * @param {T[]} arr
+ * @returns {T[]}
+ */
+const removeDuplicates = (arr) => {
+    return [...new Set(arr)];
+}
+
 
 /**
  * Main function.
@@ -182,7 +273,18 @@ const main = async () => {
 
     // For all, generate a markdown link
     /**
-     * @type {Array<{name: string, path: string, title: string, aliases: string[]}>}
+     * @type {Array<{
+     *  name: string,
+     *  path: string,
+     *  title: string,
+     *  aliases: string[],
+     *  rating: {
+     *      status: 'Gold' | 'Silver' | 'Bronze' | 'Garbage',
+     *      date: Date,
+     *      installs: 'Yes' | 'No',
+     *      opens: 'Yes' | 'No',
+     *  }
+     * }>}
      */
     const links = [];
     for (const file of markdownFiles) {
@@ -207,47 +309,28 @@ const main = async () => {
         const title = titleMatch[1];
 
         // Look for aliases
-        const aliasesMatch = fileContent.match(SCRIPT_ALIASES_REGEX);
-        if (!aliasesMatch || aliasesMatch.length < 2) {
-            links.push({
-                name: file.name,
-                title,
-                aliases: [title.toLocaleLowerCase()]
-            });
+        const [aliasesParsed, aliasesError] = parseAliases(fileContent);
+
+        if (aliasesError && aliasesError !== 'not-found') {
+            logging.warning('Failed to parse aliases in file %s: %s', filePath, aliasesError);
             continue;
         }
 
-        let [aliasesParsed, aliasesError] = (() => {
-            try {
-                return [JSON.parse(aliasesMatch[1]), null];
-            } catch (error) {
-                return [null, error];
-            }
-        })();
-        if (aliasesError) {
-            logging.warning('Failed to parse aliases in file %s: %o', filePath, aliasesError);
-        }
-        if (!aliasesParsed || !Array.isArray(aliasesParsed) || !aliasesParsed.every((alias) => typeof alias === 'string')) {
-            logging.warning('Invalid aliases in file %s: %o', filePath, aliasesParsed);
-            aliasesParsed = null;
-        }
+        const aliases = removeDuplicates([...(aliasesParsed ?? []), title].map((alias) => alias.toLowerCase()));
 
-        // Remove duplicates
-        const dupeMap = new Map();
-        let aliases = (aliasesParsed ?? []).map((alias) => alias.toLocaleLowerCase());
-        aliases.push(title.toLocaleLowerCase());
-        aliases = aliases.filter((alias) => {
-            if (dupeMap.has(alias)) {
-                return false;
-            }
-            dupeMap.set(alias, true);
-            return true;
-        });
+        // Look for rating
+        const [ratingParsed, ratingError] = parseRating(fileContent);
+
+        if (ratingError) {
+            logging.warning('Failed to parse rating in file %s: %s', filePath, ratingError);
+            continue;
+        }
 
         links.push({
             name: file.name,
             title,
-            aliases
+            aliases,
+            rating: ratingParsed,
         });
     }
 
@@ -299,10 +382,17 @@ const main = async () => {
         const name = link.name;
         const ext = extname(name);
         const base = name.slice(0, -ext.length);
+        link.rating.date instanceof Date || logging.error('Invalid date for %s', name);
         return {
             url: `/${GAME_SUPPORT_DIR}/${encodeURIComponent(base + '.html')}`,
             title: link.title,
             aliases: link.aliases,
+            rating: {
+                status: link.rating.status,
+                date: link.rating.date.toISOString(),
+                installs: link.rating.installs,
+                opens: link.rating.opens
+            },
         };
     }), null, 2);
     const [_c, writeGamesError] = await writeFile(gamesOutFilePath, gamesOutFileContent)
