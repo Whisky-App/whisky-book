@@ -11,7 +11,7 @@ Game support status is rated on a scale. The placement of a particular
 title is partially left to the article author, but some general guidelines apply.
 
 | Status   | Description                                                                                    |
-| -------- | ---------------------------------------------------------------------------------------------- |
+|----------|------------------------------------------------------------------------------------------------|
 | Platinum | Game without any defects and runs perfectly.                                                   |
 | Gold     | Game can be configured to run perfectly and without any defects.                               |
 | Silver   | Game requires some configuration to run and or has minor defects.                              |

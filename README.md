@@ -31,12 +31,13 @@ Documentation for Whisky.
    - Cite your sources. Found a guide from somewhere else? Found a solution or other thing online? Provide a link in your page. This isn't a requirement that's going to get your PR rejected, but simply one that future-proofs things and ensures that if a game suddenly breaks, we can check our sources and see if there are any updates to the solutions found.
    - Add status ratings to your game based on the following scale. We leave this up to general author interpretation, but please make sure you're still following these general guidelines:
 
-     | Status  | Description                                                                                    |
-     | ------- | ---------------------------------------------------------------------------------------------- |
-     | Gold    | Game works out-of-the-box with no issues and/or requires minimal workarounds.                  |
-     | Silver  | Game requires some workarounds, but they are simple and/or there are minor in-game issues      |
-     | Bronze  | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
-     | Garbage | Game does not work at all.                                                                     |
+    | Status   | Description                                                                                    |
+    |----------|------------------------------------------------------------------------------------------------|
+    | Platinum | Game without any defects and runs perfectly.                                                   |
+    | Gold     | Game can be configured to run perfectly and without any defects.                               |
+    | Silver   | Game requires some configuration to run and or has minor defects.                              |
+    | Bronze   | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
+    | Garbage  | Game does not work at all.                                                                     |
   
 1. Create a new markdown file in `~/whisky-book/src/game-support` with the name of the game.
    - Format your file in all lowercase, using only alphabetical, numerical, and dash characters, and use abbreviations where possible. i.e:
