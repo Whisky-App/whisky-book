@@ -1,6 +1,6 @@
 # Overwatch 2
 
-{{#template ../templates/rating.md status=Garbage date=10/12/23 installs=Yes opens=No}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 Overwatch 2 is currently **unplayable** in Whisky.
 

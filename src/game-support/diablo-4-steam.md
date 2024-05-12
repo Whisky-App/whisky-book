@@ -1,6 +1,6 @@
 # Diablo IV - Steam Version
 
-{{#template ../templates/rating.md status=Garbage date=02/04/24 installs=Yes opens=No}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 <!--## Setup
 

@@ -1,6 +1,6 @@
 # Elite Dangerous
 
-{{#template ../templates/rating.md status=Bronze date=01/12/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 ## Setup
 

@@ -18,6 +18,7 @@ Documentation for Whisky.
    cargo install mdbook
    cargo install mdbook-alerts
    cargo install mdbook-template
+   cargo install mdbook-last-changed
    ```
 5. You can preview changes to the book with `mdbook serve --open`
 

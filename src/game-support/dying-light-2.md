@@ -1,6 +1,6 @@
 # Dying Light 2
 
-{{#template ../templates/rating.md status=Silver date=02/03/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 ## Setup
 

@@ -1,6 +1,6 @@
 # Assassin's Creed: Director's Cut Edition
 
-{{#template ../templates/rating.md status=Bronze date=09/05/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 > [!WARNING]
 > The game suffers from a severe heartbeat-like sound stuttering. Also it's performance is quite poor.
