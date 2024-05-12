@@ -1,6 +1,6 @@
 # Persona 4 Golden
 
-{{#template ../templates/rating.md status=Garbage date=05/07/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage date=07/05/24 installs=Yes opens=Yes}}
 
 Game crashes when you enter a dungeon.
 

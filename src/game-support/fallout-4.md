@@ -1,6 +1,6 @@
 # Fallout 4
 
-{{#template ../templates/rating.md status=Silver date=04/25/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver date=25/04/24 installs=Yes opens=Yes}}
 
 The recent Next Gen update now allows the game to launch with audio enabled.
 

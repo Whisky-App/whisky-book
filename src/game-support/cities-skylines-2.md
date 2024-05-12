@@ -1,6 +1,6 @@
 # Cities: Skylines 2
 
-{{#template ../templates/rating.md status=Bronze date=11/28/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Bronze date=28/11/23 installs=Yes opens=Yes}}
 
 ## Setup
 

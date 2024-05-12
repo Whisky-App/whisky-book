@@ -1,6 +1,6 @@
 # Armored Core VI: Fires of Rubicon
 
-{{#template ../templates/rating.md status=Gold date=08/09/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Gold date=09/08/23 installs=Yes opens=Yes}}
 
 ## Setup
 - Disable DXVK
