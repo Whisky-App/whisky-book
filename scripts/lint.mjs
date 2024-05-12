@@ -171,7 +171,7 @@ const lintMarkdownFile = async file => {
 
     // Check the review metadata
     const reviewMetadataMatch = REVIEW_METADATA_REGEX.exec(content);
-    if (reviewMetadataMatch.length > 0) {
+    if (reviewMetadataMatch !== null) {
         const [line, column] = findLineAndColumn(reviewMetadataMatch.index);
         if (column !== 1) {
             logLintViolation(

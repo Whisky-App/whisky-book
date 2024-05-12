@@ -1,7 +1,7 @@
 # Rain World
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
 Runs out of the box. A controller is required to play.
 

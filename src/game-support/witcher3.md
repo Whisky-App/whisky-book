@@ -1,7 +1,7 @@
 # The Witcher 3: Wild Hunt
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}} 
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}} 
 
 > [!WARNING]
 > It suffers from a barely noticable freezes when moving sometimes. Most likely due to the issues with textures loading which affects a gameplay experience a little.

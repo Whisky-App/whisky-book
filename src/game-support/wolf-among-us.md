@@ -1,7 +1,7 @@
 # The Wolf Among Us
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 > [!NOTE]
 > There are a minor sound and video lags during the fighting scenes. The game sometimes crashes when starting a new Episode for the first time.

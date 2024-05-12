@@ -75,7 +75,7 @@ export const generateGameMetadata = async () => {
         if (fileContentError) {
             logging.error(
                 'Failed to read file %s: %o',
-                filePath,
+                file,
                 fileContentError
             );
             continue;
@@ -86,7 +86,7 @@ export const generateGameMetadata = async () => {
         if (titleError) {
             logging.warning(
                 'Failed to get title in file %s: %s',
-                filePath,
+                file,
                 titleError
             );
             continue;
@@ -97,7 +97,7 @@ export const generateGameMetadata = async () => {
         if (aliasesError && aliasesError !== 'not-found') {
             logging.error(
                 'Failed to parse aliases in file %s: %s',
-                filePath,
+                file,
                 aliasesError
             );
             continue;
@@ -112,7 +112,7 @@ export const generateGameMetadata = async () => {
         if (ratingError) {
             logging.error(
                 'Failed to parse rating in file %s: %s',
-                filePath,
+                file,
                 ratingError
             );
             continue;
@@ -123,7 +123,7 @@ export const generateGameMetadata = async () => {
         if (embedError && embedError !== 'not-found') {
             logging.error(
                 'Failed to parse embed in file %s: %s',
-                filePath,
+                file,
                 embedError
             );
             continue;
