@@ -131,21 +131,13 @@ export const generateGameMetadata = async () => {
         const embed = embedData && embedData.length > 0 ? embedData[0] : [];
 
         // Look for last updated
-        const [lastUpdated, lastUpdatedError] = getLastUpdated(file);
-        if (lastUpdatedError) {
-            logging.error(
-                'Failed to get last updated in file %s: %s',
-                file,
-                lastUpdatedError
-            );
-            continue;
-        }
+        const [lastUpdated, _] = getLastUpdated(file);
 
         links.push({
             path: file,
             game: {
                 title,
-                lastUpdated,
+                lastUpdated: lastUpdated ?? new Date(),
                 aliases,
                 rating: {
                     status: ratingParsed.status,

@@ -149,7 +149,7 @@ export const getLastUpdated = path => {
 
         return [lastUpdated, null];
     } catch (error) {
-        logging.warning(
+        logging.debug(
             'Failed to get last updated for file %s: %o',
             path,
             error
