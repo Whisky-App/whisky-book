@@ -6,6 +6,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve, dirname, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { format } from 'node:util';
+import { execSync } from 'node:child_process';
 
 /**
  * Escapes a string for use in Markdown.
@@ -103,7 +104,7 @@ const SCRIPT_GENERATE_START = '<!-- script:Generate Start -->';
 const SCRIPT_GENERATE_END = '<!-- script:Generate End -->';
 // After the aliases start, we will find a json array of aliases (match everything until the closing comment)
 const SCRIPT_ALIASES_REGEX = /<!-- script:Aliases (.+?) -->/s;
-const TEMPLATE_METADATA = /{{#template \.\.\/templates\/rating.md status=(Gold|Silver|Bronze|Garbage) date=(\d{2})\/(\d{2})\/(\d{2}) installs=(Yes|No) opens=(Yes|No)}}/;
+const TEMPLATE_METADATA = /{{#template \.\.\/templates\/rating.md status=(Gold|Silver|Bronze|Garbage) installs=(Yes|No) opens=(Yes|No)}}/;
 const GAME_SUPPORT_DIR = 'game-support';
 const INDEX_FILE = 'README.md';
 const GAMES_OUT_FILE = 'games.json';
@@ -162,50 +163,42 @@ const parseAliases = (content) => {
  * @param {string} content
  * @returns {[{
  *  status: 'Gold' | 'Silver' | 'Bronze' | 'Garbage',
- *  date: Date,
  *  installs: 'Yes' | 'No',
  *  opens: 'Yes' | 'No',
- * }, null] | [null, 'not-found' | 'bad-date']
+ * }, null] | [null, 'not-found']
  */
 const parseRating = (content) => {
     // Match the rating section
     const ratingMatch = content.match(TEMPLATE_METADATA);
-    if (!ratingMatch || ratingMatch.length < 5) {
+    if (!ratingMatch || ratingMatch.length < 4) {
         return [null, 'not-found'];
     }
 
     const status = ratingMatch[1];
-    // Guaranteed to be numbers by regex
-    const dateDD = parseInt(ratingMatch[2], 10);
-    const dateMM = parseInt(ratingMatch[3], 10);
-    const dateYY = parseInt(ratingMatch[4], 10);
-    const installs = ratingMatch[5];
-    const opens = ratingMatch[6];
-
-    // Make sure date month is < 12 and date day is < 31 because stupid people put MM/DD/YYYY
-    if (dateMM > 12 || dateDD > 31) {
-        return [null, 'bad-date'];
-    }
-
-
-    const date = new Date(Date.UTC(2000 + dateYY, dateMM - 1, dateDD));
-
-    // Also date can't be greater than today
-    if (isNaN(date.getTime()) || date > new Date()) {
-        return [null, 'bad-date'];
-    }    
+    const installs = ratingMatch[2];
+    const opens = ratingMatch[3];
 
     return [{
         status,
-        date,
         installs,
         opens,
     }, null];
 }
 
 /**
- * 
+ * Get last updated date from a file.
+ * MUST BE IN GIT SOURCE TREE
+ * @param {string} path
+ * @returns {[Date, null] | [null, 'git-error']}
  */
+const getLastUpdated = (path) => {
+    try {
+        const lastUpdated = new Date(execSync(`git log -1 --format=%cd -- ${path}`).toString().trim());
+        return [lastUpdated, null];
+    } catch (error) {
+        return [null, 'git-error'];
+    }
+}
 
 /**
  * Remove duplicates from an array.
@@ -244,20 +237,6 @@ const main = async () => {
         return 1;
     }
 
-    // Read the index file
-    const [indexFileContent, indexFileReadError] = await readFile(indexFilePath, 'utf-8')
-        .then((data) => [data, null])
-        .catch((error) => [null, error]);
-    if (indexFileReadError) {
-        logging.error('Failed to read index file: %o', indexFileReadError);
-        return 1;
-    }
-    const [indexFileStart, indexFileEnd] = getStartAndEndSections(indexFileContent);
-    if (!indexFileStart === null || !indexFileEnd === null) {
-        logging.error('Failed to find start and end sections in index file.');
-        return 1;
-    }
-
     // Get all files in the game-support directory
     const [gameSupportDirFiles, gameSupportDirFilesError] = await readdir(gameSupportDirPath, { withFileTypes: true })
         .then((files) => [files, null])
@@ -277,10 +256,10 @@ const main = async () => {
      *  name: string,
      *  path: string,
      *  title: string,
+     *  lastUpdated: Date,
      *  aliases: string[],
      *  rating: {
      *      status: 'Gold' | 'Silver' | 'Bronze' | 'Garbage',
-     *      date: Date,
      *      installs: 'Yes' | 'No',
      *      opens: 'Yes' | 'No',
      *  }
@@ -326,9 +305,17 @@ const main = async () => {
             continue;
         }
 
+        // Look for last updated
+        const [lastUpdated, lastUpdatedError] = getLastUpdated(filePath);
+        if (lastUpdatedError) {
+            logging.warning('Failed to get last updated in file %s: %s', filePath, lastUpdatedError);
+            continue;
+        }
+
         links.push({
             name: file.name,
             title,
+            lastUpdated,
             aliases,
             rating: ratingParsed,
         });
@@ -355,41 +342,19 @@ const main = async () => {
     }
     logging.info('SUMMARY.md generated successfully.');
 
-    // Write the new index file
-    const newIndexFileContent = [
-        indexFileStart,
-        SCRIPT_GENERATE_START,
-        '\n',
-        links.map((link) => {
-            return `- [${markdownEscape(link.title)}](./${encodeURIComponent(link.name)})`;
-        }).join('\n'),
-        '\n',
-        SCRIPT_GENERATE_END,
-        indexFileEnd,
-    ].join('');
-    const [_b, writeIndexError] = await writeFile(indexFilePath, newIndexFileContent)
-        .then(() => [null, null])
-        .catch((error) => [null, error]);
-    if (writeIndexError) {
-        logging.error('Failed to write index file: %o', writeIndexError);
-        return 1;
-    }
-    logging.info('Index file generated successfully.');
-
     // Write the games.json file
     const gamesOutFileContent = JSON.stringify(links.map((link) => {
         // Strip the extension
         const name = link.name;
         const ext = extname(name);
         const base = name.slice(0, -ext.length);
-        link.rating.date instanceof Date || logging.error('Invalid date for %s', name);
         return {
             url: `/${GAME_SUPPORT_DIR}/${encodeURIComponent(base + '.html')}`,
             title: link.title,
             aliases: link.aliases,
+            lastUpdated: link.lastUpdated.toISOString(),
             rating: {
                 status: link.rating.status,
-                date: link.rating.date.toISOString(),
                 installs: link.rating.installs,
                 opens: link.rating.opens
             },
