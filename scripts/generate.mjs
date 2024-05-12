@@ -169,12 +169,18 @@ export const generateGameMetadata = async () => {
  * @returns {string}
  */
 export const generateLinks = links => {
-    return '\n' + links
-        .map(link => {
-            return `  - [${markdownEscape(link.game.title)}](/game-support/${encodeURIComponent(basename(link.path))})`;
-        })
-        .join('\n') + '\n';
-}
+    return (
+        '\n' +
+        links
+            .map(link => {
+                return `  - [${markdownEscape(
+                    link.game.title
+                )}](/game-support/${encodeURIComponent(basename(link.path))})`;
+            })
+            .join('\n') +
+        '\n'
+    );
+};
 
 /**
  * Generate the games.json file.
@@ -207,7 +213,7 @@ export const generateGamesJson = links => {
         null,
         2
     );
-}
+};
 
 /**
  * Main function.
@@ -219,7 +225,6 @@ const main = async () => {
     if (gameDataError) {
         return 1;
     }
-
 
     // Get the SUMMARY.md file
     /**
@@ -237,9 +242,8 @@ const main = async () => {
     }
 
     // Get the start and end of the SUMMARY.md file
-    const [summarySections, summarySectionsError] = sectionsGetStartAndEnd(
-        summaryFile
-    );
+    const [summarySections, summarySectionsError] =
+        sectionsGetStartAndEnd(summaryFile);
     if (summarySectionsError) {
         logging.error('Failed to find start and end sections in SUMMARY.md.');
         return 1;
@@ -286,4 +290,6 @@ const main = async () => {
     return 0;
 };
 
-main().then(code => process.exit(code));
+// Check if this is the file that is being run
+if (process.argv[1] === new URL(import.meta.url).pathname)
+    main().then(code => process.exit(code));

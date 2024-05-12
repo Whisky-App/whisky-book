@@ -268,6 +268,17 @@ const lintMarkdownFile = async file => {
             );
         }
     }
+
+    // There should be a trailing newline with no content
+    if (lineIndexes[lineIndexes.length - 1] !== content.length) {
+        logLintViolation(
+            'warning',
+            file,
+            lineIndexes.length,
+            1,
+            'File should end with a newline.'
+        );
+    }
 };
 
 /**
@@ -314,7 +325,10 @@ const main = async () => {
     } else if (!gameDataError) {
         const [start, end] = summarySections;
         // Slice at these indexes to get the content between the sections
-        const contentBetweenSections = summaryFile.slice(start + SCRIPT_GENERATE_START.length, end);
+        const contentBetweenSections = summaryFile.slice(
+            start + SCRIPT_GENERATE_START.length,
+            end
+        );
         // Check if the content between the sections is up to date
         const expectedContent = generateLinks(gameData);
         if (contentBetweenSections !== expectedContent) {
@@ -339,4 +353,5 @@ const main = async () => {
     return 0;
 };
 
-main().then(code => process.exit(code));
+if (process.argv[1] === new URL(import.meta.url).pathname)
+    main().then(code => process.exit(code));
