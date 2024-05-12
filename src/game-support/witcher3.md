@@ -1,4 +1,5 @@
 # The Witcher 3: Wild Hunt
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}} 
 

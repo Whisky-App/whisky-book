@@ -1,4 +1,5 @@
 # The Vanishing of Ethan Carter
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

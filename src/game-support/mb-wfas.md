@@ -1,4 +1,5 @@
 # Mount & Blade: With Fire & Sword
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

@@ -1,4 +1,5 @@
 # r2modman
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
@@ -17,3 +18,5 @@
 
 > [!NOTE]
 > If using the BepInEx framework, install `winhttp` through `Winetricks > DLLs` or override `winhttp` to `Native then Builtin` from `Wine Configuration` (console may not show up)
+
+

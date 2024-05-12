@@ -1,4 +1,5 @@
 # Battle Brothers
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

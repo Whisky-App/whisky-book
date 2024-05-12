@@ -1,4 +1,11 @@
-# LEGO Star Wars III - The Clone Wars
+# LEGO Star Wars III: The Clone Wars
+<!-- script:Aliases [
+    "Lego Star Wars III The Clone Wars",
+    "Lego Star Wars 3: The Clone Wars",
+    "Lego Star Wars 3 The Clone Wars",
+    "Lego Star Wars III",
+    "Lego Star Wars 3"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}} 
 

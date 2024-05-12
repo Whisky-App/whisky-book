@@ -1,4 +1,5 @@
 # Dying Light 2
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 

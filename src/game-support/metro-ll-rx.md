@@ -1,4 +1,7 @@
 # Metro: Last Light Redux
+<!-- script:Aliases [
+    "Metro Last Light Redux"
+] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 

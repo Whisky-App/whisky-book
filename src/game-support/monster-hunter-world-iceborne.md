@@ -1,4 +1,7 @@
 # Monster Hunter World: Iceborne
+<!-- script:Aliases [
+    "Monster Hunter World Iceborne"
+] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 

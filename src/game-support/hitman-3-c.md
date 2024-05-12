@@ -1,4 +1,9 @@
 # Hitman: Contracts
+<!-- script:Aliases [
+    "Hitman 3: Contracts",
+    "Hitman 3",
+    "Hitman Contracts"
+] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 

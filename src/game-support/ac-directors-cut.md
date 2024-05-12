@@ -1,4 +1,7 @@
 # Assassin's Creed: Director's Cut Edition
+<!-- script:Aliases [
+    "Assassin's Creed Director's Cut Edition"
+] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 

@@ -1,4 +1,7 @@
 # Dark Souls: Remastered
+<!-- script:Aliases [
+    "Dark Souls Remastered"
+] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 

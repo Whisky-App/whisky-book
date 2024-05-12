@@ -1,4 +1,7 @@
 # Persona 3 Reload
+<!-- script:Aliases [
+    "P3R"
+] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 

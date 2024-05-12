@@ -1,4 +1,5 @@
 # Warframe
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 

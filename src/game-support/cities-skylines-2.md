@@ -1,4 +1,7 @@
 # Cities: Skylines 2
+<!-- script:Aliases [
+    "Cities Skylines 2"
+] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 

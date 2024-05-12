@@ -1,4 +1,8 @@
 # Counter-Strike 2
+<!-- script:Aliases [
+    "Counter Strike 2",
+    "CS2"
+] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
