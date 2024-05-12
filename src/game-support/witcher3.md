@@ -1,6 +1,6 @@
 # The Witcher 3: Wild Hunt
 
-{{#template ../templates/rating.md status=Gold date=05/10/23 installs=Yes opens=Yes}} 
+{{#template ../templates/rating.md status=Gold date=10/05/23 installs=Yes opens=Yes}} 
 
 > [!WARNING]
 > It suffers from a barely noticable freezes when moving sometimes. Most likely due to the issues with textures loading which affects a gameplay experience a little.
