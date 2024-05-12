@@ -33,6 +33,8 @@ const removeRootDir = path => {
     return path.replace(CORE_PATHS.rootDir + '/', '');
 };
 
+let hasBeenWarned = false;
+
 /**
  * Logs a lint violation.
  * @param {'warning' | 'error'} type The type of violation.
@@ -42,6 +44,7 @@ const removeRootDir = path => {
  * @param {string} message The violation message.
  */
 const logLintViolation = (type = 'error', file, line, column, message) => {
+    hasBeenWarned = true;
     if (isGithubAnotationsMode) {
         const args = [];
         file !== null && args.push(`file=${removeRootDir(file)}`);
@@ -350,7 +353,7 @@ const main = async () => {
 
     await Promise.all(markdownFiles.map(file => lintMarkdownFile(file)));
 
-    return 0;
+    return hasBeenWarned ? 1 : 0;
 };
 
 if (process.argv[1] === new URL(import.meta.url).pathname)

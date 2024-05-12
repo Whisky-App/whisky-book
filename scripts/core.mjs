@@ -233,7 +233,9 @@ export const checkGameEmbed = async embed => {
             return [null, 'web-request-failed'];
         }
 
-        return [response.statusCode === 200, null];
+        if (response.statusCode === 200) {
+            return [true, null];
+        }
     }
 
     return [false, 'invalid-embed'];
