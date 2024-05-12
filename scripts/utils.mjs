@@ -4,7 +4,7 @@
 import { format } from 'node:util';
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { execSync } from 'node:child_process';
+import { execFileSync } from 'node:child_process';
 
 /**
  * Returns the directory of the current module. (utils.mjs)
@@ -140,7 +140,7 @@ export const removeDuplicates = arr => {
 export const getLastUpdated = path => {
     try {
         const lastUpdated = new Date(
-            execSync(`git log -1 --format=%cd -- ${path}`).toString().trim()
+            execFileSync("git", ["log", "-1", "--format=%cd", "--", path]).toString().trim()
         );
 
         if (isNaN(lastUpdated.getTime())) {
