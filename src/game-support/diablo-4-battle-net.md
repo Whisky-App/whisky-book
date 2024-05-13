@@ -1,6 +1,10 @@
-# Diablo IV - Battle.net Version
+# Diablo IV (Battle.net)
+<!-- script:Aliases [
+    "Diablo 4 Battle.net",
+    "Diablo IV Battle.net"
+] -->
 
-{{#template ../templates/rating.md status=Garbage date=02/04/24 installs=Yes opens=No}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 <!--
 ## Setup

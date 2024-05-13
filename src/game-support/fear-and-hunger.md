@@ -1,6 +1,7 @@
 # Fear and Hunger
+<!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Bronze date=03/28/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 ## Setup
 

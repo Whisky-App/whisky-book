@@ -1,6 +1,7 @@
 # Elden Ring
+<!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Silver date=07/13/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 ## Setup
 

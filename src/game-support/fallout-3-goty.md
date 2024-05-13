@@ -1,6 +1,9 @@
 # Fallout 3: Game of the Year Edition
+<!-- script:Aliases [
+    "Fallout 3"
+] -->
 
-{{#template ../templates/rating.md status=Garbage date=05/11/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 
 > [!WARNING]
 > The game freezes completely during intro company movies and/or in the main menu.

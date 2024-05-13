@@ -1,6 +1,7 @@
 # Game Name
+<!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=[RATING] date=[DD/MM/YY] installs=[Y/N] opens=[Y/N]}}
+{{#template ../templates/rating.md status=[RATING] installs=[Y/N] opens=[Y/N]}}
 
 ## Setup
 

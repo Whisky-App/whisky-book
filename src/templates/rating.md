@@ -1,1 +1,1 @@
-Status: [[#status]] | Last Tested: [[#date]] | Installs: [[#installs]] | Opens: [[#opens]]
+Status: [[#status]] | Installs: [[#installs]] | Opens: [[#opens]]

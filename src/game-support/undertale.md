@@ -1,6 +1,7 @@
 # Undertale
+<!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Silver date=04/04/23 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 > [!NOTE]
 > This game has a native Mac port.

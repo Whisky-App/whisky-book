@@ -18,8 +18,11 @@ Documentation for Whisky.
    cargo install mdbook
    cargo install mdbook-alerts
    cargo install mdbook-template
+   cargo install mdbook-last-changed
    ```
-5. You can preview changes to the book with `mdbook serve --open`
+5. Install [Node.js](https://nodejs.org/en/download/).
+   You can also install it through [Homebrew](https://brew.sh/) with `brew install node`.
+6. You can preview changes to the book with `mdbook serve --open`
 
 ### Adding Game Pages:
 0. Standards to uphold:
@@ -28,12 +31,13 @@ Documentation for Whisky.
    - Cite your sources. Found a guide from somewhere else? Found a solution or other thing online? Provide a link in your page. This isn't a requirement that's going to get your PR rejected, but simply one that future-proofs things and ensures that if a game suddenly breaks, we can check our sources and see if there are any updates to the solutions found.
    - Add status ratings to your game based on the following scale. We leave this up to general author interpretation, but please make sure you're still following these general guidelines:
 
-     | Status  | Description                                                                                    |
-     | ------- | ---------------------------------------------------------------------------------------------- |
-     | Gold    | Game works out-of-the-box with no issues and/or requires minimal workarounds.                  |
-     | Silver  | Game requires some workarounds, but they are simple and/or there are minor in-game issues      |
-     | Bronze  | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
-     | Garbage | Game does not work at all.                                                                     |
+    | Status   | Description                                                                                    |
+    |----------|------------------------------------------------------------------------------------------------|
+    | Platinum | Game without any defects and runs perfectly.                                                   |
+    | Gold     | Game can be configured to run perfectly and without any defects.                               |
+    | Silver   | Game requires some configuration to run and or has minor defects.                              |
+    | Bronze   | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
+    | Garbage  | Game does not work at all.                                                                     |
   
 1. Create a new markdown file in `~/whisky-book/src/game-support` with the name of the game.
    - Format your file in all lowercase, using only alphabetical, numerical, and dash characters, and use abbreviations where possible. i.e:
@@ -47,7 +51,7 @@ Documentation for Whisky.
    ```
    # <Full Game Name Here>
 
-   {{#template ../templates/rating.md status=<status> date=<mm>/<dd>/<yy> installs=<Yes/No> opens=<Yes/No>}}
+   {{#template ../templates/rating.md status=<status> date=<DD>/<MM>/<YY> installs=<Yes/No> opens=<Yes/No>}}
    ```
    If your game is a Steam game, add this text at the **bottom** of the page. You can find the Steam ID of a game by going to it's Steam page. It will be the number in the URL bar between `/app/` and `/<game name>/`.
    ```
@@ -68,19 +72,11 @@ Documentation for Whisky.
    
    ```
    <img width="815" alt="Screenshot 2024-04-16 at 10 06 11 PM" src="https://github.com/Whisky-App/whisky-book/assets/161992562/d7d61b1a-5d02-4961-8ff5-b953c2a2fbe1">  
-3. Add your game to `~/whisky-book/src/SUMMARY.md`. Make sure that you insert it in the proper alphabetical order, not deleting any games. Ensure the proper spacing and indentation is followed. Here is an example with [Diablo IV (Battle.net)](https://docs.getwhisky.app/game-support/diablo-4-battle-net.html)
-   ```
-   ...
-     - [Cyberpunk 2077](./game-support/cyberpunk-2077.md)
-     - [Dark Souls III](./game-support/dark-souls-3.md)
-     - [Diablo IV (Battle.net)](./game-support/diablo-4-battle-net.md)
-     - [Diablo IV (Steam)](./game-support/diablo-4-steam.md)
-     - [Dorfromantik](./game-support/dorfromantik.md)
-   ...
-   ```
-4. Add your game to `~/whisky-book/src/game-support/README.md`. Follow the same standards as above.
-5. Create a pull request detailing the changes you made. Ensure that it's consise, yet readable and coherent.
+3. Run the `generate` script with `./scripts/generate.mjs` to update `SUMMARY.md`.
+   This will also make the game appear in the sidebar of the book.
+4. Create a pull request detailing the changes you made. Ensure that it's consise, yet readable and coherent.
    - You will need to create a fork of `whisky-book` and push your changes there before creating a PR. Once you've done that, then you can submit a PR to merge your fork with `main`.
+5. Run `./scripts/lint.mjs` to ensure that your changes are properly formatted.
 6. Sit back, wait for PR reviews, and make changes as necessary.
 
 Have any questions about this process or anything Whisky-related? Stop by the [Discord](https://discord.gg/CsqAfs9CnM) and ask us a question! We're more than happy to help.

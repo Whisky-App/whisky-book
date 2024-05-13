@@ -1,6 +1,7 @@
 # Call of Cthulhu
+<!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Gold date=05/06/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 > [!NOTE]
 > Runs great. However when moving mouse intensively a native cursor appears on screen all the time and also hovers the in-game one

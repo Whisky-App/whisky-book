@@ -1,6 +1,7 @@
 # Dying Light 2
+<!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Silver date=03/02/24 installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 ## Setup
 
