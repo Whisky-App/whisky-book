@@ -1,7 +1,7 @@
 # Elite Dangerous
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
 ## Setup
 
