@@ -66,6 +66,7 @@
   - [Manor Lords](./game-support/manor-lords.md)
   - [Mount & Blade: With Fire & Sword](./game-support/mb-wfas.md)
   - [Metro 2033 Redux](./game-support/metro-2033-rx.md)
+  - [Metro Exodus](./game-support/metro-exodus.md)
   - [Metro: Last Light Redux](./game-support/metro-ll-rx.md)
   - [Metal Gear Solid V: The Phantom Pain](./game-support/mgs-5.md)
   - [Monster Hunter World: Iceborne](./game-support/monster-hunter-world-iceborne.md)
