@@ -18,7 +18,7 @@ Documentation for Whisky.
    cargo install mdbook mdbook-alerts mdbook-template mdbook-last-changed
    ```
    > Alternatively, you can run `./scripts/run-locally.sh -i`, which installs the preprocessors and opens the wiki on a local webpage.
-5. Run `./scripts/run-locally.sh` to open the wiki on a local webpage.
+5. Run `./scripts/run-locally.sh` to open the wiki on a local webpage. This script MUST be ran from the root `whisky-book` directory or it will not work.
    > Alternatively, you can run `mdbook serve --open`.
 
 ### Adding Game Pages:
