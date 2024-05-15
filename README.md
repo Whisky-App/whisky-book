@@ -13,6 +13,7 @@ Documentation for Whisky.
    cd whisky-book
    ```
 3. Install [rust](https://www.rust-lang.org/tools/install)
+   You can also install it through [Homebrew](https://brew.sh/) with `brew install rust`.
 4. Install [Node.js](https://nodejs.org/en/download/).
    You can also install it through [Homebrew](https://brew.sh/) with `brew install node`.
 5. Install mdbook and the required preprocessors
