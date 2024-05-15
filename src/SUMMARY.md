@@ -35,6 +35,7 @@
   - [Diablo IV \(Steam\)](./game-support/diablo-4-steam.md)
   - [Dishonored 2](./game-support/dishonored-2.md)
   - [Dishonored](./game-support/dishonored.md)
+  - [Don't Starve](./game-support/dont-starve.md)
   - [Dorfromantik](./game-support/dorfromantik.md)
   - [Dying Light 2](./game-support/dying-light-2.md)
   - [Elden Ring](./game-support/elden-ring.md)
