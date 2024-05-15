@@ -13,12 +13,14 @@ Documentation for Whisky.
    cd whisky-book
    ```
 3. Install [rust](https://www.rust-lang.org/tools/install)
-4. Install mdbook and the required preprocessors
+4. Install [Node.js](https://nodejs.org/en/download/).
+   You can also install it through [Homebrew](https://brew.sh/) with `brew install node`.
+5. Install mdbook and the required preprocessors
    ```
    cargo install mdbook mdbook-alerts mdbook-template mdbook-last-changed
    ```
    > Alternatively, you can run `./scripts/run-locally.sh -i`, which installs the preprocessors and opens the wiki on a local webpage.
-5. Run `./scripts/run-locally.sh` to open the wiki on a local webpage. This script MUST be ran from the root `whisky-book` directory or it will not work.
+6. Run `./scripts/run-locally.sh` to open the wiki on a local webpage. This script MUST be ran from the root `whisky-book` directory or it will not work.
    > Alternatively, you can run `mdbook serve --open`.
 
 ### Adding Game Pages:
