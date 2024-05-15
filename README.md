@@ -15,14 +15,11 @@ Documentation for Whisky.
 3. Install [rust](https://www.rust-lang.org/tools/install)
 4. Install mdbook and the required preprocessors
    ```
-   cargo install mdbook
-   cargo install mdbook-alerts
-   cargo install mdbook-template
-   cargo install mdbook-last-changed
+   cargo install mdbook mdbook-alerts mdbook-template mdbook-last-changed
    ```
-5. Install [Node.js](https://nodejs.org/en/download/).
-   You can also install it through [Homebrew](https://brew.sh/) with `brew install node`.
-6. You can preview changes to the book with `mdbook serve --open`
+   > Alternatively, you can run `./scripts/run-locally.sh -i`, which installs the preprocessors and opens the wiki on a local webpage.
+5. Run `./scripts/run-locally.sh` to open the wiki on a local webpage.
+   > Alternatively, you can run `mdbook serve --open`.
 
 ### Adding Game Pages:
 0. Standards to uphold:
@@ -72,12 +69,11 @@ Documentation for Whisky.
    
    ```
    <img width="815" alt="Screenshot 2024-04-16 at 10 06 11 PM" src="https://github.com/Whisky-App/whisky-book/assets/161992562/d7d61b1a-5d02-4961-8ff5-b953c2a2fbe1">  
-3. Run the `generate` script with `./scripts/generate.mjs` to update `SUMMARY.md`.
-   This will also make the game appear in the sidebar of the book.
+3. Run `./scripts/run-locally.sh` to generate the sidebar and ensure formatting. 
+   > Alternatively, you can run `./scripts/generate.mjs` and `./scripts/lint.mjs` to do these without opening the book again.
 4. Create a pull request detailing the changes you made. Ensure that it's consise, yet readable and coherent.
    - You will need to create a fork of `whisky-book` and push your changes there before creating a PR. Once you've done that, then you can submit a PR to merge your fork with `main`.
-5. Run `./scripts/lint.mjs` to ensure that your changes are properly formatted.
-6. Sit back, wait for PR reviews, and make changes as necessary.
+5. Sit back, wait for PR reviews, and make changes as necessary.
 
 Have any questions about this process or anything Whisky-related? Stop by the [Discord](https://discord.gg/CsqAfs9CnM) and ask us a question! We're more than happy to help.
 
