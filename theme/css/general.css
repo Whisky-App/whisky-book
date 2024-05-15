@@ -9,7 +9,6 @@
 }
 
 html {
-    font-family: "Open Sans", sans-serif;
     color: var(--fg);
     background-color: var(--bg);
     text-size-adjust: none;
@@ -91,6 +90,9 @@ h6:target::before {
 .page-wrapper {
     box-sizing: border-box;
     background-color: var(--bg);
+}
+.sidebar {
+    display: flex;
 }
 .no-js .page-wrapper,
 .js:not(.sidebar-resizing) .page-wrapper {
