@@ -1,5 +1,7 @@
 # Cyberpunk 2077
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Cyberpunk"
+] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
