@@ -1,3 +1,5 @@
+name: Check linting
+
 on:
   push:
   pull_request:
