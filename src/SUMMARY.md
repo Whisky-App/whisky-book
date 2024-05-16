@@ -77,6 +77,7 @@
   - [Persona 3 Reload](./game-support/p3r.md)
   - [Persona 4 Golden](./game-support/p4g.md)
   - [Palworld](./game-support/palworld.md)
+  - [Paradise Lost](./game-support/paradise-lost.md)
   - [People Playground](./game-support/people-playground.md)
   - [Phasmophobia](./game-support/phasmophobia.md)
   - [PowerWash Simulator](./game-support/powerwash-simulator.md)
