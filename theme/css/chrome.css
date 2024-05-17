@@ -54,6 +54,7 @@
     --menu-bar-height: 6rem;
     --sidebar-width: 36rem;
     --font-family: 'Rubik', sans-serif;
+    --content-max-width: 80rem;
 }
 
 
@@ -313,8 +314,9 @@ label[for="search-toggle-anchor"].menu-bar-button {
     flex-direction: column;
     width: var(--sidebar-width);
     min-width: var(--sidebar-width);
+    height: 100%;
     padding: 1rem 2rem 4rem 2rem;
-    overflow: scroll;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -329,6 +331,7 @@ label[for="search-toggle-anchor"].menu-bar-button {
 
 .chapter {
     display: flex;
+    gap: 0.5rem;
     flex-direction: column;
     width: 100%;
     list-style: none outside none;
@@ -340,9 +343,12 @@ label[for="search-toggle-anchor"].menu-bar-button {
 }
 
 .chapter .section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 0 0 2rem;
     list-style: none outside none;
     text-decoration: none;
-    padding: 0 0 0 2rem;
     color: var(--color-on-surface);
 }
 
@@ -549,8 +555,12 @@ pre > code {
     padding: 1rem;
 }
 
+footer#last-change {
+    padding: 2rem 0;
+}
+
 /* These don't work anyway :/ */
 pre > .buttons {
+    content: none;
     display: none;
-    pointer-events: none;
 }
