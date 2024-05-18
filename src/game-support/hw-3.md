@@ -11,8 +11,6 @@
 > [!NOTE]
 > The game crashes on start if DXVK enabled. Disable DXVK in the Whisky Bottle Configuration if reusing a DXVK Steam bottle.
 
-{{#template ../templates/steam.md id=1840080}}
-
 ## Steam Performance Tweaks
 
 Changing the following Steam settings improved the FPS by 5-10:
@@ -46,3 +44,5 @@ Other notes:
 - To run the benchmark yourself, go to the video settings, apply the desired settings, and hit the `Run Benchmark` button.
 - Changing the upscale algorithm in the video settings had no noticeable effect on FPS.
 - Epic quality seemed to hurt FPS without much more detail.
+
+{{#template ../templates/steam.md id=1840080}}
