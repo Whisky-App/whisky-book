@@ -5,4 +5,4 @@
 
 
 
-{{#template ../templates/steam.md id=2642680}}
+{{#template ../templates/steam.md id=2397300}}
