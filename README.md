@@ -52,7 +52,7 @@ Documentation for Whisky.
    # <Full Game Name Here>
    <!-- script:Aliases[] -->
 
-   {{#template ../templates/rating.md status=<status> date=<DD>/<MM>/<YY> installs=<Yes/No> opens=<Yes/No>}}
+   {{#template ../templates/rating.md status=<status> installs=<Yes/No> opens=<Yes/No>}}
    ```
    If your game is a Steam game, add this text at the **bottom** of the page. You can find the Steam ID of a game by going to it's Steam page. It will be the number in the URL bar between `/app/` and `/<game name>/`.
    ```
