@@ -50,6 +50,7 @@ Documentation for Whisky.
 2. Add the following template to your markdown file. Ensure the date is properly formatted, leaving zeroes if the month or day is a single digit.
    ```
    # <Full Game Name Here>
+   <!-- script:Aliases[] -->
 
    {{#template ../templates/rating.md status=<status> date=<DD>/<MM>/<YY> installs=<Yes/No> opens=<Yes/No>}}
    ```
