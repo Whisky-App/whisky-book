@@ -1,5 +1,5 @@
 # Half Sword Demo
-<!-- script:Aliases[] -->
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
