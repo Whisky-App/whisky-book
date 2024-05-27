@@ -81,6 +81,7 @@
   - [Paradise Lost](./game-support/paradise-lost.md)
   - [People Playground](./game-support/people-playground.md)
   - [Phasmophobia](./game-support/phasmophobia.md)
+  - [Planet Coaster](./game-support/planet-coaster.md)
   - [PowerWash Simulator](./game-support/powerwash-simulator.md)
   - [Prey \(2017\)](./game-support/prey-2017.md)
   - [Quake II](./game-support/quake2.md)
