@@ -53,6 +53,7 @@
   - [Geometry Wars 3: Dimensions Evolved](./game-support/gw3-dimensions-evolved.md)
   - [Half-Life 1](./game-support/half-life-1.md)
   - [Half-Life 2](./game-support/half-life-2.md)
+  - [Half Sword Demo](./game-support/half-sword.md)
   - [Hellblade: Senua's Sacrifice](./game-support/hellblade.md)
   - [Hitman: Contracts](./game-support/hitman-3-c.md)
   - [Hearts of Iron III](./game-support/hoi-3.md)
