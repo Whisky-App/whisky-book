@@ -100,6 +100,7 @@
   - [Star Wars: Squadrons](./game-support/sw-squadrons.md)
   - [Tom Clancy's Rainbow Six Siege \(Steam\)](./game-support/tcr6s.md)
   - [Thief II: The Metal Age](./game-support/thief-2.md)
+  - [Thief: Deadly Shadows](./game-support/thief-3.md)
   - [Thief Gold](./game-support/thief-gold.md)
   - [The Stanley Parable: Ultra Deluxe](./game-support/tsp-ud.md)
   - [Turbo Overkill](./game-support/turbo-overkill.md)
