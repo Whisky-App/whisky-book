@@ -94,6 +94,7 @@
   - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
+  - [S.T.A.L.K.E.R.: Clear Sky](./game-support/stalker-clear-sky.md)
   - [Stardew Valley](./game-support/stardew-valley.md)
   - [Stronghold Crusader HD](./game-support/stronghold-crusader-hd.md)
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
