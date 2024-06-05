@@ -3,7 +3,8 @@
 
 {{#template ../templates/rating.md status=Silver installs=No opens=Yes}}
 
-You will need to copy the installed game from somewhere else.
+# Setup
+Since the game's installer crashes, you will need to copy an already installed game from somewhere else into the bottle.
 
 ## Sound Effect Lag Fix
 
