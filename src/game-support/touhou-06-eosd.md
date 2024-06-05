@@ -3,6 +3,9 @@
 
 {{#template ../templates/rating.md status=Silver installs=No opens=Yes}}
 
+> [!NOTE]
+> This game is no longer available on Steam.
+
 # Setup
 Since the game's installer crashes, you will need to copy an already installed game from somewhere else into the bottle.
 
