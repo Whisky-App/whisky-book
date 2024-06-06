@@ -60,6 +60,7 @@
   - [Hearts of Iron III](./game-support/hoi-3.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [Homeworld 3](./game-support/hw-3.md)
+  - [In Sound Mind](./game-support/in-sound-mind.md)
   - [JoJo's Bizarre Adventure: All-Star Battle R](./game-support/jjba-asbr.md)
   - [Kingdom Come: Deliverance](./game-support/kcd.md)
   - [Kenshi](./game-support/kenshi.md)
