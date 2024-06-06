@@ -75,6 +75,8 @@
   - [Metro: Last Light Redux](./game-support/metro-ll-rx.md)
   - [Metal Gear Solid V: The Phantom Pain](./game-support/mgs-5.md)
   - [Monster Hunter World: Iceborne](./game-support/monster-hunter-world-iceborne.md)
+  - [NecroVisioN: Lost Company](./game-support/necrovision-lost-company.md)
+  - [NecroVision](./game-support/necrovision.md)
   - [Neon White](./game-support/neon-white.md)
   - [Overwatch 2](./game-support/overwatch-2.md)
   - [Persona 3 Reload](./game-support/p3r.md)
