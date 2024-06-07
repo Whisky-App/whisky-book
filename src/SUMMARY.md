@@ -28,6 +28,7 @@
   - [Dagon: by H. P. Lovecraft](./game-support/dagon.md)
   - [Dark Souls III](./game-support/dark-souls-3.md)
   - [Dark Souls: Remastered](./game-support/dark-souls-remastered.md)
+  - [Days Gone](./game-support/days-gone.md)
   - [Dead Space \(2023\)](./game-support/dead-space-2023.md)
   - [Deadlink](./game-support/deadlink.md)
   - [Deep Rock Galactic](./game-support/deep-rock-galactic.md)
