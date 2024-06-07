@@ -20,6 +20,7 @@
   - [Call of Cthulhu](./game-support/call-of-cthulhu.md)
   - [Cities: Skylines 2](./game-support/cities-skylines-2.md)
   - [Call of Juarez: Gunslinger](./game-support/coj-gunslinger.md)
+  - [Cloudpunk](./game-support/cloudpunk.md)
   - [Content Warning](./game-support/content-warning.md)
   - [Contraband Police](./game-support/contraband-police.md)
   - [Control](./game-support/control.md)
