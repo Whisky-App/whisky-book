@@ -110,6 +110,7 @@
   - [Turbo Overkill](./game-support/turbo-overkill.md)
   - [Ultrakill](./game-support/ultrakill.md)
   - [Undertale](./game-support/undertale.md)
+  - [Under Night In-Birth II Sys:Celes](./game-support/uni2.md)
   - [The Vanishing of Ethan Carter](./game-support/vanishing-of-ethan-carter.md)
   - [Warframe](./game-support/warframe.md)
   - [The Witcher 3: Wild Hunt](./game-support/witcher3.md)
