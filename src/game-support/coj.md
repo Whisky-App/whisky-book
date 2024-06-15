@@ -1,12 +1,9 @@
 # Call of Juarez
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 
-> [NOTE]
-> It is recommended to use DX9 version of the game (`CoJ.exe`) as DX10 one crashes when trying to start a New Game.
->
 > [WARNING]
-> The game can switch from fullscreen to window and vice versa when Cmd+Tabbing. Repeating this shortcut also changes the mode back. `ChromEd` editor may not work.
+> DX9 crashes when hitting Escape during a gameplay while DX10 version when selecting "New Game" in the main menu. Repeating this shortcut also changes the mode back. `ChromEd` does not work. The game can switch from fullscreen to window and vice versa when Cmd+Tabbing.
 
 {{#template ../templates/steam.md id=3020}}
