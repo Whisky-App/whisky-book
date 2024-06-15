@@ -93,6 +93,7 @@
   - [Rain World](./game-support/rain-world.md)
   - [Risk of Rain 2](./game-support/risk-of-rain-2.md)
   - [Risk of Rain Returns](./game-support/risk-of-rain-returns.md)
+  - [Return to Castle Wolfenstein](./game-support/rtcw.md)
   - [Ruiner](./game-support/ruiner.md)
   - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
