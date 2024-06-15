@@ -117,6 +117,7 @@
   - [Under Night In-Birth II Sys:Celes](./game-support/uni2.md)
   - [The Vanishing of Ethan Carter](./game-support/vanishing-of-ethan-carter.md)
   - [Warframe](./game-support/warframe.md)
+  - [The Witcher: Enhanced Edition Director's Cut](./game-support/witcher.md)
   - [The Witcher 2: Assassins of Kings Enhanced Edition](./game-support/witcher2.md)
   - [The Witcher 3: Wild Hunt](./game-support/witcher3.md)
   - [The Wolf Among Us](./game-support/wolf-among-us.md)
