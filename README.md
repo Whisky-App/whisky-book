@@ -47,7 +47,7 @@ Documentation for Whisky.
    Star Wars Jedi: Fallen Order -> sw-fallen-order.md
    Geometry Wars 3: Dimensions Evolved -> gw3-dimensions-evolved.md
    ```
-2. Add the following template to your markdown file. Ensure the date is properly formatted, leaving zeroes if the month or day is a single digit.
+2. Add the following template to your markdown file.
    ```
    # <Full Game Name Here>
 
