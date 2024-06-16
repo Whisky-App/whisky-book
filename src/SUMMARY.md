@@ -121,4 +121,5 @@
   - [The Witcher 2: Assassins of Kings Enhanced Edition](./game-support/witcher2.md)
   - [The Witcher 3: Wild Hunt](./game-support/witcher3.md)
   - [The Wolf Among Us](./game-support/wolf-among-us.md)
+  - [Wolfenstein: The Old Blood](./game-support/wolfenstein-old-blood.md)
 <!-- script:Generate End -->
