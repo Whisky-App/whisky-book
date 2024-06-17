@@ -9,4 +9,4 @@
 > [!WARNING]
 > Random lines and planes are rendered in the world. Sound stutters ocasionally. D'Jinni Adventure Editor does not work.
 
-{{#template ../templates/steam.md id=20920}}
+{{#template ../templates/steam.md id=20900}}
