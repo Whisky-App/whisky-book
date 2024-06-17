@@ -3,7 +3,8 @@
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
-## Setup 
+## Setup
+
 - Enable DXVK in Bottle Configuration
 
 ### Direct

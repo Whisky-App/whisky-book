@@ -4,6 +4,7 @@
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 ## Setup
+
 - In Whisky, install d3dx9 using winetricks.
 - Install in Steam as normal.
 
