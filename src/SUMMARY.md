@@ -34,6 +34,7 @@
   - [Dead Space \(2023\)](./game-support/dead-space-2023.md)
   - [Deadlink](./game-support/deadlink.md)
   - [Deep Rock Galactic](./game-support/deep-rock-galactic.md)
+  - [Deus Ex: Game of the Year Edition](./game-support/deus-ex-goty.md)
   - [Diablo IV \(Battle.net\)](./game-support/diablo-4-battle-net.md)
   - [Diablo IV \(Steam\)](./game-support/diablo-4-steam.md)
   - [Dishonored 2](./game-support/dishonored-2.md)
