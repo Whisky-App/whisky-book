@@ -3,8 +3,7 @@
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 
-## Setup
-
-- Follow this steps during an initial launch of the game as it's configuration screen appears only once.
+> [!WARNING]
+> The game starts windowed and shows a black screen regardless of initial configuration you set in the settings wizard.
 
 {{#template ../templates/steam.md id=6910}}
