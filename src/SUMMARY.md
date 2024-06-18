@@ -60,6 +60,7 @@
   - [Half-Life 2](./game-support/half-life-2.md)
   - [Half Sword Demo](./game-support/half-sword.md)
   - [Hellblade: Senua's Sacrifice](./game-support/hellblade.md)
+  - [Senua’s Saga: Hellblade II](./game-support/hellblade2.md)
   - [Hitman: Contracts](./game-support/hitman-3-c.md)
   - [Hearts of Iron III](./game-support/hoi-3.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
