@@ -112,6 +112,7 @@
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
   - [Star Wars: Squadrons](./game-support/sw-squadrons.md)
   - [Tom Clancy's Rainbow Six Siege \(Steam\)](./game-support/tcr6s.md)
+  - [Touhou 6 - Embodiment of Scarlet Devil](./game-support/touhou-06-eosd.md)
   - [Thief II: The Metal Age](./game-support/thief-2.md)
   - [Thief: Deadly Shadows](./game-support/thief-3.md)
   - [Thief Gold](./game-support/thief-gold.md)
