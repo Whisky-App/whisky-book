@@ -1,7 +1,7 @@
 # Mount & Blade: With Fire & Sword
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 > [!WARNING]
 > Freezes after showing a Bing logo with a black screen.

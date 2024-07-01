@@ -9,6 +9,6 @@
 
 ## Setup
 
-- Disable DXVK
+- Disable DXVK.
 
 {{#template ../templates/steam.md id=1888160}}

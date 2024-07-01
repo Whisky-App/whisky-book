@@ -1,7 +1,7 @@
 # Call of Juarez: Bound in Blood
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 > [!WARNING]
 > Opens with a black screen and crashes instantly.

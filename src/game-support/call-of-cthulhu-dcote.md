@@ -1,7 +1,7 @@
 # Call of Cthulhu: Dark Corners of the Earth
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 > [!WARNING]
 > Launcher works but the game crashes just after entering the fullscreen.
