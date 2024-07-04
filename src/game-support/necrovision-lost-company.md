@@ -3,7 +3,7 @@
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
-> [WARNING]
+> [!WARNING]
 > The game does not launch while Pain Editor crashes instantly.
 
 {{#template ../templates/steam.md id=46250}}

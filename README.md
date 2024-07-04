@@ -47,7 +47,7 @@ Documentation for Whisky.
    Star Wars Jedi: Fallen Order -> sw-fallen-order.md
    Geometry Wars 3: Dimensions Evolved -> gw3-dimensions-evolved.md
    ```
-2. Add the following template to your markdown file. Ensure the date is properly formatted, leaving zeroes if the month or day is a single digit.
+2. Add the following template to your markdown file.
    ```
    # <Full Game Name Here>
 
@@ -74,9 +74,9 @@ Documentation for Whisky.
    <img width="815" alt="Screenshot 2024-04-16 at 10 06 11 PM" src="https://github.com/Whisky-App/whisky-book/assets/161992562/d7d61b1a-5d02-4961-8ff5-b953c2a2fbe1">  
 3. Run the `generate` script with `./scripts/generate.mjs` to update `SUMMARY.md`.
    This will also make the game appear in the sidebar of the book.
-4. Create a pull request detailing the changes you made. Ensure that it's consise, yet readable and coherent.
+4. Run `./scripts/lint.mjs` to ensure that your changes are properly formatted.
+5. Create a pull request detailing the changes you made. Ensure that it's consise, yet readable and coherent.
    - You will need to create a fork of `whisky-book` and push your changes there before creating a PR. Once you've done that, then you can submit a PR to merge your fork with `main`.
-5. Run `./scripts/lint.mjs` to ensure that your changes are properly formatted.
 6. Sit back, wait for PR reviews, and make changes as necessary.
 
 Have any questions about this process or anything Whisky-related? Stop by the [Discord](https://discord.gg/CsqAfs9CnM) and ask us a question! We're more than happy to help.
