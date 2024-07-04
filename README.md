@@ -29,15 +29,15 @@ Documentation for Whisky.
    - Ensure proper grammar, capitalization, spelling, spacing, and general professionalism. Jokes and such are allowed, but lets prioritize helping others before all else.
    - Ensure accuracy. Don't upload misleading information, false reports, guesses, or improper research.
    - Cite your sources. Found a guide from somewhere else? Found a solution or other thing online? Provide a link in your page. This isn't a requirement that's going to get your PR rejected, but simply one that future-proofs things and ensures that if a game suddenly breaks, we can check our sources and see if there are any updates to the solutions found.
-   - You can add games that already have a native macOS port. Those ports are sometimes poorly optimized and/or full of bugs so it could be better solution to play a Windows version of a game via Whisky. Even if Steam provides a macOS port of a game it may be not a standard on other game stores, ie. GOG. 
+   - You can add games that already have a native macOS port. Those ports are sometimes poorly optimized and or full of bugs so it could be better solution to play a Windows version of a game via Whisky. Even if Steam provides a macOS port of a game it may be not a standard on other game stores, ie. GOG. 
    - Add status ratings to your game based on the following scale. We leave this up to general author interpretation, but please make sure you're still following these general guidelines:
 
     | Status   | Description                                                                                    |
     |----------|------------------------------------------------------------------------------------------------|
     | Platinum | Game without any defects and runs perfectly.                                                   |
     | Gold     | Game can be configured to run perfectly and without any defects.                               |
-    | Silver   | Game requires some configuration to run and/or has minor defects.                              |
-    | Bronze   | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
+    | Silver   | Game requires some configuration to run and or has minor defects.                              |
+    | Bronze   | Game is very difficult to get working and or has severe in-game issues that limit playability. |
     | Garbage  | Game does not work at all or it is not playable due to in-game issues.                         |
   
 1. Create a new markdown file in `~/whisky-book/src/game-support` with the name of the game.

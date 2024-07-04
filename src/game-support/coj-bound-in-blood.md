@@ -1,5 +1,7 @@
 # Call of Juarez: Bound in Blood
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Call of Juarez Bound in Blood"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

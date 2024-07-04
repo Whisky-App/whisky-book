@@ -1,5 +1,7 @@
 # Sniper: Ghost Warrior 2
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Sniper Ghost Warrior 2"
+] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 

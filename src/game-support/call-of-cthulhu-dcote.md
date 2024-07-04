@@ -1,5 +1,7 @@
 # Call of Cthulhu: Dark Corners of the Earth
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Call of Cthulhu Dark Corners of the Earth"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

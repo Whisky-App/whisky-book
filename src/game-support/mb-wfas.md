@@ -1,5 +1,9 @@
 # Mount & Blade: With Fire & Sword
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Mount and Blade: With Fire and Sword",
+    "Mount & Blade With Fire & Sword",
+    "Mount and Blade With Fire and Sword"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

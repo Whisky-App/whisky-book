@@ -1,5 +1,13 @@
 # Senua’s Saga: Hellblade II
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Senua’s Saga: Hellblade 2",
+    "Senua’s Saga Hellblade II",
+    "Senua’s Saga Hellblade 2",
+    "Senua's Saga: Hellblade II",
+    "Senua's Saga: Hellblade 2",
+    "Senua's Saga Hellblade II",
+    "Senua's Saga Hellblade 2"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

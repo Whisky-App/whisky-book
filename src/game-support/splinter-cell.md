@@ -1,5 +1,7 @@
 # Tom Clancy's Splinter Cell
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Splinter Cell"
+] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 

@@ -1,5 +1,7 @@
 # Call of Juarez: Gunslinger
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Call of Juarez Gunslinger"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
