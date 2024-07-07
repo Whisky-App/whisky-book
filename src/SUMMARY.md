@@ -72,6 +72,7 @@
   - [Just Cause 2](./game-support/just-cause2.md)
   - [Kingdom Come: Deliverance](./game-support/kcd.md)
   - [Kenshi](./game-support/kenshi.md)
+  - [Kholat](./game-support/kholat.md)
   - [Kingsway](./game-support/kingsway.md)
   - [LEGO Star Wars III: The Clone Wars](./game-support/lego-sw-iii-clone-wars.md)
   - [LEGO Star Wars: The Skywalker Saga](./game-support/lego-sw-skywalker-saga.md)
