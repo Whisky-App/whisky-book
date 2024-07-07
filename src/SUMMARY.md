@@ -68,6 +68,7 @@
   - [In Sound Mind](./game-support/in-sound-mind.md)
   - [JoJo's Bizarre Adventure: All-Star Battle R](./game-support/jjba-asbr.md)
   - [Just Cause](./game-support/just-cause.md)
+  - [Just Cause 2](./game-support/just-cause2.md)
   - [Kingdom Come: Deliverance](./game-support/kcd.md)
   - [Kenshi](./game-support/kenshi.md)
   - [Kingsway](./game-support/kingsway.md)
