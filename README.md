@@ -39,7 +39,7 @@ Documentation for Whisky.
     | Gold     | Game can be configured to run perfectly and without any defects.                               |
     | Silver   | Game requires some configuration to run and or has minor defects.                              |
     | Bronze   | Game is very difficult to get working and or has severe in-game issues that limit playability. |
-    | Garbage  | Game does not work at all or it's playability is quite limited due to the technical issues.    |
+    | Garbage  | Game is unplayable.                                                                            |
   
 1. Create a new markdown file in `~/whisky-book/src/game-support` with the name of the game.
    - Format your file in all lowercase, using only alphabetical, numerical, and dash characters, and use abbreviations where possible. i.e:
