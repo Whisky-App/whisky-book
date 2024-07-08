@@ -29,7 +29,6 @@ Documentation for Whisky.
    - Ensure proper grammar, capitalization, spelling, spacing, and general professionalism. Jokes and such are allowed, but lets prioritize helping others before all else.
    - Ensure accuracy. Don't upload misleading information, false reports, guesses, or improper research.
    - Cite your sources. Found a guide from somewhere else? Found a solution or other thing online? Provide a link in your page. This isn't a requirement that's going to get your PR rejected, but simply one that future-proofs things and ensures that if a game suddenly breaks, we can check our sources and see if there are any updates to the solutions found.
-   - You can add games that already have a native macOS port. Those ports are sometimes poorly optimized and or full of bugs so it could be better solution to play a Windows version of a game via Whisky. Even if Steam provides a macOS port of a game it may be not a standard on other game stores, ie. GOG.
    - Write whether a game installs without any errors and opens properly according to the parameters in an example below. Set `opens` to `Yes` only if a game launches successfully to it's default screen, eg. main menu or initial gameplay if it lacks a main menu. Any crash, freeze or error before this breakpoint means that the game does not open and it should be filled with `opens=No`.
    - Add status ratings to your game based on the following scale. We leave this up to general author interpretation, but please make sure you're still following these general guidelines:
 
