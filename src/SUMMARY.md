@@ -123,6 +123,7 @@
   - [Thief: Deadly Shadows](./game-support/thief-3.md)
   - [Thief Gold](./game-support/thief-gold.md)
   - [Tomb Rider \(2013\)](./game-support/tomb-rider-2013.md)
+  - [Touhou 6 - Embodiment of Scarlet Devil](./game-support/touhou-06-eosd.md)
   - [Trackmania](./game-support/trackmania.md)
   - [The Stanley Parable: Ultra Deluxe](./game-support/tsp-ud.md)
   - [Turbo Overkill](./game-support/turbo-overkill.md)
