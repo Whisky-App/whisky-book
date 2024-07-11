@@ -1,7 +1,5 @@
 # NIMBY Rails
-<!-- script:Aliases [
-    "Nimby Rails"
-] -->
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
