@@ -9,11 +9,22 @@
     --code-font-size: 0.875em /* please adjust the ace font size accordingly in editor.js */
 }
 
+.hljs {
+    color: #eee0d4 !important;
+    background: #0c0906 !important;
+    border: 1px solid rgba(197, 200, 198, 0.2) !important;
+    border-radius: 5px;
+}
+
+.mdbook-alerts {
+    border-radius: 0 5px 5px 0;
+}
+
 .whisky {
-    --bg: rgb(17, 24, 39);
+    --bg: #18120c;
     --fg: #ffffff;
 
-    --sidebar-bg: rgb(31, 41, 55);
+    --sidebar-bg: #251e17;
     --sidebar-fg: rgb(255, 255, 255);
     --sidebar-non-existant: #505254;
     --sidebar-active: rgb(245, 158, 11);
@@ -21,8 +32,8 @@
 
     --scrollbar: var(--sidebar-fg);
 
-    --icons: rgb(107, 114, 128);
-    --icons-hover: #b3c0cc;
+    --icons: #eee0d4;
+    --icons-hover: rgb(245, 158, 11);
 
     --links: rgb(245, 158, 11);
 
@@ -32,14 +43,14 @@
     --theme-popup-border: #43484d;
     --theme-hover: #1f2124;
 
-    --quote-bg: hsl(234, 21%, 18%);
-    --quote-border: hsl(234, 21%, 23%);
+    --quote-bg: #403830;
+    --quote-border: #9c8e80;
 
     --warning-border: #ff8e00;
 
-    --table-border-color: rgba(255, 255, 255, 15%);
+    --table-border-color: rgba(197, 200, 198, 0.2);
     --table-header-bg: transparent;
-    --table-alternate-bg:  rgba(255, 255, 255, 15%);
+    --table-alternate-bg: rgba(197, 200, 198, 0.2);
 
     --searchbar-border-color: #aaa;
     --searchbar-bg: #b7b7b7;

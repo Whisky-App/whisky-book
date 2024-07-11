@@ -5,4 +5,4 @@
 
 The game runs with constant stutters.
 
-{{#template ../templates/steam.md id=205100}}
+{{#template ../templates/steam.md id=217980}}

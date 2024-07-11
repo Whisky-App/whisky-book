@@ -9,4 +9,4 @@
 > [!WARNING]
 > Audio is glitchy - sounds like a mix of original audio quality with 8-bit version of it.
 
-{{#template ../templates/steam.md id=243120}}
+Here is the [Betrayer Steam link](https://store.steampowered.com/app/243120/Betrayer/) as the preview won't be loaded for an unavailable game.
