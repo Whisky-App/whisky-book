@@ -70,7 +70,7 @@
   - [Kingdom Come: Deliverance](./game-support/kcd.md)
   - [Kenshi](./game-support/kenshi.md)
   - [Kingsway](./game-support/kingsway.md)
-  - [The King of Fighter XV](./game-support/kof15.md)
+  - [The King of Fighters XV](./game-support/kof15.md)
   - [LEGO Star Wars III: The Clone Wars](./game-support/lego-sw-iii-clone-wars.md)
   - [LEGO Star Wars: The Skywalker Saga](./game-support/lego-sw-skywalker-saga.md)
   - [Lethal Company](./game-support/lethal-company.md)
