@@ -1,4 +1,4 @@
-# The King of Fighter XV
+# The King of Fighters XV
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
