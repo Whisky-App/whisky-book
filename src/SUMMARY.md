@@ -21,6 +21,7 @@
   - [Call of Cthulhu: Dark Corners of the Earth](./game-support/call-of-cthulhu-dcote.md)
   - [Call of Cthulhu](./game-support/call-of-cthulhu.md)
   - [Cities: Skylines 2](./game-support/cities-skylines-2.md)
+  - [Cloudpunk](./game-support/cloudpunk.md)
   - [Call of Juarez: Bound in Blood](./game-support/coj-bound-in-blood.md)
   - [Call of Juarez: Gunslinger](./game-support/coj-gunslinger.md)
   - [Call of Juarez](./game-support/coj.md)
