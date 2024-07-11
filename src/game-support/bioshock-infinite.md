@@ -1,8 +1,5 @@
 # Bioshock Infinite (Steam)
-<!-- script:Aliases [
-    "Bioshock Infinite Steam",
-    "Bioshock: Infinite"
-] -->
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

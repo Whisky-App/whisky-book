@@ -1,8 +1,5 @@
 # Tom Clancy's Splinter Cell Blacklist (Steam)
-<!-- script:Aliases [
-    "Splinter Cell Blacklist",
-    "Splinter Cell: Blacklist"
-] -->
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
