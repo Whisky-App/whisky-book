@@ -1,5 +1,8 @@
 # Touhou 6 - Embodiment of Scarlet Devil
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+     "Touhou 6 Embodiment of Scarlet Devil",
+     "Touhou 6"    
+] -->
 
 {{#template ../templates/rating.md status=Silver installs=No opens=Yes}}
 
