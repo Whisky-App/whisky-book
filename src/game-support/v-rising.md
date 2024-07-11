@@ -1,4 +1,5 @@
-V Rising
+# V Rising
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 

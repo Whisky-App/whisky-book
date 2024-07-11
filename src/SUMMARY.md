@@ -130,6 +130,7 @@
   - [Undertale](./game-support/undertale.md)
   - [Under Night In-Birth II Sys:Celes](./game-support/uni2.md)
   - [Ultra Street Fighter IV](./game-support/usf4.md)
+  - [V Rising](./game-support/v-rising.md)
   - [The Vanishing of Ethan Carter](./game-support/vanishing-of-ethan-carter.md)
   - [Warframe](./game-support/warframe.md)
   - [The Witcher: Enhanced Edition Director's Cut](./game-support/witcher.md)
