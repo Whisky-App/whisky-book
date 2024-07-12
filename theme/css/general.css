@@ -9,7 +9,6 @@
 }
 
 html {
-    font-family: "Open Sans", sans-serif;
     color: var(--fg);
     background-color: var(--bg);
     text-size-adjust: none;
@@ -92,13 +91,6 @@ h6:target::before {
     box-sizing: border-box;
     background-color: var(--bg);
 }
-.no-js .page-wrapper,
-.js:not(.sidebar-resizing) .page-wrapper {
-    transition: margin-left 0.3s ease, transform 0.3s ease; /* Animation: slide away */
-}
-[dir=rtl] .js:not(.sidebar-resizing) .page-wrapper {
-    transition: margin-right 0.3s ease, transform 0.3s ease; /* Animation: slide away */
-}
 
 .content {
     overflow-y: auto;
@@ -129,7 +121,7 @@ table {
     border-collapse: collapse;
 }
 table td {
-    padding: 3px 20px;
+    padding: 1rem 2rem;
     border: 1px var(--table-border-color) solid;
 }
 table thead {
@@ -140,7 +132,7 @@ table thead td {
     border: none;
 }
 table thead th {
-    padding: 3px 20px;
+    padding: 1rem 2rem;
 }
 table thead tr {
     border: 1px var(--table-header-bg) solid;
@@ -149,7 +141,6 @@ table thead tr {
 table tbody tr:nth-child(2n) {
     background: var(--table-alternate-bg);
 }
-
 
 blockquote {
     margin: 20px 0;
