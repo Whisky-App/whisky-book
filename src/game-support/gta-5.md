@@ -17,7 +17,7 @@
   - If on, turn `DXVK` off.
   - Click on "Open Wine Configuration" and:
      - Under the "Application" tab add `Launcher.exe` (most likely from C:\Program Files\Rockstar Games\Grand Theft Auto V).
-     - While `Launcher.exe` is selected in the "Application" tab, switch to the "Libraries" tab and add `d3d10core`, `d311`, `d3d8`, `dxgi` selecting the "Native then Buildin" option for all.
+     - While `Launcher.exe` is selected in the "Application" tab, switch to the "Libraries" tab and add `d3d10core`, `d3d11`, `dxgi` selecting the "Native then Buildin" option for all.
      - Click "Apply" and start the game from Steam as usual.
 
 {{#template ../templates/steam.md id=271590}}
