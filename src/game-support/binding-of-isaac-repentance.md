@@ -1,6 +1,6 @@
 # The binding of isaac: Repentance
 <!-- script:Aliases [
-    "The binding of isaac: Repentance"
+    "The binding of isaac Repentance"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
