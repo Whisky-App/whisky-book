@@ -14,6 +14,7 @@
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Battle Brothers](./game-support/battle-brothers.md)
   - [Betrayer](./game-support/betrayer.md)
+  - [The binding of isaac: Repentance](./game-support/binding-of-isaac-repentance.md)
   - [Bioshock Infinite \(Steam\)](./game-support/bioshock-infinite.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
   - [Blitzkrieg 2 Anthology](./game-support/blitzkrieg-2-anthology.md)
