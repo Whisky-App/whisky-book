@@ -1,9 +1,12 @@
 # Kebab Chefs! - Restaurant Simulator
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
-> [!WARNING]
-> The game is stuck in the loading screen whenever you load or start a new game.
+## Setup
+- Use Windows 10 and enable DXVK
+- Install in Steam as normal
+- You might need to restart the game / your PC a few times to play
+- Game performs very bad, so use low graphic settings, limit the FPS or set a small resolution
 
 {{#template ../templates/steam.md id=1001270}}
