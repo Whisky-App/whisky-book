@@ -71,6 +71,7 @@
   - [In Sound Mind](./game-support/in-sound-mind.md)
   - [JoJo's Bizarre Adventure: All-Star Battle R](./game-support/jjba-asbr.md)
   - [Kingdom Come: Deliverance](./game-support/kcd.md)
+  - [Kebab Chefs! - Restaurant Simulator](./game-support/kebab-chefs.md)
   - [Kenshi](./game-support/kenshi.md)
   - [Kingsway](./game-support/kingsway.md)
   - [The King of Fighters XV](./game-support/kof15.md)
