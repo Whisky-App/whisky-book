@@ -6,4 +6,7 @@
 > [!NOTE]
 > Very minor audio crackling. Almost unoticable.
 
+> [!NOTE]
+> Game runs substantially better than Feral's mac port.
+
 {{#template ../templates/steam.md id=307690}}
