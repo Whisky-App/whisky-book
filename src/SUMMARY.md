@@ -111,6 +111,7 @@
   - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
+  - [Sleeping Dogs](./game-support/sleeping-dogs-de.md)
   - [Sniper: Ghost Warrior 2](./game-support/sniper-gw-2.md)
   - [Sniper: Ghost Warrior](./game-support/sniper-gw.md)
   - [S.T.A.L.K.E.R.: Clear Sky](./game-support/stalker-clear-sky.md)
