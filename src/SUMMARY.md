@@ -20,6 +20,7 @@
   - [Buckshot Roulette](./game-support/buckshot-roulette.md)
   - [Call of Cthulhu: Dark Corners of the Earth](./game-support/call-of-cthulhu-dcote.md)
   - [Call of Cthulhu](./game-support/call-of-cthulhu.md)
+  - [Call of Duty: Black Ops III](./game-support/call-of-duty-bo-3.md)
   - [Cities: Skylines 2](./game-support/cities-skylines-2.md)
   - [Cloudpunk](./game-support/cloudpunk.md)
   - [Call of Juarez: Bound in Blood](./game-support/coj-bound-in-blood.md)
