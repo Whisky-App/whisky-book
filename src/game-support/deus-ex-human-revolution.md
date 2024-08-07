@@ -1,5 +1,7 @@
 # Deus Ex: Human Revolution
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Deus Ex: Human Revolution"
+] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 

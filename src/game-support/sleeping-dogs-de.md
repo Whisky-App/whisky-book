@@ -1,10 +1,12 @@
 # Sleeping Dogs: Definitive Edition
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Sleeping Dogs: Definitive Edition"
+] -->
 
-{{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
 > [!NOTE]
-> Very minor audio crackling. Almost unoticable.
+> Very minor audio crackling. Set output speaker format to 88,200hz to fix in `Audio Midi Settings`
 
 > [!NOTE]
 > Game runs substantially better than Feral's mac port.
