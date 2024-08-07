@@ -1,6 +1,6 @@
 # Sleeping Dogs: Definitive Edition
 <!-- script:Aliases [
-    "Sleeping Dogs: Definitive Edition"
+    "Sleeping Dogs Definitive Edition"
 ] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}

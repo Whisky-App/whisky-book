@@ -1,6 +1,6 @@
 # Weird West: Definitive Edition
 <!-- script:Aliases [
-    "Weird West: Definitive Edition"
+    "Weird West Definitive Edition"
 ] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}

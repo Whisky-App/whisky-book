@@ -1,6 +1,6 @@
 # Call of Duty: Black Ops III
 <!-- script:Aliases [
-    "Call of Duty: Black Ops III",
+    "Call of Duty Black Ops III",
     "Call of Duty: Black Ops 3",
     "Black Ops 3"
 ] -->
