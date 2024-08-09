@@ -1,5 +1,7 @@
 # Wolfenstein: The New Order
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Wolfenstein The New Order"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

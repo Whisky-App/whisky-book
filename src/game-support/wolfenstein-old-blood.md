@@ -1,5 +1,7 @@
 # Wolfenstein: The Old Blood
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Wolfenstein The Old Blood"
+] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
