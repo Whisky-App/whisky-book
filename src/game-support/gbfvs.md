@@ -1,4 +1,7 @@
 # Granblue Fantasy: Versus
+<!-- script:Aliases [
+    "Granblue Fantasy Versus"
+] -->'
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 

@@ -1,4 +1,7 @@
 # Street Fighter 6
+<!-- script:Aliases [
+    "Street Fighter VI"
+] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
