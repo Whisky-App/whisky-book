@@ -110,6 +110,7 @@
   - [Ruiner](./game-support/ruiner.md)
   - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
+  - [Street Fighter 30th Anniversary Collection](./game-support/sf30.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Sniper: Ghost Warrior 2](./game-support/sniper-gw-2.md)
   - [Sniper: Ghost Warrior](./game-support/sniper-gw.md)
