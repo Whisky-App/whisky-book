@@ -5,7 +5,6 @@
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
-
 > [!NOTE]
 > The in-game mods don't seem to work.
 
