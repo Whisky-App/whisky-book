@@ -16,6 +16,6 @@
 > These changes fixed visual glitches and improved performance.
 
 ### Heroic Games Launcher
-- Download in Heroic as normal, select whisky and set the custom environment variables.
+- Download in Heroic as normal, select Whisky, and set the custom environment variables as layed out above.
 
 {{#template ../templates/steam.md id=750920}}
