@@ -72,6 +72,7 @@
   - [Hellblade: Senua's Sacrifice](./game-support/hellblade.md)
   - [Hitman: Contracts](./game-support/hitman-3-c.md)
   - [Hearts of Iron III](./game-support/hoi-3.md)
+  - [Hollow Knight](./game-support/hollow-knight.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [Homeworld 3](./game-support/hw-3.md)
   - [In Sound Mind](./game-support/in-sound-mind.md)
