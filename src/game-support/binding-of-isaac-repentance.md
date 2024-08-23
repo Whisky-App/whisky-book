@@ -8,6 +8,6 @@
 ## Setup
 
 - Install in Steam as normal.
-- In Whisky, find `issac-ng.exe` in the Program list and run it.
+- In Whisky, find `isaac-ng.exe` in the Program list and run it.
 
 {{#template ../templates/steam.md id=1426300}}
