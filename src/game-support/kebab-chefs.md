@@ -1,14 +1,16 @@
 # Kebab Chefs! - Restaurant Simulator
-<!-- script:Aliases [] -->
+<!-- script:Aliases [ "Kebab Chefs" ] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 ## Setup
 - Use Windows 10 and enable DXVK
 - Install in Steam as normal
-- You might need to restart the game / your PC a few times to play
+
+> [!NOTE]
+> You may need to restart the game / your Mac in order for the game to launch.
 
 > [!WARNING]
-> Game performs very bad, so use low graphic settings, limit the FPS or set a small resolution
+> Game performs very poorly, so use low graphic settings, limit the FPS, or lower the resolution.
 
 {{#template ../templates/steam.md id=1001270}}
