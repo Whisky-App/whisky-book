@@ -155,6 +155,7 @@
   - [The Wolf Among Us](./game-support/wolf-among-us.md)
   - [Wolfenstein: The New Order](./game-support/wolfenstein-new-order.md)
   - [Wolfenstein: The Old Blood](./game-support/wolfenstein-old-blood.md)
+  - [Wolfenstein II: The New Colossus](./game-support/wolfenstein2-new-colossus.md)
   - [Your Only Move Is Hustle](./game-support/yomi-hustle.md)
   - [ZERO Sievert](./game-support/zero-sievert.md)
 <!-- script:Generate End -->
