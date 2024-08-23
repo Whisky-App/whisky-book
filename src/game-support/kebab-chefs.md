@@ -11,6 +11,6 @@
 > You may need to restart the game / your Mac in order for the game to launch.
 
 > [!WARNING]
-> Game performs very poorly, so use low graphic settings, limit the FPS, or lower the resolution.
+> The game performs very poorly, so use low graphic settings, limit the FPS, or lower the resolution.
 
 {{#template ../templates/steam.md id=1001270}}
