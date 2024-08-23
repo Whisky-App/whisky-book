@@ -122,6 +122,7 @@
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
   - [Street Fighter 30th Anniversary Collection](./game-support/sf30.md)
   - [Street Fighter 6](./game-support/sf6.md)
+  - [Shadow of the Tomb Raider: Definitive Edition](./game-support/shadow-of-the-tomb-raider-de.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Sleeping Dogs: Definitive Edition](./game-support/sleeping-dogs-de.md)
   - [Sniper: Ghost Warrior 2](./game-support/sniper-gw-2.md)
