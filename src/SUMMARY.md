@@ -18,7 +18,7 @@
   - [Blasphemous 2](./game-support/blasphemous-2.md)
   - [Blitzkrieg 2 Anthology](./game-support/blitzkrieg-2-anthology.md)
   - [Buckshot Roulette](./game-support/buckshot-roulette.md)
-  - [The Calisto Protocal](./game-support/calisto-protocal.md)
+  - [The Calisto Protocol](./game-support/calisto-protocol.md)
   - [Call of Cthulhu: Dark Corners of the Earth](./game-support/call-of-cthulhu-dcote.md)
   - [Call of Cthulhu](./game-support/call-of-cthulhu.md)
   - [Call of Duty: Black Ops III](./game-support/call-of-duty-bo-3.md)

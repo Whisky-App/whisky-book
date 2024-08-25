@@ -1,6 +1,6 @@
-# The Calisto Protocal
+# The Calisto Protocol
 <!-- script:Aliases [
-    "Calisto Protocal"
+    "Calisto Protocol"
 ] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
