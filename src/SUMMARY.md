@@ -84,6 +84,7 @@
   - [Lethal Company](./game-support/lethal-company.md)
   - [Lords Of The Fallen \(2014\)](./game-support/lotf-2014.md)
   - [Manor Lords](./game-support/manor-lords.md)
+  - [Marvel's Midnight Suns](./game-support/marvels-midnight-suns.md)
   - [Mount & Blade: With Fire & Sword](./game-support/mb-wfas.md)
   - [Metro 2033 Redux](./game-support/metro-2033-rx.md)
   - [Metro Exodus](./game-support/metro-exodus.md)
