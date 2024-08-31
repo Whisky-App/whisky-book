@@ -130,6 +130,7 @@
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Sleeping Dogs: Definitive Edition](./game-support/sleeping-dogs-de.md)
   - [Sniper: Ghost Warrior 2](./game-support/sniper-gw-2.md)
+  - [Sniper: Ghost Warrior 3](./game-support/sniper-gw-3.md)
   - [Sniper: Ghost Warrior](./game-support/sniper-gw.md)
   - [Tom Clancy's Splinter Cell](./game-support/splinter-cell.md)
   - [S.T.A.L.K.E.R.: Clear Sky](./game-support/stalker-clear-sky.md)
