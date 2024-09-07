@@ -98,6 +98,7 @@
   - [NecroVisioN: Lost Company](./game-support/necrovision-lost-company.md)
   - [NecroVision](./game-support/necrovision.md)
   - [Neon White](./game-support/neon-white.md)
+  - [NieR:Automata](./game-support/nier-automata.md)
   - [NIMBY Rails](./game-support/nimby-rails.md)
   - [Night Runners Prologue](./game-support/nr-prologue.md)
   - [Out of Action DEMO](./game-support/out-of-action-demo.md)
