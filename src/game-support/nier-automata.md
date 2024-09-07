@@ -1,4 +1,7 @@
 # NieR:Automata
+<!-- script:Aliases [
+    "Nier Automata"
+] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
