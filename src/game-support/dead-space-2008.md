@@ -5,7 +5,7 @@
     "Dead Space 2008"
 ] -->
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 > [!NOTE]
 > Opens with an unresponsive black screen
 
