@@ -87,6 +87,7 @@
   - [LEGO Star Wars III: The Clone Wars](./game-support/lego-sw-iii-clone-wars.md)
   - [LEGO Star Wars: The Skywalker Saga](./game-support/lego-sw-skywalker-saga.md)
   - [Lethal Company](./game-support/lethal-company.md)
+  - [Library Of Ruina](./game-support/lor.md)
   - [Lords Of The Fallen \(2014\)](./game-support/lotf-2014.md)
   - [Manor Lords](./game-support/manor-lords.md)
   - [Mount & Blade: With Fire & Sword](./game-support/mb-wfas.md)
