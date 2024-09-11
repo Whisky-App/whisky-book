@@ -85,7 +85,6 @@
   - [Kingdom Come: Deliverance](./game-support/kcd.md)
   - [Kebab Chefs! - Restaurant Simulator](./game-support/kebab-chefs.md)
   - [Kenshi](./game-support/kenshi.md)
-  - [Kingdom Come: Deliverance](./game-support/kingdom-come-deliverance.md)
   - [Kingsway](./game-support/kingsway.md)
   - [The King of Fighters XV](./game-support/kof15.md)
   - [LEGO Star Wars III: The Clone Wars](./game-support/lego-sw-iii-clone-wars.md)
