@@ -72,6 +72,7 @@
   - [Half-Life 2](./game-support/half-life-2.md)
   - [Half Sword Demo](./game-support/half-sword.md)
   - [Hellblade: Senua's Sacrifice](./game-support/hellblade.md)
+  - [Heroes of Might and Magic III](./game-support/heroes3.md)
   - [Hitman: Contracts](./game-support/hitman-3-c.md)
   - [Hearts of Iron III](./game-support/hoi-3.md)
   - [Hollow Knight](./game-support/hollow-knight.md)
