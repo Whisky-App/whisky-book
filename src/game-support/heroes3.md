@@ -24,7 +24,7 @@
 4. *(optional)* Download [hota mod](https://h3hota.com/en/download)
 
 ### Installation:
-1. create new bottle (I used win7) and follow all installation instructions (roseta, wine, etc.)
+1. create new bottle (win7) and follow all installation instructions (roseta, wine, etc.)
 2. run the heroes 3 installation
 3. *(optional)* run the heroes3hd mod installation
 3. *(optional)* run hota mod installation
