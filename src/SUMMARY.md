@@ -13,6 +13,7 @@
   - [Among Us](./game-support/among-us.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Battle Brothers](./game-support/battle-brothers.md)
+  - [BeamNG.Drive](./game-support/beamng-drive.md)
   - [Betrayer](./game-support/betrayer.md)
   - [The Binding of Isaac: Rebirth](./game-support/binding-of-isaac-rebirth.md)
   - [The Binding of Isaac: Repentance](./game-support/binding-of-isaac-repentance.md)
