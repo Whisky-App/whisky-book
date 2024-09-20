@@ -1,9 +1,8 @@
 # Among Us
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 
-> [!NOTE]
-> This game has an iPad Mac port through the App Store.
+Lighting is completely broken.
 
 {{#template ../templates/steam.md id=945360}}
