@@ -7,7 +7,7 @@
     "HoMM 3"
 ] -->
 
-{{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
 > [!IMPORTANT]
 > The game is available on GOG and it is the [Complete Edition](https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition) which is the definite version. The Steam version is using the HD "remaster" which is not recommended and not tested.
