@@ -66,6 +66,7 @@
   - [Granblue Fantasy: Versus](./game-support/gbfvs.md)
   - [Guilty Gear -Strive-](./game-support/ggst.md)
   - [GreedFall](./game-support/greedfall.md)
+  - [Grand Theft Auto IV](./game-support/gta-4.md)
   - [Grand Theft Auto V](./game-support/gta-5.md)
   - [Guild Wars 2](./game-support/gw2.md)
   - [Geometry Wars 3: Dimensions Evolved](./game-support/gw3-dimensions-evolved.md)

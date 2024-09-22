@@ -1,8 +1,8 @@
-# Grand Theft Auto 4
+# Grand Theft Auto IV
 <!-- script:Aliases [
     "GTA 4",
     "GTA IV",
-    "Grand Theft Auto IV"
+    "Grand Theft Auto 4"
 ] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
