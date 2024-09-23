@@ -7,7 +7,7 @@
 > The Sims 2 is reliant on DirectX 9, which is largely unsupported by Whisky at this stage.
 
 > [!NOTE]
-> This game is not available to purchase and the Windows version is considered abandonware. This guide uses the open source installer [The Sims 2 Starter Pack](https://github.com/voicemxil/TS2-Starter-Pack)
+> This game is not available to purchase and the Windows version is considered abandonware. This guide uses the open source installer [The Sims 2 Starter Pack](https://github.com/voicemxil/TS2-Starter-Pack).
 
 ## Setup
 
