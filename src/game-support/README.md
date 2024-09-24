@@ -15,5 +15,5 @@ title is partially left to the article author, but some general guidelines apply
 | Platinum | Game without any defects and runs perfectly.                                                   |
 | Gold     | Game can be configured to run perfectly and without any defects.                               |
 | Silver   | Game requires some configuration to run and or has minor defects.                              |
-| Bronze   | Game is very difficult to get working and or has severe in-game issues that limit playability. |
+| Bronze   | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
 | Garbage  | Game is unplayable.                                                                            |

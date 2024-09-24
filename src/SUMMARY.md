@@ -88,6 +88,8 @@
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
   - [Homeworld 3](./game-support/hw-3.md)
   - [In Sound Mind](./game-support/in-sound-mind.md)
+  - [Just Cause](./game-support/jc.md)
+  - [Just Cause 2](./game-support/jc2.md)
   - [JoJo's Bizarre Adventure: All-Star Battle R](./game-support/jjba-asbr.md)
   - [Just Cause](./game-support/just-cause.md)
   - [Just Cause 2](./game-support/just-cause2.md)
