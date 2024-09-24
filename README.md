@@ -29,6 +29,8 @@ Documentation for Whisky.
    - Ensure proper grammar, capitalization, spelling, spacing, and general professionalism. Jokes and such are allowed, but lets prioritize helping others before all else.
    - Ensure accuracy. Don't upload misleading information, false reports, guesses, or improper research.
    - Cite your sources. Found a guide from somewhere else? Found a solution or other thing online? Provide a link in your page. This isn't a requirement that's going to get your PR rejected, but simply one that future-proofs things and ensures that if a game suddenly breaks, we can check our sources and see if there are any updates to the solutions found.
+   - Document the installation process and any errors that arise during the installation. If installation fails, set `installs=No` in the `Ratings` template.
+   - Document whether a program opens by setting `opens=Yes` in the `Ratings` template. A program is considered "open" if it launches the title screen or main menu. Dialog messages don't count as a program "opening".
    - Add status ratings to your game based on the following scale. We leave this up to general author interpretation, but please make sure you're still following these general guidelines:
 
     | Status   | Description                                                                                    |
@@ -36,8 +38,8 @@ Documentation for Whisky.
     | Platinum | Game without any defects and runs perfectly.                                                   |
     | Gold     | Game can be configured to run perfectly and without any defects.                               |
     | Silver   | Game requires some configuration to run and or has minor defects.                              |
-    | Bronze   | Game is very difficult to get working and/or has severe in-game issues that limit playability. |
-    | Garbage  | Game does not work at all.                                                                     |
+    | Bronze   | Game is very difficult to get working and or has severe in-game issues that limit playability. |
+    | Garbage  | Game is unplayable.                                                                            |
   
 1. Create a new markdown file in `~/whisky-book/src/game-support` with the name of the game.
    - Format your file in all lowercase, using only alphabetical, numerical, and dash characters, and use abbreviations where possible. i.e:
@@ -57,7 +59,7 @@ Documentation for Whisky.
    ```
    {{#template ../templates/steam.md id=<steam_id>}}
    ```
-   Ensure that you're replacing the <> tags with the proper values in order to comply with the wiki layout. Below is an example of what [Star Wars Jedi: Fallen Order](https://docs.getwhisky.app/game-support/sw-fallen-order.html) will look like, and what it will look like on the wiki.
+   Ensure that you're replacing the `<>` tags with the proper values in order to comply with the wiki layout. Below is an example of what [Star Wars Jedi: Fallen Order](https://docs.getwhisky.app/game-support/sw-fallen-order.html) will look like, and what it will look like on the wiki.
    ```
    # Star Wars Jedi: Fallen Order
 
