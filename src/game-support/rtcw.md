@@ -1,7 +1,5 @@
 # Return to Castle Wolfenstein
-<!-- script:Aliases [
-    "RTCW"
-] -->
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 

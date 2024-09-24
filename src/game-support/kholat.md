@@ -10,4 +10,5 @@
 
 > [!WARNING]
 > Sound is stuttering a little.
+
 {{#template ../templates/steam.md id=343710}}
