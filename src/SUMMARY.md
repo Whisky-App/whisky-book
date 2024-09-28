@@ -138,6 +138,7 @@
   - [Ruiner](./game-support/ruiner.md)
   - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro.md)
+  - [Severed Steel](./game-support/severed-steel.md)
   - [Street Fighter 30th Anniversary Collection](./game-support/sf30.md)
   - [Street Fighter 6](./game-support/sf6.md)
   - [Suit For Hire](./game-support/sfh.md)
