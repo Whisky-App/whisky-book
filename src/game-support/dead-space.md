@@ -1,7 +1,8 @@
-# Dead Space (2023)
+# Dead Space
 <!-- script:Aliases [
     "Dead Space 2023",
-    "Dead Space"
+    "Dead Space (2023)",
+    "Dead Space Remake"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

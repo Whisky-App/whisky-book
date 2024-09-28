@@ -1,6 +1,6 @@
-# Half Sword Demo
+# GrandChase
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
-{{#template ../templates/steam.md id=2397300}}
+{{#template ../templates/steam.md id=985810}}

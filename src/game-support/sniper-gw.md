@@ -1,7 +1,9 @@
 # Sniper: Ghost Warrior
-<!-- script:Aliases [] -->
+<!-- script:Aliases [
+    "Sniper Ghost Warrior"
+] -->
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 > [!WARNING]
 > Crashes instantly.
