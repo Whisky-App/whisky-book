@@ -162,6 +162,8 @@
   - [Star Wars: The Old Republic](./game-support/sw-tor.md)
   - [Tom Clancy's Rainbow Six Siege \(Steam\)](./game-support/tcr6s.md)
   - [Tom Clancy's Splinter Cell Blacklist \(Steam\)](./game-support/tcscb.md)
+  - [Tekken 7](./game-support/tekken7.md)
+  - [Tekken 8](./game-support/tekken8.md)
   - [The Sims 2 \(Ultimate Collection\)](./game-support/the-sims-2.md)
   - [Thief II: The Metal Age](./game-support/thief-2.md)
   - [Thief: Deadly Shadows](./game-support/thief-3.md)
