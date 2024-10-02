@@ -2,6 +2,8 @@
 
 Documentation for Whisky.
 
+## Please read ALL STEPS before contributing.
+
 ### How to Contribute
 
 1. Clone into the repository
@@ -77,6 +79,10 @@ Documentation for Whisky.
 3. Run the `generate` script with `./scripts/generate.mjs` to update `SUMMARY.md`.
    This will also make the game appear in the sidebar of the book.
 4. Run `./scripts/lint.mjs` to ensure that your changes are properly formatted.
+
+> [!WARNING]
+> You **MUST** run **BOTH** the `generate` and `lint` commands before creating a PR. Your PR will not (and can not) be merged until you do this.
+
 5. Create a pull request detailing the changes you made. Ensure that it's consise, yet readable and coherent.
    - You will need to create a fork of `whisky-book` and push your changes there before creating a PR. Once you've done that, then you can submit a PR to merge your fork with `main`.
 6. Sit back, wait for PR reviews, and make changes as necessary.
