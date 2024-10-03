@@ -6,7 +6,7 @@
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
 > [!NOTE]
-> This game has a 32-bit macOS port, but is not compatible with macOS 10.15 Catalina and up.
+> This game has a 32-bit macOS build, but it is not compatible with macOS 10.15 Catalina and up.
 
 ## Setup
 
