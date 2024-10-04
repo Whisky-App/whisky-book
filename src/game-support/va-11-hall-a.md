@@ -1,6 +1,6 @@
-# VA-11 Hall-A: Cyberpunk Bartender Action
+# VA-11 HALL-A: Cyberpunk Bartender Action
 <!-- script:Aliases [
-    "VA-11 HALL-A"
+    "VA-11 Hall-A"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

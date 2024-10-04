@@ -182,7 +182,7 @@
   - [Under Night In-Birth II Sys:Celes](./game-support/uni2.md)
   - [Ultra Street Fighter IV](./game-support/usf4.md)
   - [V Rising](./game-support/v-rising.md)
-  - [VA-11 Hall-A: Cyberpunk Bartender Action](./game-support/va-11-hall-a.md)
+  - [VA-11 HALL-A: Cyberpunk Bartender Action](./game-support/va-11-hall-a.md)
   - [The Vanishing of Ethan Carter](./game-support/vanishing-of-ethan-carter.md)
   - [Warframe](./game-support/warframe.md)
   - [Weird West: Definitive Edition](./game-support/weird-west-de.md)
