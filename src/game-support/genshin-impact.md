@@ -12,6 +12,11 @@
 - Add `--in-process-gpu` to arguments
 - Relaunch and play as normal
 
-## Possible Issues
+## Issues
+
+### Natlan Texture Issues
+Natlan has some texture issues where parts of the ground appear rainbow colored. Restarting the game fixes temporarily.
+
+### Verification Issues
 Some users report being unable to view the verification puzzle.  
 Fix detailed here: [https://github.com/Whisky-App/Whisky/issues/858#issuecomment-1987155593](https://github.com/Whisky-App/Whisky/issues/858#issuecomment-1987155593)
