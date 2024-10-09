@@ -71,6 +71,7 @@
   - [Friends vs Friends](./game-support/friends-vs-friends.md)
   - [Frostpunk 2](./game-support/frostpunk2.md)
   - [Granblue Fantasy: Versus](./game-support/gbfvs.md)
+  - [Genshin Impact](./game-support/genshin-impact.md)
   - [Guilty Gear -Strive-](./game-support/ggst.md)
   - [GrandChase](./game-support/grandchase.md)
   - [GreedFall](./game-support/greedfall.md)
