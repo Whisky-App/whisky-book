@@ -19,4 +19,4 @@ Natlan has some texture issues where parts of the ground appear rainbow colored.
 
 ### Verification Issues
 Some users report being unable to view the verification puzzle.  
-Fix detailed here: [https://github.com/Whisky-App/Whisky/issues/858#issuecomment-1987155593](https://github.com/Whisky-App/Whisky/issues/858#issuecomment-1987155593)
+Fix detailed [here.](https://github.com/Whisky-App/Whisky/issues/858#issuecomment-1987155593)
