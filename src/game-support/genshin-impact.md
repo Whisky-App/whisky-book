@@ -3,6 +3,8 @@
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
+> [!WARNING]
+> Some users have [reported](https://discord.com/channels/1115955071549702235/1232559655113457694/1232559655113457694) their accounts getting banned after playing Genshin through Whisky. Play at your own risk.
 
 ## Setup
 - Install via exe from genshin impact website.
