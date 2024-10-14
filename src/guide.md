@@ -47,3 +47,13 @@ Overall, trust your judgment and separate where it feels right.
 For Steam games, you can create one shared Windows game library that you use between all of your bottles.
 This helps keep your game installations detached from your bottle instances,
 so you won't have to re-download everything if your bottle mucks up.
+Additionally, this enables your game library to be used with other applications, such as CrossOver.
+
+### Creating a Shared Game Library
+
+1. Create a folder where you'd like to store your games. This can be anywhere, but it's recommended to place it somewhere
+like `~/Documents/Steam Library` or `~/Library/Steam Library`.
+2. Create a new bottle and install Steam.
+3. Open Steam, and navigate to `Steam -> Settings -> Storage`, click on `Local Drive` and click on the `Add Drive` option.
+4. In the popup, navigate to the folder you created above, and click Open.
+5. Set this drive that you've just added as your default drive.
