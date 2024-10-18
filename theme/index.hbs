@@ -1,59 +1,64 @@
 <!DOCTYPE HTML>
 <html lang="{{ language }}" class="whisky" dir="{{ text_direction }}">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>{{ title }}</title>
-        {{#if is_print }}
-        <meta name="robots" content="noindex">
-        {{/if}}
-        {{#if base_url}}
-        <base href="{{ base_url }}">
-        {{/if}}
+
+<head>
+    <!-- Book generated using mdBook -->
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    {{#if is_print }}
+    <meta name="robots" content="noindex">
+    {{/if}}
+    {{#if base_url}}
+    <base href="{{ base_url }}">
+    {{/if}}
 
 
-        <!-- Custom HTML head -->
-        {{> head}}
+    <!-- Custom HTML head -->
+    {{> head}}
 
-        <meta name="description" content="{{ description }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#251e17">
+    <meta name="description" content="{{ description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#251e17">
 
-        {{#if favicon_svg}}
-        <link rel="icon" href="{{ path_to_root }}favicon.svg">
-        {{/if}}
-        {{#if favicon_png}}
-        <link rel="shortcut icon" href="{{ path_to_root }}favicon.png">
-        {{/if}}
-        <link rel="stylesheet" href="{{ path_to_root }}css/variables.css">
-        <link rel="stylesheet" href="{{ path_to_root }}css/general.css">
-        <link rel="stylesheet" href="{{ path_to_root }}css/chrome.css">
-        {{#if print_enable}}
-        <link rel="stylesheet" href="{{ path_to_root }}css/print.css" media="print">
-        {{/if}}
+    {{#if favicon_svg}}
+    <link rel="icon" href="{{ path_to_root }}favicon.svg">
+    {{/if}}
+    {{#if favicon_png}}
+    <link rel="shortcut icon" href="{{ path_to_root }}favicon.png">
+    {{/if}}
+    <link rel="stylesheet" href="{{ path_to_root }}css/variables.css">
+    <link rel="stylesheet" href="{{ path_to_root }}css/general.css">
+    <link rel="stylesheet" href="{{ path_to_root }}css/chrome.css">
+    {{#if print_enable}}
+    <link rel="stylesheet" href="{{ path_to_root }}css/print.css" media="print">
+    {{/if}}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="{{ path_to_root }}FontAwesome/css/font-awesome.css">
-        {{#if copy_fonts}}
-        <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css">
-        {{/if}}
+    <!-- Fonts -->
+    {{!--
+    <link rel="stylesheet" href="{{ path_to_root }}FontAwesome/css/font-awesome.css"> --}}
+    {{#if copy_fonts}}
+    <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css">
+    {{/if}}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="{{ path_to_root }}highlight.css">
-        <link rel="stylesheet" href="{{ path_to_root }}tomorrow-night.css">
-        <link rel="stylesheet" href="{{ path_to_root }}ayu-highlight.css">
+    <!-- Highlight.js Stylesheets -->
+    <link rel="stylesheet" href="{{ path_to_root }}highlight.css">
+    <link rel="stylesheet" href="{{ path_to_root }}tomorrow-night.css">
+    <link rel="stylesheet" href="{{ path_to_root }}ayu-highlight.css">
 
-        <!-- Custom theme stylesheets -->
-        {{#each additional_css}}
-        <link rel="stylesheet" href="{{ ../path_to_root }}{{ this }}">
-        {{/each}}
+    <!-- Custom theme stylesheets -->
+    {{#each additional_css}}
+    <link rel="stylesheet" href="{{ ../path_to_root }}{{ this }}">
+    {{/each}}
 
-        {{#if mathjax_support}}
-        <!-- MathJax -->
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        {{/if}}
-    </head>
-    <body class="sidebar-visible no-js">
+    {{#if mathjax_support}}
+    <!-- MathJax -->
+    <script async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {{/if}}
+</head>
+
+<body class="no-js">
+
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -78,115 +83,347 @@
             body.classList.add('js');
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden" checked>
+        <div id="page-wrapper" class="page-wrapper">
+            <div class="menu-bar">
+                <div class="menu-bar-inner menu-bar-left">
+                    <label id="sidebar-toggle" for="sidebar-toggle-anchor" class="menu-bar-button"
+                        title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor">
+                            <path
+                                d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z" />
+                        </svg>
+                    </label>
+                    <a href="{{ path_to_root }}/" class="menu-bar-logo-link">
+                        <img src="{{ path_to_root }}favicon.png" alt="Logo" class="menu-bar-logo">
+                        <h1 class="menu-bar-title">
+                            <span class="menu-bar-title-gradient">Whisky</span>
+                            <span> docs</span>
+                        </h1>
+                    </a>
+                    <div class="flex-spacer"></div>
+                </div>
+                <div class="menu-bar-inner menu-bar-center">
+                    <label class="menu-bar-search-box" for="search-toggle-anchor" title="Search" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor">
+                            <path
+                                d="M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                        </svg>
+                        <span>Search</span>
+                        <div class="flex-spacer"></div>
+                        <div class="menu-bar-search-box-shortcut" id="search-shortcut">
+                            ⌘+K
+                        </div>
+                    </label>
+                    <div class="hidden" id="search-toggle"></div>
+                </div>
+                <div class="menu-bar-inner menu-bar-right">
+                    <a href="https://discord.gg/whisky-1115955071549702235" title="Discord Server"
+                        class="menu-bar-button">
+                        <svg viewBox="0 0 25 25" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.2477 6.14252C18.0651 5.60109 16.8166 5.21698 15.5342 5C15.3587 5.31372 15.1999 5.63649 15.0585 5.96696C13.6924 5.76112 12.3033 5.76112 10.9372 5.96696C10.7957 5.63652 10.6369 5.31375 10.4615 5C9.17825 5.21881 7.92895 5.60383 6.74514 6.14535C4.39498 9.62245 3.75789 13.0132 4.07644 16.3558C5.45275 17.3727 6.99324 18.146 8.63094 18.6423C8.9997 18.1463 9.326 17.6201 9.60639 17.0693C9.07383 16.8704 8.55982 16.625 8.07029 16.336C8.19913 16.2425 8.32513 16.1463 8.44689 16.0528C9.87128 16.7227 11.4259 17.07 13 17.07C14.574 17.07 16.1287 16.7227 17.5531 16.0528C17.6762 16.1534 17.8022 16.2496 17.9296 16.336C17.4392 16.6255 16.9242 16.8714 16.3907 17.0708C16.6708 17.6213 16.9971 18.147 17.3662 18.6423C19.0053 18.148 20.5469 17.375 21.9235 16.3572C22.2973 12.4809 21.285 9.12128 19.2477 6.14252ZM10.0099 14.3001C9.1222 14.3001 8.38884 13.4946 8.38884 12.5035C8.38884 11.5125 9.09672 10.6998 10.0071 10.6998C10.9174 10.6998 11.6451 11.5125 11.6295 12.5035C11.6139 13.4946 10.9146 14.3001 10.0099 14.3001ZM15.9901 14.3001C15.101 14.3001 14.3704 13.4946 14.3704 12.5035C14.3704 11.5125 15.0783 10.6998 15.9901 10.6998C16.9018 10.6998 17.6238 11.5125 17.6083 12.5035C17.5927 13.4946 16.8947 14.3001 15.9901 14.3001Z" />
+                        </svg>
+
+                    </a>
+                    {{#if git_repository_url}}
+                    <a href="{{git_repository_url}}" title="Git repository" aria-label="Git repository"
+                        class="menu-bar-button">
+                        <svg viewBox="0 0 25 25" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.0074 3C8.02656 3 4 7.12498 4 12.2281C4 16.3074 6.57996 19.7604 10.159 20.9825C10.6065 21.0744 10.7704 20.7839 10.7704 20.5396C10.7704 20.3257 10.7557 19.5924 10.7557 18.8283C8.25002 19.3784 7.72824 17.7283 7.72824 17.7283C7.32557 16.6588 6.72893 16.3839 6.72893 16.3839C5.90883 15.8186 6.78867 15.8186 6.78867 15.8186C7.69837 15.8797 8.17572 16.7658 8.17572 16.7658C8.98089 18.1713 10.2783 17.7742 10.8003 17.5297C10.8748 16.9338 11.1135 16.5213 11.3671 16.2922C9.36863 16.0783 7.26602 15.2838 7.26602 11.7392C7.26602 10.7308 7.6237 9.90578 8.19047 9.26416C8.10105 9.03504 7.7878 8.0876 8.28008 6.81955C8.28008 6.81955 9.04062 6.57505 10.7555 7.76679C11.4897 7.56479 12.2469 7.46203 13.0074 7.46117C13.768 7.46117 14.5433 7.56823 15.2592 7.76679C16.9743 6.57505 17.7348 6.81955 17.7348 6.81955C18.2271 8.0876 17.9137 9.03504 17.8242 9.26416C18.4059 9.90578 18.7489 10.7308 18.7489 11.7392C18.7489 15.2838 16.6463 16.0629 14.6329 16.2922C14.9611 16.5824 15.2443 17.1324 15.2443 18.0033C15.2443 19.2408 15.2295 20.234 15.2295 20.5394C15.2295 20.7839 15.3936 21.0744 15.8409 20.9827C19.42 19.7602 22 16.3074 22 12.2281C22.0147 7.12498 17.9734 3 13.0074 3Z" />
+                        </svg>
+                    </a>
+                    {{/if}}
+                    <div class="menu-bar-divider"></div>
+                    {{#if search_enabled}}
+                    <label class="menu-bar-button" for="search-toggle-anchor" title="Search" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor">
+                            <path
+                                d="M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                        </svg>
+                    </label>
+                    {{/if}}
+                    {{#if git_repository_edit_url}}
+                    <a href="{{git_repository_edit_url}}" title="Suggest an edit" aria-label="Suggest an edit"
+                        class="menu-bar-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor">
+                            <path
+                                d="M200-400q-17 0-28.5-11.5T160-440q0-17 11.5-28.5T200-480h200q17 0 28.5 11.5T440-440q0 17-11.5 28.5T400-400H200Zm0-160q-17 0-28.5-11.5T160-600q0-17 11.5-28.5T200-640h360q17 0 28.5 11.5T600-600q0 17-11.5 28.5T560-560H200Zm0-160q-17 0-28.5-11.5T160-760q0-17 11.5-28.5T200-800h360q17 0 28.5 11.5T600-760q0 17-11.5 28.5T560-720H200Zm320 520v-66q0-8 3-15.5t9-13.5l209-208q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T863-380L655-172q-6 6-13.5 9t-15.5 3h-66q-17 0-28.5-11.5T520-200Zm300-223-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </a>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="page-inner">
+                <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+                    <div class="sidebar-inner">
+                        <span class="sidebar-title">Documentation</span>
+                        {{#toc}}{{/toc}}
+                        <div class="flex-spacer"></div>
+                    </div>
+                </nav>
+                <div class="page">
+                    {{> header}}
+                    <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                    <script>
+                        document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                        document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                        Array.from(document.querySelectorAll('#sidebar a')).forEach(function (link) {
+                            link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                        });
+                    </script>
+
+                    <div id="content" class="content">
+                        <main>
+                            {{{ content }}}
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{#if search_enabled}}
+        <input type="checkbox" id="search-toggle-anchor" class="hidden">
+        <label class="search-overlay" for="search-toggle-anchor">
+            <div class="search-overlay-inner" id="search-overlay-inner">
+                <div class="search-input-area">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor">
+                            <path
+                                d="M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                        </svg>
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search whisky docs..."
+                            aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <label for="search-toggle-anchor" class="search-overlay-close" title="Close search overlay" id="search-overlay-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z" />
+                        </svg>
+                    </label>
+                </div>
+                <div id="searchresults-outer" class="searchresults-outer">
+                    <div id="searchresults-header"></div>
+                    <ul id="searchresults">
+                    </ul>
+                </div>
+            </div>
+        </label>
+        {{/if}}
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             var body = document.querySelector('body');
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            var sidebarToggle = document.getElementById('sidebar-toggle-anchor');
+
             if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
+                var sidebar_target_state = false
+                try { sidebar_target_state = localStorage.getItem('mdbook-sidebar') === 'visible' } catch (e) { }
+                sidebarToggle.checked = sidebar_target_state;
             } else {
-                sidebar = 'hidden';
+                sidebarToggle.checked = false;
             }
-            sidebar_toggle.checked = sidebar === 'visible';
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+
+            setTimeout(function () {
+                document.body.classList.add('sidebar-loaded');
+            }, 0);
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                {{#toc}}{{/toc}}
-            </div>
-        </nav>
-
         <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
+        <script defer>
+            var sidebarScrollbox = document.getElementById('sidebar').children[0];
+            sidebarScrollbox.addEventListener('click', function (e) {
                 if (e.target.tagName === 'A') {
                     sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
                 }
-            }, { passive: true });
+            });
             var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
             sessionStorage.removeItem('sidebar-scroll');
             if (sidebarScrollTop) {
                 // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
+                // sidebarScrollbox.scrollTop = Math.min(sidebarScrollTop, sidebarScrollbox.scrollHeight - sidebarScrollbox.clientHeight);
             } else {
                 // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
                 var activeSection = document.querySelector('#sidebar .active');
                 if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
+                    // Go to old active section
+                    activeSection.scrollIntoView({ block: 'center', behavior: 'smooth' });
                 }
             }
         </script>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <!-- Sidebar toggle -->
+        <script>
+            var sidebarToggle = document.getElementById('sidebar-toggle-anchor');
 
-            <div class="page">
-                {{> header}}
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
-                    <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
-                        </label>
-                        {{#if search_enabled}}
-                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
-                        </button>
-                        {{/if}}
-                    </div>
+            sidebarToggle.addEventListener('input', function () {
+                var sidebarState = sidebarToggle.checked;
 
-                    <h1 class="menu-title">{{ book_title }}</h1>
+                try {
+                    localStorage.setItem('mdbook-sidebar', sidebarState ? 'visible' : 'hidden');
+                } catch (e) { }
+            });
+        </script>
 
-                    <div class="right-buttons">
-                        {{#if git_repository_url}}
-                        <a href="{{git_repository_url}}" title="Git repository" aria-label="Git repository">
-                            <i id="git-repository-button" class="fa {{git_repository_icon}}"></i>
-                        </a>
-                        {{/if}}
-                        {{#if git_repository_edit_url}}
-                        <a href="{{git_repository_edit_url}}" title="Suggest an edit" aria-label="Suggest an edit">
-                            <i id="git-edit-button" class="fa fa-edit"></i>
-                        </a>
-                        {{/if}}
+        {{#if search_enabled}}
+        <!-- Keybinds for search -->
+        <script>
+            var searchToggle = document.getElementById('search-toggle-anchor');
+            var searchShortcut = document.getElementById('search-shortcut');
+            var searchOutter = document.getElementById('search-overlay-inner');
+            var searchCloser = document.getElementById('search-overlay-close');
 
-                    </div>
-                </div>
+            // On macos the key is 'Meta' instead of 'Control'
+            var isMac = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
 
-                {{#if search_enabled}}
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                {{/if}}
+            // Update the search shortcut text to reflect the correct key
+            if (isMac) {
+                searchShortcut.textContent = '⌘ K';
+            } else {
+                searchShortcut.textContent = 'Ctrl K';
+            }
 
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+            document.addEventListener('keydown', function (event) {
+                console.log(event.key);
+                if (event.key === 'k' && (isMac ? event.metaKey : event.ctrlKey)) {
+                    searchToggle.checked = !searchToggle.checked;
+                    document.getElementById('searchbar').focus();
+                    event.preventDefault();
+                } else if (event.key === 'Escape' && searchToggle.checked) {
+                    searchToggle.checked = false;
+                    event.preventDefault();
+                }
+            });
+
+            searchOutter.addEventListener('click', function (event) {
+                event.preventDefault();
+                if (event.target === searchOutter || event.target === searchCloser) {
+                    searchToggle.checked = false;
+                } else if (event.target.tagName === 'A') {
+                    // Open the link
+                    location.href = event.target.href;
+                }
+            });
+        </script>
+
+        <!-- Searchbar virtual selection -->
+        <script>
+            var searchbar = document.getElementById('searchbar');
+            var searchresults = document.getElementById('searchresults');
+            var searchresultsHref = null;
+
+            function compareUrlPathWithoutSearch(a, b) {
+                var urlA = new URL(a);
+                var urlB = new URL(b);
+                return urlA.pathname === urlB.pathname && urlA.hash === urlB.hash;
+            }
+
+            function findIndexFromHref(href) {
+                var childrenElements = Array.from(searchresults.children);
+                for (var i = 0; i < childrenElements.length; i++) {
+                    var item = childrenElements[i];
+                    var a = item.children[0];
+                    if (compareUrlPathWithoutSearch(a.href, href)) {
+                        return i;
+                    }
+                }
+                return -1;
+            }
+
+            searchbar.addEventListener('keydown', function (event) {
+                if (([
+                    'ArrowUp',
+                    'ArrowDown',
+                    'Enter'
+                ].indexOf(event.key) === -1)) {
+                    return;
+                }
+
+                event.preventDefault();
+                event.stopPropagation();
+
+                if (searchresults.children.length === 0) {
+                    return;
+                }
+
+                var searchresultsIndex = -1;
+
+                if (searchresultsHref !== null) {
+                    searchresultsIndex = findIndexFromHref(searchresultsHref);
+                }
+
+                if (event.key === 'ArrowUp') {
+                    searchresultsIndex = Math.max(0, searchresultsIndex - 1);
+                } else if (event.key === 'ArrowDown') {
+                    searchresultsIndex = Math.min(searchresults.children.length - 1, searchresultsIndex + 1);
+                } else if (event.key === 'Enter') {
+                    if (searchresultsIndex !== -1) {
+                        window.location.href = searchresults.children[searchresultsIndex].children[0].href;
+                    }
+                    return;
+                }
+
+                // Add the active class to the selected item
+                searchresultsHref = searchresults.children[searchresultsIndex].children[0].href;
+                for (var i = 0; i < searchresults.children.length; i++) {
+                    searchresults.children[i].classList.remove('active');
+                }
+                searchresults.children[searchresultsIndex].classList.add('active');
+
+                // Scroll the selected item into view
+                searchresults.children[searchresultsIndex].scrollIntoView({
+                    block: 'nearest'
+                });
+            });
+
+            document
+
+            // When the searchresults are updated
+            var observer = new MutationObserver(function (mutations) {
+                if (searchresults.children.length === 0) {
+                    searchresultsHref = null;
+                    return;
+                }
+
+                // Check if the href still exists in the search results
+                var searchresultsIndex = -1;
+                if (searchresultsHref !== null) {
+                    searchresultsIndex = findIndexFromHref(searchresultsHref);
+                }
+
+                // If it does, add the active class and remove it from the others
+                if (searchresultsIndex !== -1) {
+                    for (var i = 0; i < searchresults.children.length; i++) {
+                        searchresults.children[i].classList.remove('active');
+                    }
+                    searchresults.children[searchresultsIndex].classList.add('active');
+                    searchresultsHref = searchresults.children[searchresultsIndex].children[0].href;
+                    searchresults.children[searchresultsIndex].scrollIntoView({
+                        block: 'nearest'
                     });
-                </script>
+                } else {
+                    // Select the first item if it exists
+                    if (searchresults.children.length > 0) {
+                        for (var i = 0; i < searchresults.children.length; i++) {
+                            searchresults.children[i].classList.remove('active');
+                        }
+                        searchresults.children[0].classList.add('active');
+                        searchresultsHref = searchresults.children[0].children[0].href;
+                        searchresults.children[0].scrollIntoView({
+                            block: 'nearest'
+                        });
+                    } else {
+                        searchresultsHref = null;
+                    }
+                }
+            });
 
-                <div id="content" class="content">
-                    <main>
-                        {{{ content }}}
-                    </main>
-                </div>
-            </div>
-        </div>
+            observer.observe(searchresults, {
+                childList: true
+            });
+        </script>
+        {{/if}}
 
         {{#if live_reload_endpoint}}
         <!-- Livereload script (if served using the cli tool) -->
@@ -201,7 +438,7 @@
                 }
             };
 
-            window.onbeforeunload = function() {
+            window.onbeforeunload = function () {
                 socket.close();
             }
         </script>
@@ -245,21 +482,22 @@
         {{#if is_print}}
         {{#if mathjax_support}}
         <script>
-        window.addEventListener('load', function() {
-            MathJax.Hub.Register.StartupHook('End', function() {
-                window.setTimeout(window.print, 100);
+            window.addEventListener('load', function () {
+                MathJax.Hub.Register.StartupHook('End', function () {
+                    window.setTimeout(window.print, 100);
+                });
             });
-        });
         </script>
         {{else}}
         <script>
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
+            window.addEventListener('load', function () {
+                window.setTimeout(window.print, 100);
+            });
         </script>
         {{/if}}
         {{/if}}
 
     </div>
-    </body>
+</body>
+
 </html>
