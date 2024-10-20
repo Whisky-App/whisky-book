@@ -198,6 +198,7 @@
   - [Wolfenstein: The New Order](./game-support/wolfenstein-new-order.md)
   - [Wolfenstein: The Old Blood](./game-support/wolfenstein-old-blood.md)
   - [Wolfenstein II: The New Colossus](./game-support/wolfenstein2-new-colossus.md)
+  - [Yakuza 6: The Song of Life](./game-support/yakuza-6.md)
   - [Your Only Move Is Hustle](./game-support/yomi-hustle.md)
   - [ZERO Sievert](./game-support/zero-sievert.md)
 <!-- script:Generate End -->
