@@ -5,9 +5,9 @@
 
 ## Type(s) <!-- (delete not applicable items) -->
 
-- [ ] game page addition
-- [ ] game page modification
-- [ ] other wiki edit
+- [ ] Game page addition
+- [ ] Game page modification
+- [ ] Other wiki edit
 
 ## Verification <!-- (delete not applicable items) -->
 Have you
