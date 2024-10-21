@@ -87,6 +87,7 @@
   - [Senua’s Saga: Hellblade II](./game-support/hellblade2.md)
   - [Heroes of Might and Magic III](./game-support/heroes3.md)
   - [Hitman: Contracts](./game-support/hitman-3-c.md)
+  - [Hitman: World of Assassination](./game-support/hitman-wa.md)
   - [Hearts of Iron III](./game-support/hoi-3.md)
   - [Hollow Knight](./game-support/hollow-knight.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
