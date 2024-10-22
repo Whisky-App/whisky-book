@@ -169,6 +169,7 @@
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
   - [Star Wars: Squadrons](./game-support/sw-squadrons.md)
   - [Star Wars: The Old Republic](./game-support/sw-tor.md)
+  - [SONIC X SHADOW GENERATIONS](./game-support/sxsg.md)
   - [Tom Clancy's Rainbow Six Siege \(Steam\)](./game-support/tcr6s.md)
   - [Tom Clancy's Splinter Cell Blacklist \(Steam\)](./game-support/tcscb.md)
   - [Tekken 7](./game-support/tekken7.md)
