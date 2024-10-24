@@ -169,6 +169,7 @@
   - [Star Wars Jedi: Fallen Order](./game-support/sw-fallen-order.md)
   - [Star Wars: Squadrons](./game-support/sw-squadrons.md)
   - [Star Wars: The Old Republic](./game-support/sw-tor.md)
+  - [SONIC X SHADOW GENERATIONS](./game-support/sxsg.md)
   - [Tom Clancy's Rainbow Six Siege \(Steam\)](./game-support/tcr6s.md)
   - [Tom Clancy's Splinter Cell Blacklist \(Steam\)](./game-support/tcscb.md)
   - [Tekken 7](./game-support/tekken7.md)
@@ -199,6 +200,7 @@
   - [Wolfenstein: The New Order](./game-support/wolfenstein-new-order.md)
   - [Wolfenstein: The Old Blood](./game-support/wolfenstein-old-blood.md)
   - [Wolfenstein II: The New Colossus](./game-support/wolfenstein2-new-colossus.md)
+  - [Yakuza 6: The Song of Life](./game-support/yakuza-6.md)
   - [Your Only Move Is Hustle](./game-support/yomi-hustle.md)
   - [ZERO Sievert](./game-support/zero-sievert.md)
 <!-- script:Generate End -->
