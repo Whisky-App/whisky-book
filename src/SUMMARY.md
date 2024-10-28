@@ -192,6 +192,7 @@
   - [VA-11 HALL-A: Cyberpunk Bartender Action](./game-support/va-11-hall-a.md)
   - [The Vanishing of Ethan Carter](./game-support/vanishing-of-ethan-carter.md)
   - [Warframe](./game-support/warframe.md)
+  - [WEBFISHING](./game-support/webfishing.md)
   - [Weird West: Definitive Edition](./game-support/weird-west-de.md)
   - [The Witcher: Enhanced Edition Director's Cut](./game-support/witcher.md)
   - [The Witcher 2: Assassins of Kings Enhanced Edition](./game-support/witcher2.md)
