@@ -35,6 +35,7 @@
   - [Contraband Police](./game-support/contraband-police.md)
   - [Control](./game-support/control.md)
   - [Counter-Strike 2](./game-support/counter-strike-2.md)
+  - [CROW COUNTRY](./game-support/crow-country.md)
   - [Crysis 2 Remastered](./game-support/crysis-2-remastered.md)
   - [Crysis 3 Remastered](./game-support/crysis-3-remastered.md)
   - [Crysis Remastered](./game-support/crysis-remastered.md)
