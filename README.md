@@ -44,12 +44,18 @@ Documentation for Whisky.
     | Garbage  | Game is unplayable.                                                                            |
   
 1. Create a new markdown file in `~/whisky-book/src/game-support` with the name of the game.
-   - Format your file in all lowercase, using only alphabetical, numerical, and dash characters, and use abbreviations where possible. i.e:
+   - Format your file in all lowercase, using only alphabetical, numerical, and dash characters, and use abbreviations where possible. Use a dash sign (`-`) before and after a number if words before and after the number are not abbreviated already. i.e:
    ```
-   Metal Gear Solid V: The Phantom Pain -> mgs-5.md
+   Metal Gear Solid V: The Phantom Pain -> mgs5.md
    Persona 3 Reload -> p3r.md
    Star Wars Jedi: Fallen Order -> sw-fallen-order.md
    Geometry Wars 3: Dimensions Evolved -> gw3-dimensions-evolved.md
+   ```
+   If a game is part of a chronological series like Crysis use numbers in your files to make them ordered properly. Each title is ordered using a name of a file. ie:
+   ```
+   Crysis Remastered -> crysis1.md
+   Crysis 2 Remastered -> crysis2-remastered.md
+   Crysis 3 Remastered -> crysis3-remastered.md
    ```
 2. Add the following template to your markdown file.
    ```
