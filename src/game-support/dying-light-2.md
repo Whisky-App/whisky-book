@@ -1,19 +1,12 @@
 # Dying Light 2
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
-## Setup
-
-> [Source](https://www.youtube.com/watch?v=ymuTp8JuK4A)
-
-- Install in Steam as normal
-- Right-click on the game in Steam and browse local files
-- Open `path/ph/work/bin/x64/`
-- Rename `runtime_dx11.dll` to `runtime_dx11.dll.bak`
+The game will not launch with DXVK enabled.
 
 > [!WARNING]
-> Changing the upscaling method to XeSS will soft-lock.
+> Changing the upscaling method to XeSS will soft-lock the game.
 > To fix this, click `Open C: Drive` and navigate to `/users/crossover/Documents/dying light 2/out/settings/video.scr`, and open this file in a text editor.
 > Change `Upscaler(5)` to `Upscaler(0)`
 
