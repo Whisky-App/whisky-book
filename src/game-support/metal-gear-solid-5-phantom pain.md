@@ -1,8 +1,8 @@
-# Metal Gear Solid V: The Phantom Pain
+# METAL GEAR SOLID V: THE PHANTOM PAIN
 <!-- script:Aliases [
-    "Metal Gear Solid 5: The Phantom Pain",
-    "Metal Gear Solid V",
-    "Metal Gear Solid 5"
+    "METAL GEAR SOLID 5: THE PHANTOM PAIN",
+    "METAL GEAR SOLID V",
+    "METAL GEAR SOLID 5"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

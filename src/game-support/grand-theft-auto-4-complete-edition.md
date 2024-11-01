@@ -1,8 +1,9 @@
-# Grand Theft Auto IV
+# Grand Theft Auto IV: The Complete Edition
 <!-- script:Aliases [
     "GTA 4",
     "GTA IV",
-    "Grand Theft Auto 4"
+    "Grand Theft Auto 4",
+    "Grand Theft Auto 4: The Complete Edition"
 ] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}

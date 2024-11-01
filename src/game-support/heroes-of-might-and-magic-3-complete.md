@@ -1,9 +1,9 @@
-# Heroes of Might and Magic III
+# Heroes of Might and Magic 3: Complete
 <!-- script:Aliases [
     "Heroes 3",
     "Heroes III",
-    "Heroes of Might and Magic 3",
     "Heroes of Might and Magic III",
+    "Heroes of Might and Magic III: Complete",
     "HoMM 3"
 ] -->
 

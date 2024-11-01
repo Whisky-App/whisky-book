@@ -1,8 +1,8 @@
-# Armored Core VI: Fires of Rubicon
+# ARMORED CORE VI FIRES OF RUBICON
 <!-- script:Aliases [
-    "Armored Core 6: Fires of Rubicon",
-    "Armored Core 6",
-    "Armored Core VI"
+    "ARMORED CORE VI",
+    "ARMORED CORE 6",
+    "ARMORED CORE 6 FIRES OF RUBICON"
 ] -->
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}

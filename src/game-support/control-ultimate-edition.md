@@ -1,8 +1,8 @@
-# DARK SOULS III
+# Control Ultimate Edition
 <!-- script:Aliases [
-    "DARK SOULS 3"
+    "Control"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
-{{#template ../templates/steam.md id=374320}}
+{{#template ../templates/steam.md id=870780}}

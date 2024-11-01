@@ -1,16 +1,16 @@
-# Star Wars: Battlefront II (Classic, 2005)
+# STAR WARS: Battlefront II (Classic, 2005)
 <!-- script:Aliases [
-    "Star Wars: Battlefront 2 (Classic, 2005)",
-    "Star Wars: Battlefront II (2005)",
-    "Star Wars: Battlefront 2 (2005)",
-    "Star Wars: Battlefront II 2005",
-    "Star Wars: Battlefront 2 2005",
-    "Star Wars Battlefront II (Classic, 2005)",
-    "Star Wars Battlefront 2 (Classic, 2005)",
-    "Star Wars Battlefront II (2005)",
-    "Star Wars Battlefront 2 (2005)",
-    "Star Wars Battlefront II 2005",
-    "Star Wars Battlefront 2 2005"
+    "STAR WARS: Battlefront 2 (Classic, 2005)",
+    "STAR WARS: Battlefront II (2005)",
+    "STAR WARS: Battlefront 2 (2005)",
+    "STAR WARS: Battlefront II 2005",
+    "STAR WARS: Battlefront 2 2005",
+    "STAR WARS Battlefront II (Classic, 2005)",
+    "STAR WARS Battlefront 2 (Classic, 2005)",
+    "STAR WARS Battlefront II (2005)",
+    "STAR WARS Battlefront 2 (2005)",
+    "STAR WARS Battlefront II 2005",
+    "STAR WARS Battlefront 2 2005"
 ] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}

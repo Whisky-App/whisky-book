@@ -1,6 +1,8 @@
-# Deus Ex: Human Revolution
+# Deus Ex: Human Revolution - Director's Cut
 <!-- script:Aliases [
-    "Deus Ex Human Revolution"
+    "Deus Ex Human Revolution",
+    "Deus Ex: Human Revolution",
+    "Deus Ex Human Revolution - Director's Cut"
 ] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}

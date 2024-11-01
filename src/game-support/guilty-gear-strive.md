@@ -1,4 +1,4 @@
-# Guilty Gear -Strive-
+# GUILTY GEAR -STRIVE-
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

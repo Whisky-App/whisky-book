@@ -1,4 +1,4 @@
-# Horizon Zero Dawn
+# Horizon Zero Dawn Complete Edition
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

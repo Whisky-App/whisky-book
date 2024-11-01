@@ -1,4 +1,4 @@
-# Night Runners Prologue
+# NIGHT-RUNNERS PROLOGUE
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

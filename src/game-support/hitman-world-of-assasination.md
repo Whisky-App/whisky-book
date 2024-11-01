@@ -1,7 +1,6 @@
-# Hitman: World of Assassination
+# HITMAN World of Assassination
 <!-- script:Aliases [
-    "Hitman: World of Assassination",
-    "Hitman World of Assassination"
+    "HITMAN: World of Assassination"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
