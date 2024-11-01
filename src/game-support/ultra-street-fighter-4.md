@@ -5,6 +5,6 @@
 
 ## Setup
 
-- Install in Steam as normal
+- Install in Steam as normal.
 
 {{#template ../templates/steam.md id=45760}}

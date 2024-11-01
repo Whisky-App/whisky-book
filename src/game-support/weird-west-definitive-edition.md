@@ -5,13 +5,11 @@
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
-> [!NOTE]
-> The in-game mods don't seem to work.
+## Setup
+- Set shadow quality to low or off for better performance.
 
 > [!NOTE]
-> Set shadow quality to low or off for better performance.
-
-> [!NOTE]
-> Dense areas usually stutter.
+> - The in-game mods don't seem to work.
+> - Dense areas usually stutter.
 
 {{#template ../templates/steam.md id=1097350}}

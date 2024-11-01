@@ -24,17 +24,17 @@
 4. *(optional)* Download [hota mod](https://h3hota.com/en/download)
 
 ### Installation:
-1. create new bottle (win7) and follow all installation instructions (roseta, wine, etc.)
-2. run the heroes 3 installation
-3. *(optional)* run the heroes3hd mod installation
-3. *(optional)* run hota mod installation
+1. Create a new bottle (Windows 7) and follow all installation instructions (Rosetta, Wine, etc.)
+2. Run the Heroes 3 installation
+3. *(optional)* Run the `heroes3hd` mod installation.
+3. *(optional)* Run `hota` mod installation.
 
 At this point you should be able to run the `Heroes3.exe` or `Heroes3 HD.exe` if you installed the mods and run the game. However, the sound is not working properly (slow, breaking). To fix this you should:
 
-1. click on `winetricks`
-2. `dll`
-3. select `dsound`
-4. run
+1. Click on `winetricks`.
+2. `dll`.
+3. Select `dsound`.
+4. Run.
 
 This will open the terminal and install new drivers. After this you are all set.
 

@@ -4,8 +4,8 @@
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 ## Setup
-- Use Windows 10 and enable DXVK
-- Install in Steam as normal
+- Enable DXVK.
+- Install in Steam as normal.
 
 > [!NOTE]
 > You may need to restart the game / your Mac in order for the game to launch.

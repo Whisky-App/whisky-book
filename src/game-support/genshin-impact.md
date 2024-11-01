@@ -9,10 +9,10 @@
 ## Setup
 - Install via exe from genshin impact website.
 - After installing game launcher, will black screen/throw up error after clicking launch. 
-- Kill all bottles to close window (Can't X out normally)
-- Add launcher.exe to pinned programs for bottle, right click, and edit config
-- Add `--in-process-gpu` to arguments
-- Relaunch and play as normal
+- Kill all bottles to close window (Can't X out normally).
+- Add launcher.exe to pinned programs for bottle, right click, and edit config.
+- Add `--in-process-gpu` to arguments.
+- Relaunch and play as normal.
 
 ## Issues
 

@@ -12,7 +12,6 @@
 ## Setup
 Since the game's installer crashes, you will need to copy an already installed game from somewhere else into the bottle.
 
-## Sound Effect Lag Fix
-
-Install the `directmusic` winetrick to your bottle.
+> [!WARNING]
+> Install the `directmusic` Winetrick to your bottle to fix sound effect lag.
 

@@ -7,7 +7,7 @@
 
 ## Setup
 
-- Enable DXVK in Bottle Configuration
+- Enable DXVK in Bottle Configuration.
 - Define Environment Variables:
   | Key                 | Value     |
   | ------------------- | --------- |

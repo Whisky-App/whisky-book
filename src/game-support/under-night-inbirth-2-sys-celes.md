@@ -8,6 +8,7 @@
 - In Whisky, install `d3dx9` using Winetricks.
 - Install in Steam as normal.
 
-Game works perfectly, but movies will not play.
+> [!WARNING]
+> Game works perfectly, but movies will not play.
 
 {{#template ../templates/steam.md id=2076010}}

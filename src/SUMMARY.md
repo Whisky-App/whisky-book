@@ -59,7 +59,7 @@
   - [Don't Starve](./game-support/dont-starve.md)
   - [Dorfromantik](./game-support/dorfromantik.md)
   - [Dread Templar](./game-support/dread-templar.md)
-  - [Dying Light 2](./game-support/dying-light-2.md)
+  - [Dying Light 2 Stay Human: Reloaded Edition](./game-support/dying-light-2-stay-human-reloaded-edition.md)
   - [ELDEN RING](./game-support/elden-ring.md)
   - [The Elder Scrolls V: Skyrim Special Edition](./game-support/elder-scrolls-5-skyrim-special-edition.md)
   - [Elite Dangerous](./game-support/elite-dangerous.md)

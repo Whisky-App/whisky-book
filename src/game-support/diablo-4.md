@@ -19,6 +19,7 @@
 - Start Diablo IV as normal
 -->
 
-Diablo IV is currently **unplayable** in Whisky.
+> [!WARNING]
+> Diablo IV is currently **unplayable** in Whisky.
 
 {{#template ../templates/steam.md id=2344520}}

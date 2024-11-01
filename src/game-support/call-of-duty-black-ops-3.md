@@ -7,8 +7,9 @@
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
+
 Hoping to play online as macOS port is versions behind the windows port.
-> [!NOTE]
+> [!WARNING]
 > Black window upon startup.
 
 {{#template ../templates/steam.md id=311210}}

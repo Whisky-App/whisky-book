@@ -7,8 +7,8 @@
 
 ## Setup
 
-- Install in Steam as normal
-- In Whisky, find `NieR Replicant ver.1.22474487139.exe` in the Program list and run it
+- Install in Steam as normal.
+- In Whisky, find `NieR Replicant ver.1.22474487139.exe` in the Program list and run it.
 
 
 {{#template ../templates/steam.md id=1113560}}

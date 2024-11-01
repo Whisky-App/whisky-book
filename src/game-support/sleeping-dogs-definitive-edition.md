@@ -5,7 +5,7 @@
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
-> [!NOTE]
+> [!WARNING]
 > Very minor audio crackling. Set output speaker format to 88,200hz to fix in `Audio Midi Setup`
 
 > [!NOTE]

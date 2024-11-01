@@ -14,9 +14,9 @@
 ## Steam Performance Tweaks
 
 Changing the following Steam settings improved the FPS by 5-10:
-- Steam Settings -> Broadcast -> Privacy setting => Broadcasting Disabled
-- Steam Settings -> Remote Play -> Enable Remote Play => False
-- Library -> Homeworld 3 (right click) -> Properties -> Launch Options => `-nojoy`
+- Steam Settings -> Broadcast -> Privacy setting => Broadcasting Disabled.
+- Steam Settings -> Remote Play -> Enable Remote Play => False.
+- Library -> Homeworld 3 (right click) -> Properties -> Launch Options => `-nojoy`.
 
 ## Mac Performance
 
