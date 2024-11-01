@@ -8,7 +8,7 @@
 - Install in Steam as normal.
 - In Whisky, find `Homeworld3.exe` in the Installed Programs list and run it.
 
-> [!NOTE]
+> [!WARNING]
 > The game crashes on start if DXVK enabled. Disable DXVK in the Whisky Bottle Configuration if reusing a DXVK Steam bottle.
 
 ## Steam Performance Tweaks
