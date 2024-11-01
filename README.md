@@ -77,7 +77,7 @@ Documentation for Whisky.
    {{#template ../templates/steam.md id=1172380}}
    
    ```
-   <img width="815" alt="Screenshot 2024-04-16 at 10 06 11 PM" src="https://github.com/Whisky-App/whisky-book/assets/161992562/d7d61b1a-5d02-4961-8ff5-b953c2a2fbe1">  
+   <img width="815" alt="Preview of Star Wars Jedi: Fallen Order Whisky documentation page" src="https://github.com/Whisky-App/whisky-book/assets/161992562/d7d61b1a-5d02-4961-8ff5-b953c2a2fbe1">  
 3. Run the `generate` script with `./scripts/generate.mjs` to update `SUMMARY.md`.
    This will also make the game appear in the sidebar of the book.
 4. Run `./scripts/lint.mjs` to ensure that your changes are properly formatted.
