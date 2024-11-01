@@ -1,4 +1,4 @@
-# Tekken 8
+# TEKKEN 8
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}

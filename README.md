@@ -32,7 +32,7 @@ Documentation for Whisky.
    - Ensure accuracy. Don't upload misleading information, false reports, guesses, or improper research.
    - Cite your sources. Found a guide from somewhere else? Found a solution or other thing online? Provide a link in your page. This isn't a requirement that's going to get your PR rejected, but simply one that future-proofs things and ensures that if a game suddenly breaks, we can check our sources and see if there are any updates to the solutions found.
    - Document the installation process and any errors that arise during the installation. If installation fails, set `installs=No` in the `Ratings` template.
-   - Document whether a program opens by setting `opens=Yes` in the `Ratings` template. A program is considered "open" if it launches the title screen or main menu. Dialog messages don't count as a program "opening".
+   - Document whether a program opens by setting `opens=Yes` in the `Ratings` template. A program is considered "open" if it launches the title screen or main menu. Dialog messages don't count as a program "opening". Write down all issues that you have noticed while playing a title under a `> [!WARNING]` heading.
    - Add status ratings to your game based on the following scale. We leave this up to general author interpretation, but please make sure you're still following these general guidelines:
 
     | Status   | Description                                                                                    |
@@ -44,20 +44,16 @@ Documentation for Whisky.
     | Garbage  | Game is unplayable.                                                                            |
   
 1. Create a new markdown file in `~/whisky-book/src/game-support` with the name of the game.
-   - Format your file in all lowercase, using only alphabetical, numerical, and dash characters, and use abbreviations where possible. Use a dash sign (`-`) before and after a number if words before and after the number are not abbreviated already. i.e:
+   - Format your file in all lowercase, using only alphabetical, numerical, and dash characters. Do not use abbreviations as they mess up titles ordering with an exception of `goty` which stands for "Game of the Year" and is used among many titles and known as a standard. Use a dash sign (`-`) everytime a space occurs in the original title. Replace roman numerals with arabic ones to distinguish words from numbers. Do not insert any [articles](https://www.grammarly.com/blog/parts-of-speech/articles/) in a markdown file name (`a`, `the`). Remember to match a filename with a full game title (eg. from Steam) using above exceptions and restrictions. If a game is not listed on Steam then add the store/page name at the very end of the file like `<some-game>-gog` i.e:
    ```
-   Metal Gear Solid V: The Phantom Pain -> mgs5.md
-   Persona 3 Reload -> p3r.md
-   Star Wars Jedi: Fallen Order -> sw-fallen-order.md
-   Geometry Wars 3: Dimensions Evolved -> gw3-dimensions-evolved.md
+   Diablo IV (Battle.net) -> diablo-4-battle-net
+   Geometry Wars 3: Dimensions Evolved -> geomatry-wars-3-de.md
+   Metal Gear Solid V: The Phantom Pain -> metal-gear-solid-5.md
+   Persona 3 Reload -> persona-3-reload.md
+   Star Wars Jedi: Fallen Order -> star-wars-jedi-fo.md
+   Wolfenstein II: The New Colossus -> wolfenstein-2-new-colossus.md
    ```
-   If a game is part of a chronological series like Crysis use numbers in your files to make them ordered properly. Each title is ordered using a name of a file. ie:
-   ```
-   Crysis Remastered -> crysis1.md
-   Crysis 2 Remastered -> crysis2-remastered.md
-   Crysis 3 Remastered -> crysis3-remastered.md
-   ```
-2. Add the following template to your markdown file.
+2. Add the following template to your markdown file. Ensure that the game name you enter at the beginning of the file matches Steam or other store listing name fully, including capitalization. However remove any character that is not an ASCII printable character. You can find the allowed characters list [here](https://www.ascii-code.com/characters/printable-characters).
    ```
    # <Full Game Name Here>
 

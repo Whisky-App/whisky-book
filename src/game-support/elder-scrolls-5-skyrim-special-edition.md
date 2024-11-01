@@ -1,4 +1,4 @@
-# Skyrim SE
+# The Elder Scrolls V: Skyrim Special Edition
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}

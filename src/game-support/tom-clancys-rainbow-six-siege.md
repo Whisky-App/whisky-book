@@ -1,4 +1,4 @@
-# Tom Clancy's Rainbow Six Siege (Steam)
+# Tom Clancy's Rainbow Six Siege
 <!-- script:Aliases [
     "Rainbow Six Siege Steam",
     "Rainbow Six Siege"

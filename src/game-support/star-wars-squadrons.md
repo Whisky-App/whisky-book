@@ -1,6 +1,6 @@
-# Star Wars: Squadrons
+# STAR WARS: Squadrons
 <!-- script:Aliases [
-    "Star Wars Squadrons"
+    "STAR WARS Squadrons"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

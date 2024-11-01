@@ -1,9 +1,9 @@
-# Star Wars: The Old Republic
+# STAR WARS: The Old Republic
 <!-- script:Aliases [
-    "Star Wars The Old Republic",
-    "Star Wars: The Old Republic",
-    "Star Wars The Old Republic Steam",
-    "Star Wars: The Old Republic Steam",
+    "STAR WARS The Old Republic",
+    "STAR WARS: The Old Republic",
+    "STAR WARS The Old Republic Steam",
+    "STAR WARS: The Old Republic Steam",
     "SWTOR",
     "SWTOR Steam"
 ] -->

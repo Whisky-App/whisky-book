@@ -1,4 +1,4 @@
-# Tekken 7
+# TEKKEN 7
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

@@ -1,4 +1,4 @@
-# Diablo IV (Steam)
+# Diablo IV
 <!-- script:Aliases [
     "Diablo 4 Steam",
     "Diablo IV Steam",

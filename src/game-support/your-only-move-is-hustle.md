@@ -1,4 +1,4 @@
-# Your Only Move Is Hustle
+# Your Only Move Is HUSTLE
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
