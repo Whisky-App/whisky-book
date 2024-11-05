@@ -135,6 +135,7 @@
   - [Phasmophobia](./game-support/phasmophobia.md)
   - [A Plague Tale: Innocence](./game-support/plague-tale-innocence.md)
   - [PowerWash Simulator](./game-support/powerwash-simulator.md)
+  - [Puyo Puyo Tetris 2](./game-support/ppt2.md)
   - [Prey \(2017\)](./game-support/prey-2017.md)
   - [Psychonauts 2](./game-support/psychonauts-2.md)
   - [Quake II](./game-support/quake2.md)
