@@ -116,6 +116,7 @@
   - [Metro: Last Light Redux](./game-support/metro-last-light-redux.md)
   - [Monster Hunter World: Iceborne](./game-support/monster-hunter-world-iceborne.md)
   - [Mount & Blade: With Fire & Sword](./game-support/mount-and-blade-with-fire-and-sword.md)
+  - [Metal Slug Tactics](./game-support/mst.md)
   - [Mushihimesama](./game-support/mushihimesama.md)
   - [NecroVisioN: Lost Company](./game-support/necrovision-lost-company.md)
   - [NecroVision](./game-support/necrovision.md)
@@ -135,6 +136,7 @@
   - [Phasmophobia](./game-support/phasmophobia.md)
   - [A Plague Tale: Innocence](./game-support/plague-tale-innocence.md)
   - [PowerWash Simulator](./game-support/powerwash-simulator.md)
+  - [Puyo Puyo Tetris 2](./game-support/ppt2.md)
   - [Prey \(2017\)](./game-support/prey-2017.md)
   - [Psychonauts 2](./game-support/psychonauts-2.md)
   - [Quake II](./game-support/quake-2.md)
@@ -205,6 +207,7 @@
   - [Wolfenstein: The New Order](./game-support/wolfenstein-new-order.md)
   - [Wolfenstein: The Old Blood](./game-support/wolfenstein-old-blood.md)
   - [Yakuza 6: The Song of Life](./game-support/yakuza-6-song-of-life.md)
+  - [Yakuza Kiwami 2](./game-support/yakuza-kiwami-2.md)
   - [Your Only Move Is HUSTLE](./game-support/your-only-move-is-hustle.md)
   - [ZERO Sievert](./game-support/zero-sievert.md)
 <!-- script:Generate End -->
