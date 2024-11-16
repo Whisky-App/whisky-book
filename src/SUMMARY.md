@@ -20,6 +20,7 @@
   - [BioShock Infinite](./game-support/bioshock-infinite.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
   - [Blitzkrieg 2 Anthology](./game-support/blitzkrieg-2-anthology.md)
+  - [Brotato](./game-support/brotato.md)
   - [Buckshot Roulette](./game-support/buckshot-roulette.md)
   - [Call of Cthulhu: Dark Corners of the Earth](./game-support/call-of-cthulhu-dark-corners-of-earth.md)
   - [Call of Cthulhu](./game-support/call-of-cthulhu.md)
