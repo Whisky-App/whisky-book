@@ -90,6 +90,8 @@
   - [Heroes of Might and Magic III](./game-support/heroes3.md)
   - [Hitman: Contracts](./game-support/hitman-3-c.md)
   - [Hitman: World of Assassination](./game-support/hitman-wa.md)
+  - [Hotline Miami](./game-support/hm.md)
+  - [Hotline Miami 2: Wrong Number](./game-support/hm2-wn.md)
   - [Hearts of Iron III](./game-support/hoi-3.md)
   - [Hollow Knight](./game-support/hollow-knight.md)
   - [Horizon Zero Dawn](./game-support/horizon-zero-dawn.md)
