@@ -91,6 +91,8 @@
   - [Heroes of Might and Magic 3: Complete](./game-support/heroes-of-might-and-magic-3-complete.md)
   - [Hitman: Contracts](./game-support/hitman-contracts.md)
   - [HITMAN World of Assassination](./game-support/hitman-world-of-assasination.md)
+  - [Hotline Miami](./game-support/hm.md)
+  - [Hotline Miami 2: Wrong Number](./game-support/hm2-wn.md)
   - [Hollow Knight](./game-support/hollow-knight.md)
   - [Homeworld 3](./game-support/homeworld-3.md)
   - [Horizon Zero Dawn Complete Edition](./game-support/horizon-zero-dawn-complete-edition.md)
