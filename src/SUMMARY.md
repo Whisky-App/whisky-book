@@ -190,6 +190,7 @@
   - [Tom Clancy's Splinter Cell](./game-support/tom-clancys-splinter-cell.md)
   - [Tomb Rider \(2013\)](./game-support/tomb-rider-2013.md)
   - [Touhou 6 - Embodiment of Scarlet Devil](./game-support/touhou-6-embodiment-of-scarlet-devil.md)
+  - [Tomb Raider 1-3 Remastered Starring Lara Croft](./game-support/tr1-3r.md)
   - [Trackmania](./game-support/trackmania.md)
   - [Turbo Overkill](./game-support/turbo-overkill.md)
   - [Ultra Street Fighter IV](./game-support/ultra-street-fighter-4.md)
