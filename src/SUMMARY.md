@@ -16,6 +16,7 @@
   - [BeamNG.drive](./game-support/beamng-drive.md)
   - [Betrayer](./game-support/betrayer.md)
   - [The Binding of Isaac: Rebirth](./game-support/binding-of-isaac-rebirth.md)
+  - [The Binding of Isaac: Repentance +](./game-support/binding-of-isaac-repentance-plus.md)
   - [The Binding of Isaac: Repentance](./game-support/binding-of-isaac-repentance.md)
   - [BioShock Infinite](./game-support/bioshock-infinite.md)
   - [Blasphemous 2](./game-support/blasphemous-2.md)
