@@ -188,7 +188,7 @@
   - [Thief: Deadly Shadows](./game-support/thief-3.md)
   - [Thief Gold](./game-support/thief-gold.md)
   - [Tiny Glade](./game-support/tiny-glade.md)
-  - [Tomb Rider \(2013\)](./game-support/tomb-rider-2013.md)
+  - [Tomb Raider \(2013\)](./game-support/tomb-raider-2013.md)
   - [Touhou 6 - Embodiment of Scarlet Devil](./game-support/touhou-06-eosd.md)
   - [Tomb Raider 1-3 Remastered Starring Lara Croft](./game-support/tr1-3r.md)
   - [Trackmania](./game-support/trackmania.md)

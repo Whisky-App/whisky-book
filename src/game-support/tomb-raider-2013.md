@@ -1,7 +1,7 @@
-# Tomb Rider (2013)
+# Tomb Raider (2013)
 <!-- script:Aliases [
-    "Tomb Rider 2013",
-    "Tomb Rider"
+    "Tomb Raider 2013",
+    "Tomb Raider"
 ] -->
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}} 
