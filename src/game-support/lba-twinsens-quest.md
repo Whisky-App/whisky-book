@@ -18,3 +18,5 @@ For the DLL with SHA256 `946478c5e8f61cbe75c6d70e3aabe2766126605cba45ddb579a5ef3
 # Issues
 
 Game is playable through the end, with all cutscenes playing correctly and no graphical corruption observed. Playing with a controller sometimes makes Twinsen perform an action continuously. This issue only occurs when loading or starting a game and is resolved by quitting and restarting the game.
+
+{{#template ../templates/steam.md id=2318070}}
