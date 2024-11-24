@@ -107,6 +107,7 @@
   - [Kholat](./game-support/kholat.md)
   - [Kingsway](./game-support/kingsway.md)
   - [The King of Fighters XV](./game-support/kof15.md)
+  - [Little Big Adventure – Twinsen’s Quest](./game-support/lba-twinsens-quest.md)
   - [LEGO Star Wars III: The Clone Wars](./game-support/lego-sw-iii-clone-wars.md)
   - [LEGO Star Wars: The Skywalker Saga](./game-support/lego-sw-skywalker-saga.md)
   - [Lethal Company](./game-support/lethal-company.md)
