@@ -7,7 +7,7 @@ Game crashes when run without modification.
 
 # Technical background
 
-A patch is required to make the game run. `Rewired_WindowsGamingInput.dll` found under the data directory in `Plugins/x86_64` makes the game run, although some issues surrounding use of controllers remain. 
+A patch is required to make the game run. Patching `Rewired_WindowsGamingInput.dll` found under the data directory in `Plugins/x86_64` makes the game run, although some issues surrounding use of controllers remain. 
 
 The function `Core_IsAPISupported` in the aforementioned DLL needs to be patched to always return false. This prevents calling an API that isn't implemented.
 
