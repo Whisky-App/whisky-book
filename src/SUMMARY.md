@@ -10,6 +10,7 @@
 - [Game Support](./game-support/README.md)
   <!-- script:Generate Start -->
   - [Assassin's Creed: Director's Cut Edition](./game-support/ac-directors-cut.md)
+  - [&lt;Against The Storm&gt;](./game-support/against-the-storm.md)
   - [Among Us](./game-support/among-us.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Battle Brothers](./game-support/battle-brothers.md)
