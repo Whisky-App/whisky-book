@@ -9,8 +9,8 @@
 - [Debugging](./debugging.md)
 - [Game Support](./game-support/README.md)
   <!-- script:Generate Start -->
+  - [Age of Empires II: Definitive Edition](./game-support/age-of-empires-2-definitive-edition.md)
   - [Among Us](./game-support/among-us.md)
-  - [Age of Empires II: Definitive Edition](./game-support/aoe2_definitive_edition.md)
   - [ARMORED CORE VI FIRES OF RUBICON](./game-support/armored-core-6-fires-of-rubicon.md)
   - [Assassin's Creed: Director's Cut Edition](./game-support/assassins-creed-directors-cut-edition.md)
   - [Battle Brothers](./game-support/battle-brothers.md)
