@@ -12,6 +12,7 @@
   - [Assassin's Creed: Director's Cut Edition](./game-support/ac-directors-cut.md)
   - [Against The Storm](./game-support/against-the-storm.md)
   - [Among Us](./game-support/among-us.md)
+  - [Age of Empires II: Definitive Edition](./game-support/aoe2_definitive_edition.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Battle Brothers](./game-support/battle-brothers.md)
   - [BeamNG.Drive](./game-support/beamng-drive.md)
