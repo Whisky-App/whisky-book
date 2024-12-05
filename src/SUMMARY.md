@@ -164,6 +164,7 @@
   - [Shadow of the Tomb Raider: Definitive Edition](./game-support/shadow-of-the-tomb-raider-de.md)
   - [Sherlock Holmes Chapter One](./game-support/sherlock-holmes-co.md)
   - [Sherlock Holmes: The Devil's Daughter](./game-support/sherlock-holmes-tdd.md)
+  - [Sins of a Solar Empire 2](./game-support/sins-of-a-solar-empire-2.md)
   - [Skyrim SE](./game-support/skyrim-se.md)
   - [Sleeping Dogs: Definitive Edition](./game-support/sleeping-dogs-de.md)
   - [Sniper: Ghost Warrior 2](./game-support/sniper-gw-2.md)
