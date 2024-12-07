@@ -1,6 +1,8 @@
-# Cities: Skylines 2
+# Cities: Skylines II
 <!-- script:Aliases [
-    "Cities Skylines 2"
+    "Cities Skylines 2",
+    "Cities: Skylines 2",
+    "Cities Skylines II"
 ] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}

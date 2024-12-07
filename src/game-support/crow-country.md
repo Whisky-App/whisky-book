@@ -1,4 +1,4 @@
-# CROW COUNTRY
+# Crow Country
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

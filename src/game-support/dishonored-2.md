@@ -3,7 +3,7 @@
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
-> [!NOTE]
+> [!WARNING]
 > Shader complilation stutter occurs when viewing any new object. Stutters will reduce with playtime, unless you are in Karnaca.
 
 > [!NOTE]
