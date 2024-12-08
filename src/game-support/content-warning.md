@@ -13,6 +13,6 @@
 > The game will be unable to delete the temp folder's contents.
 
 > [!WARNING]
-> Any video will not be able to render/extract. Note: If any player in the lobby is playing the game on Windows, you can workaround this issue by making the players using Whisky exit the lobby just before placing the camera for extraction and then making the Windows player extract the video. Whisky players can rejoin the next day without losing progress.
+> Any video will not be able to render/extract. Note: If any player in the lobby is using Windows to play the game, you can work around this issue by having the players using Whisky exit the lobby just before placing the camera for extraction. Then, let the Windows player extract the video. Whisky players can rejoin the next day without losing progress.
 
 {{#template ../templates/steam.md id=2881650}}
