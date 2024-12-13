@@ -121,6 +121,7 @@
   - [Metro Exodus](./game-support/metro-exodus.md)
   - [Metro: Last Light Redux](./game-support/metro-ll-rx.md)
   - [Metal Gear Solid V: The Phantom Pain](./game-support/mgs-5.md)
+  - [MiSide](./game-support/miside.md)
   - [Monster Hunter World: Iceborne](./game-support/monster-hunter-world-iceborne.md)
   - [Metal Slug Tactics](./game-support/mst.md)
   - [Mushihimesama](./game-support/mushihimesama.md)
