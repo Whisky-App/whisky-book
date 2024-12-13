@@ -51,6 +51,7 @@
   - [Dead Space](./game-support/dead-space.md)
   - [Deadlink](./game-support/deadlink.md)
   - [Deep Rock Galactic](./game-support/deep-rock-galactic.md)
+  - [Detroit: Become Human](./game-support/detroit-become-human.md)
   - [Deus Ex: Game of the Year Edition](./game-support/deus-ex-goty.md)
   - [Deus Ex: Human Revolution](./game-support/deus-ex-human-revolution.md)
   - [Diablo IV \(Battle.net\)](./game-support/diablo-4-battle-net.md)
