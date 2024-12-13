@@ -73,6 +73,7 @@
   - [Forgive Me Father 2](./game-support/forgive-me-father-2.md)
   - [Fortnite](./game-support/fortnite.md)
   - [Friends vs Friends](./game-support/friends-vs-friends.md)
+  - [Frostpunk](./game-support/frostpunk.md)
   - [Frostpunk 2](./game-support/frostpunk2.md)
   - [Granblue Fantasy: Versus](./game-support/gbfvs.md)
   - [Genshin Impact](./game-support/genshin-impact.md)
