@@ -5,13 +5,13 @@
 
 ## Setup
 
-- Install in Steam as normal
+- Install in Steam as normal.
 - Right-click > Properties...
-- Add `-dx12` as launch option
-- Start Palworld from Steam as normal
-- When prompted about incompatible drivers, click `No`
+- Add `-dx12` as launch option.
+- Start Palworld from Steam as normal.
+- When prompted about incompatible drivers, click `No`.
 
-> [!NOTE]
+> [!WARNING]
 > Some small graphical issues remain, such as black eye shaders, however the game is fully playable.
 
 {{#template ../templates/steam.md id=1623730}}

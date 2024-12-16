@@ -1,4 +1,4 @@
-# BeamNG.Drive
+# BeamNG.drive
 <!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
