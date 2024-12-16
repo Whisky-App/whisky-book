@@ -141,6 +141,7 @@
   - [Palworld](./game-support/palworld.md)
   - [Paradise Lost](./game-support/paradise-lost.md)
   - [Path of Exile](./game-support/path-of-exile.md)
+  - [Path of Exile 2](./game-support/path-of-exile2.md)
   - [People Playground](./game-support/people-playground.md)
   - [Phasmophobia](./game-support/phasmophobia.md)
   - [A Plague Tale: Innocence](./game-support/plague-tale-innocence.md)
