@@ -13,6 +13,7 @@
   - [Among Us](./game-support/among-us.md)
   - [Age of Empires II: Definitive Edition](./game-support/aoe2_definitive_edition.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
+  - [Ballionaire](./game-support/ballionaire.md)
   - [Battle Brothers](./game-support/battle-brothers.md)
   - [BeamNG.Drive](./game-support/beamng-drive.md)
   - [Betrayer](./game-support/betrayer.md)
