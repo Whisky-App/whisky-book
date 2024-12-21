@@ -11,6 +11,7 @@
   <!-- script:Generate Start -->
   - [Assassin's Creed: Director's Cut Edition](./game-support/ac-directors-cut.md)
   - [Among Us](./game-support/among-us.md)
+  - [Animal Well](./game-support/animal-well.md)
   - [Age of Empires II: Definitive Edition](./game-support/aoe2_definitive_edition.md)
   - [Armored Core VI: Fires of Rubicon](./game-support/armored-core-6.md)
   - [Ballionaire](./game-support/ballionaire.md)
