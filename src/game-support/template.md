@@ -5,6 +5,6 @@
 
 ## Setup
 
-- Lorem ipsum
+- Lorem ipsum.
 
 {{#template ../templates/steam.md id=APPID}}
