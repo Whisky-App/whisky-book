@@ -120,7 +120,7 @@
   - [Lords Of The Fallen 2014](./game-support/lords-of-the-fallen-2014.md)
   - [Manor Lords](./game-support/manor-lords.md)
   - [Marvel's Midnight Suns](./game-support/marvels-midnight-suns.md)
-  - [METAL GEAR SOLID V: THE PHANTOM PAIN](./game-support/metal-gear-solid-5-phantom%20pain.md)
+  - [METAL GEAR SOLID V: THE PHANTOM PAIN](./game-support/metal-gear-solid-5-phantom-pain.md)
   - [Metal Slug Tactics](./game-support/metal-slug-tactics.md)
   - [Metro 2033 Redux](./game-support/metro-2033-redux.md)
   - [Metro Exodus](./game-support/metro-exodus.md)
