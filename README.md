@@ -48,7 +48,7 @@ Documentation for Whisky.
    ```
    Diablo IV (Battle.net) -> diablo-4-battle-net
    Geometry Wars 3: Dimensions Evolved -> geomatry-wars-3-de.md
-   Metal Gear Solid V: The Phantom Pain -> metal-gear-solid-5.md
+   Metal Gear Solid V: The Phantom Pain -> metal-gear-solid-5-phantom-pain.md
    Persona 3 Reload -> persona-3-reload.md
    Star Wars Jedi: Fallen Order -> star-wars-jedi-fo.md
    Wolfenstein II: The New Colossus -> wolfenstein-2-new-colossus.md
