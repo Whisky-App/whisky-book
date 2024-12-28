@@ -64,6 +64,7 @@
   - [DoDonPachi Resurrection](./game-support/dodonpachi-resurrection.md)
   - [Don't Starve](./game-support/dont-starve.md)
   - [Dorfromantik](./game-support/dorfromantik.md)
+  - [Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition](./game-support/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition.md)
   - [Dread Templar](./game-support/dread-templar.md)
   - [Dying Light 2 Stay Human: Reloaded Edition](./game-support/dying-light-2-stay-human-reloaded-edition.md)
   - [ELDEN RING](./game-support/elden-ring.md)
