@@ -1,4 +1,4 @@
-# Sins of a Solar Empire 2
+# Sins of a Solar Empire II
 <!-- script:Aliases [
     "SoSE 2"
 ] -->

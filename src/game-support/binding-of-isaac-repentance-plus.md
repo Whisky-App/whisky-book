@@ -1,4 +1,4 @@
-# The Binding of Isaac: Repentance +
+# The Binding of Isaac: Repentance+
 <!-- script:Aliases [
     "The Binding of Isaac Repentance +",
     "The Binding of Isaac Repentance Plus"
