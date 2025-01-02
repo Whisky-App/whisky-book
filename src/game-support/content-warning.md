@@ -13,4 +13,7 @@
 > [!WARNING]
 > Any video will not be able to render/extract.
 
+> [!NOTE]
+> If any player in the lobby is using Windows to play the game, you can work around the video rendering issue by having the players using Whisky exit the lobby just before placing the camera for extraction. Then, let the Windows player extract the video. Whisky players can rejoin the next day without losing progress.
+
 {{#template ../templates/steam.md id=2881650}}
