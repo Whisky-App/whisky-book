@@ -9,8 +9,8 @@
 - [Debugging](./debugging.md)
 - [Game Support](./game-support/README.md)
   <!-- script:Generate Start -->
-  - [Age of Empires II: Definitive Edition](./game-support/age-of-empires-2-definitive-edition.md)
   - [Against The Storm](./game-support/against-the-storm.md)
+  - [Age of Empires II: Definitive Edition](./game-support/age-of-empires-2-definitive-edition.md)
   - [Among Us](./game-support/among-us.md)
   - [Animal Well](./game-support/animal-well.md)
   - [ARMORED CORE VI FIRES OF RUBICON](./game-support/armored-core-6-fires-of-rubicon.md)
