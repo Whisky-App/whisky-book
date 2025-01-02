@@ -1,6 +1,6 @@
-# Dark Souls: Remastered
+# DARK SOULS: REMASTERED
 <!-- script:Aliases [
-    "Dark Souls Remastered"
+    "DARK SOULS: REMASTERED"
 ] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}

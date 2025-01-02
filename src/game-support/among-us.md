@@ -3,6 +3,7 @@
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 
-Lighting is completely broken.
+> [!WARNING]
+> Lighting is completely broken.
 
 {{#template ../templates/steam.md id=945360}}

@@ -3,10 +3,10 @@
 
 {{#template ../templates/rating.md status=Gold installs=Yes opens=Yes}}
 
-## Sluggish Gameplay Fix
+## Setup
 
-- Open Settings
-- Change `Frame rate cap:` to anything other than `VSync`.
+- Open Settings.
+- Change `Frame rate cap:` to anything other than `VSync` to fix sluggish gameplay performance.
 
 > [!NOTE]
 > If you want to use mods with Lethal Company, consider following the [r2modman](https://docs.getwhisky.app/game-support/r2modman.html) guide to install the mod launcher.
