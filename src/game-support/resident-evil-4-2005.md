@@ -5,7 +5,7 @@
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
-> [!NOTE]
+> [!WARNING]
 > Game runs in slowmotion. This varies depending on monitors refresh rate, and in-game frame limit option.
 
 {{#template ../templates/steam.md id=254700}}
