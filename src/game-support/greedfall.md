@@ -1,7 +1,7 @@
 # GreedFall
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 > [!WARNING]
 > Crashes instantly.
