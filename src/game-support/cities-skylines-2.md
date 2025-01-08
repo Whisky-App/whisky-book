@@ -1,6 +1,8 @@
-# Cities: Skylines 2
+# Cities: Skylines II
 <!-- script:Aliases [
-    "Cities Skylines 2"
+    "Cities Skylines 2",
+    "Cities: Skylines 2",
+    "Cities Skylines II"
 ] -->
 
 {{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
@@ -16,7 +18,6 @@
 > [!NOTE]
 > This will require user interaction and will likely take a rather long time to complete
 
-- Follow the instructions to patch your game [here](https://github.com/manolz1/cities2-gptk-fix)
 - Start Cities: Skylines 2 from Steam as normal
 
 > [!WARNING]
