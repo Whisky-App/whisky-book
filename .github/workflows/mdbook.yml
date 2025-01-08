@@ -16,6 +16,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.repository == 'Whisky-App/whisky-book'
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.37
