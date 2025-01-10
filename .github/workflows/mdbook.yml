@@ -16,7 +16,6 @@ concurrency:
 
 jobs:
   build:
-    if: github.repository == 'Whisky-App/whisky-book'
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.37
@@ -50,6 +49,7 @@ jobs:
         with:
           path: ./book
   deploy:
+    if: github.repository == 'Whisky-App/whisky-book'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
