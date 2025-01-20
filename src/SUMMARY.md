@@ -153,6 +153,7 @@
   - [PowerWash Simulator](./game-support/powerwash-simulator.md)
   - [Prey \(2017\)](./game-support/prey-2017.md)
   - [Psychonauts 2](./game-support/psychonauts-2.md)
+  - [Psychonauts](./game-support/psychonauts.md)
   - [Puyo Puyo Tetris 2](./game-support/puyo-puyo-tetris-2.md)
   - [Quake II](./game-support/quake-2.md)
   - [r2modman](./game-support/r2modman.md)
