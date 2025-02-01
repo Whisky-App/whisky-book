@@ -96,6 +96,7 @@
   - [Half Sword](./game-support/half-sword.md)
   - [Hearts of Iron III](./game-support/hearts-of-iron-3.md)
   - [Hellblade: Senua's Sacrifice](./game-support/hellblade-senuas-sacrifice.md)
+  - [Heroes of Hammerwatch II](./game-support/heroes-of-hammerwatch-2.md)
   - [Heroes of Might and Magic 3: Complete](./game-support/heroes-of-might-and-magic-3-complete.md)
   - [Hitman: Contracts](./game-support/hitman-contracts.md)
   - [HITMAN World of Assassination](./game-support/hitman-world-of-assasination.md)
