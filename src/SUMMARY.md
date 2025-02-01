@@ -178,6 +178,7 @@
   - [Sniper Ghost Warrior 3](./game-support/sniper-ghost-warrior-3.md)
   - [Sniper Ghost Warrior Contracts](./game-support/sniper-ghost-warrior-contracts.md)
   - [Sniper: Ghost Warrior](./game-support/sniper-ghost-warrior.md)
+  - [Solium Infernum](./game-support/solium-infernum.md)
   - [Sonic Mania](./game-support/sonic-mania.md)
   - [SONIC X SHADOW GENERATIONS](./game-support/sonic-x-shadow-generations.md)
   - [S.T.A.L.K.E.R.: Clear Sky](./game-support/stalker-clear-sky.md)
