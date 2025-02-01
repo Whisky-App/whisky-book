@@ -142,6 +142,7 @@
   - [Overwatch 2](./game-support/overwatch-2.md)
   - [Palworld](./game-support/palworld.md)
   - [Paradise Lost](./game-support/paradise-lost.md)
+  - [Path of Achra](./game-support/path-of-achra.md)
   - [Path of Exile 2](./game-support/path-of-exile-2.md)
   - [Path of Exile](./game-support/path-of-exile.md)
   - [People Playground](./game-support/people-playground.md)
