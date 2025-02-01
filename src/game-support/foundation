@@ -1,0 +1,9 @@
+# Foundation
+<!-- script:Aliases [] --> 
+
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
+
+> [!NOTE]
+> Foundation requires OpenGL 4.4, but MacOS only supports until OpenGL 4.1.
+
+{{#template ../templates/steam.md id=690830}}
