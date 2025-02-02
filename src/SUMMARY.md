@@ -35,6 +35,7 @@
   - [Call of Juarez: Gunslinger](./game-support/call-of-juarez-gunslinger.md)
   - [Call of Juarez](./game-support/call-of-juarez.md)
   - [The Callisto Protocol](./game-support/callisto-protocol.md)
+  - [Chivalry 2](./game-support/chivalry-2.md)
   - [Cities: Skylines II](./game-support/cities-skylines-2.md)
   - [Cloudpunk](./game-support/cloudpunk.md)
   - [Content Warning](./game-support/content-warning.md)
