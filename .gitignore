@@ -2,3 +2,4 @@ book
 .idea
 **/.DS_Store
 src/games.json
+.tool-versions
