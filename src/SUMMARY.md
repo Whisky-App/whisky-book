@@ -139,6 +139,7 @@
   - [NieR Replicant ver.1.22474487139...](./game-support/nier-replicant-ver.md)
   - [NIGHT-RUNNERS PROLOGUE](./game-support/night-runners-prologue.md)
   - [NIMBY Rails](./game-support/nimby-rails.md)
+  - [Noita](./game-support/noita.md)
   - [Out of Action](./game-support/out-of-action.md)
   - [Overwatch 2](./game-support/overwatch-2.md)
   - [Palworld](./game-support/palworld.md)
