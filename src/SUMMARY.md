@@ -118,6 +118,7 @@
   - [THE KING OF FIGHTERS XV](./game-support/king-of-fighters-15.md)
   - [Kingdom Come: Deliverance](./game-support/kingdom-come-deliverance.md)
   - [Kingsway](./game-support/kingsway.md)
+  - [Last Epoch](./game-support/last-epoch.md)
   - [LEGO Star Wars III: The Clone Wars](./game-support/lego-star-wars-iii-clone-wars.md)
   - [LEGO Star Wars: The Skywalker Saga](./game-support/lego-star-wars-skywalker-saga.md)
   - [Lethal Company](./game-support/lethal-company.md)
