@@ -1,11 +1,8 @@
 # Against The Storm
 <!-- script:Aliases [] --> 
 
-{{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
+{{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
-Against The Storm is currently **unplayable** in Whisky. 
-
-> [!NOTE]
-> Black window upon startup.
+- Install in Steam as normal
 
 {{#template ../templates/steam.md id=1336490}}
