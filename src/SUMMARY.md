@@ -145,6 +145,7 @@
   - [NIMBY Rails](./game-support/nimby-rails.md)
   - [Noita](./game-support/noita.md)
   - [Oddsparks: An Automation Adventure](./game-support/oddsparks-automation-adventure.md)
+  - [Orb of Creation](./game-support/orb-of-creation.md)
   - [Out of Action](./game-support/out-of-action.md)
   - [Overwatch 2](./game-support/overwatch-2.md)
   - [Palworld](./game-support/palworld.md)
