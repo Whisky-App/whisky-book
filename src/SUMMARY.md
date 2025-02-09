@@ -76,6 +76,7 @@
   - [F1 Manager 2023](./game-support/f1-manager-2023.md)
   - [Fallout 3: Game of the Year Edition](./game-support/fallout-3-goty-edition.md)
   - [Fallout 4](./game-support/fallout-4.md)
+  - [Farthest Frontier](./game-support/farthest-frontier.md)
   - [Fear and Hunger](./game-support/fear-and-hunger.md)
   - [FlatOut](./game-support/flatout.md)
   - [Forgive Me Father 2](./game-support/forgive-me-father-2.md)
