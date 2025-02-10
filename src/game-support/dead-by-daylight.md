@@ -5,7 +5,7 @@
 
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
-> [!NOTE] 
+> [!WARNING] 
 > Fails to launch due to an error when loading Easy Anti Cheat.
 
 ## Setup
