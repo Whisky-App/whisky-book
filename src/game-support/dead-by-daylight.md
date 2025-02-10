@@ -6,7 +6,7 @@
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 > [!NOTE] 
-> Fails to launch due to Easy Anti Cheat.
+> Fails to launch due to an error when loading Easy Anti Cheat.
 
 ## Setup
  - Install in Steam as normal.
