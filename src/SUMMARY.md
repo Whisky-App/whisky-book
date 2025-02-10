@@ -52,6 +52,7 @@
   - [DARK SOULS III](./game-support/dark-souls-3.md)
   - [DARK SOULS: REMASTERED](./game-support/dark-souls-remastered.md)
   - [Days Gone](./game-support/days-gone.md)
+  - [Dead by Daylight](./game-support/dead-by-daylight.md)
   - [Dead Space \(2008\)](./game-support/dead-space-2008.md)
   - [Dead Space](./game-support/dead-space.md)
   - [Deadlink](./game-support/deadlink.md)
