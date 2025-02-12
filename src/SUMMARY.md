@@ -170,6 +170,7 @@
   - [Puyo Puyo Tetris 2](./game-support/puyo-puyo-tetris-2.md)
   - [Quake II](./game-support/quake-2.md)
   - [r2modman](./game-support/r2modman.md)
+  - [Raft](./game-support/raft.md)
   - [Rain World](./game-support/rain-world.md)
   - [Resident Evil 4 \(2005\)](./game-support/resident-evil-4-2005.md)
   - [Retro Gadget](./game-support/retro-gadget.md)
