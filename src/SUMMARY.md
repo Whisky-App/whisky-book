@@ -77,6 +77,7 @@
   - [Fallout 3: Game of the Year Edition](./game-support/fallout-3-goty-edition.md)
   - [Fallout 4](./game-support/fallout-4.md)
   - [Fear and Hunger](./game-support/fear-and-hunger.md)
+  - [FINAL FANTASY XII THE ZODIAC AGE](./game-support/final-fantasy-12-tza.md)
   - [FlatOut](./game-support/flatout.md)
   - [Forgive Me Father 2](./game-support/forgive-me-father-2.md)
   - [Fortnite](./game-support/fortnite.md)
