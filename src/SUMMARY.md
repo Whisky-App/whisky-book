@@ -175,6 +175,7 @@
   - [Resident Evil 4 \(2005\)](./game-support/resident-evil-4-2005.md)
   - [Retro Gadget](./game-support/retro-gadget.md)
   - [Return to Castle Wolfenstein](./game-support/return-to-castle-wolfenstein.md)
+  - [Rift of the NecroDancer](./game-support/rift-of-necrodancer.md)
   - [Risk of Rain 2](./game-support/risk-of-rain-2.md)
   - [Risk of Rain Returns](./game-support/risk-of-rain-returns.md)
   - [Rollerdrome](./game-support/rollerdrome.md)
