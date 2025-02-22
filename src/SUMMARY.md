@@ -230,6 +230,7 @@
   - [Tomb Raider 1-3 Remastered Starring Lara Croft](./game-support/tomb-rider-1-3-remastered-starring-lara-croft.md)
   - [Touhou 6 - Embodiment of Scarlet Devil](./game-support/touhou-6-embodiment-of-scarlet-devil.md)
   - [Trackmania](./game-support/trackmania.md)
+  - [Trine 4: The Nightmare Prince](./game-support/trine-4.md)
   - [Turbo Overkill](./game-support/turbo-overkill.md)
   - [UFO 50](./game-support/ufo-50.md)
   - [Ultra Street Fighter IV](./game-support/ultra-street-fighter-4.md)
