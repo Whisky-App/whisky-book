@@ -19,6 +19,8 @@ You should be able to run this via Whisky.
 | Source | Unknown |
 
 - Restarting Steam when downloads hit 99% and get stuck can work.
+- Try changing your bottle settings from MSync to Esync, reopen Steam and wait
+  for the download to finish, and then revert your settings to MSync.
 
 ### "Steam encountered an unexpected error during startup (0x3008)"
 
