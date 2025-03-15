@@ -20,7 +20,7 @@ You should be able to run this via Whisky.
 
 - Restarting Steam when downloads hit 99% and get stuck can work.
 
-### "Steam encountered an unexpected error during startup"
+### "Steam encountered an unexpected error during startup (0x3008)"
 
 | Attribute | Description |
 | --------- | ----------- |
