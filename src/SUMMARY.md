@@ -164,6 +164,7 @@
   - [Phasmophobia](./game-support/phasmophobia.md)
   - [A Plague Tale: Innocence](./game-support/plague-tale-innocence.md)
   - [Planet Coaster](./game-support/planet-coaster.md)
+  - [PlateUp!](./game-support/plateup.md)
   - [PowerWash Simulator](./game-support/powerwash-simulator.md)
   - [Prey \(2017\)](./game-support/prey-2017.md)
   - [Psychonauts 2](./game-support/psychonauts-2.md)
