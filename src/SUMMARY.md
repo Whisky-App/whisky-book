@@ -174,6 +174,7 @@
   - [r2modman](./game-support/r2modman.md)
   - [Raft](./game-support/raft.md)
   - [Rain World](./game-support/rain-world.md)
+  - [R.E.P.O.](./game-support/repo.md)
   - [Resident Evil 4 \(2005\)](./game-support/resident-evil-4-2005.md)
   - [Retro Gadget](./game-support/retro-gadget.md)
   - [Return to Castle Wolfenstein](./game-support/return-to-castle-wolfenstein.md)
