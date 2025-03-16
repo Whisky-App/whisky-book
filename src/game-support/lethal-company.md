@@ -29,8 +29,8 @@
   if you receive a message such as "An error occured", simply ask for another
   invite and try joining again.
 
-{{#template ../templates/steam.md id=1966720}}
-
 [^1]: [HDLethalCompany](https://thunderstore.io/c/lethal-company/p/Sligili/HDLethalCompany/)
       is not mentioned because it has not been maintained for two years.
       However, as of 3/15/25, using it to lower resolution was still working.
+
+{{#template ../templates/steam.md id=1966720}}
