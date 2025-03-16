@@ -1,4 +1,5 @@
 # R.E.P.O.
+<!-- script:Aliases [] -->
 
 {{#template ../templates/rating.md status=Platinum installs=Yes opens=Yes}}
 
