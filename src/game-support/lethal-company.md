@@ -16,6 +16,21 @@
 > - [CullFactory](https://thunderstore.io/c/lethal-company/p/fumiko/CullFactory/)
 > - [Lethal Performance](https://thunderstore.io/c/lethal-company/p/DiFFoZ/LethalPerformance/)
 >
-> may be used to augment performance.
+> may be used to augment performance[^1].
+
+## Papercuts
+
+- The game is always in full screen mode in the background.
+- You cannot `Cmd-Tab` away from Lethal Company or you may risk the game
+  freezing, requiring a restart. However, if you use a window manager such as
+  [AeroSpace](https://github.com/nikitabobko/AeroSpace), you may have more
+  success in being able to switch away.
+- You may need to retry multiple times when joining modded lobbies --- that is,
+  if you receive a message such as "An error occured", simply ask for another
+  invite and try joining again.
 
 {{#template ../templates/steam.md id=1966720}}
+
+[^1]: [HDLethalCompany](https://thunderstore.io/c/lethal-company/p/Sligili/HDLethalCompany/)
+      is not mentioned because it has not been maintained for two years.
+      However, as of 3/15/25, using it to lower resolution was still working.
