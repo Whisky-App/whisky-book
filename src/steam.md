@@ -55,3 +55,8 @@ quit or restart steam), follow these instructions:
 5. Click the Run button again. It should work.
 
 Note that any shortcuts you have made will have to be removed and regenerated.
+
+#### This fix doesn't work :(
+
+If it still doesn't work, then create a new bottle and reinstall Steam there.
+You can delete your old bottle if you don't need it anymore.
