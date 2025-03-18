@@ -38,10 +38,11 @@ quit or restart steam), follow these instructions:
 2. In your Whisky Steam configuration, add the following arguments:
 
     ```
-    -forcesteamupdate -forcepackagedownload -overridepackageurl http://web.archive.org/web/20240520if_/media.steampowered.com/client -exitsteam
+    -forcesteamupdate -forcepackagedownload -overridepackageurl http://web.archive.org/web/20250306194830if_/media.steampowered.com/client -exitsteam
     ```
 
-    This will restore an older Steam version.
+    This will restore an older Steam version from 3/6/2025. Running an outdated
+    version of Steam is not recommended by Valve due to possible security risks. Proceed at your own risk.
 
 3. Click the Run button to launch Steam. It will launch, show an update
    installer dialog, and then close.
