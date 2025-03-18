@@ -8,6 +8,9 @@ You should be able to run this via Whisky.
 ## Usage
 
 - Steam will take a long time to open. This is expected.
+- The interface can often be buggy or unresponsive. With enough patience,
+  however, you can message friends, invite them to games, search your library,
+  etc.
 
 ## Fixes
 
@@ -30,10 +33,11 @@ You should be able to run this via Whisky.
 | Source | [`@kuruae` on Discord](https://discord.com/channels/1115955071549702235/1224176817372659774/1303823720179040326), [this reddit comment](https://www.reddit.com/r/macgaming/comments/1gl55mn/comment/lvt4hu2/) |
 
 Since Whisky has stopped being actively maintained, newer Steam versions are not
-supported. If you cannot open Steam (instead being presented with a dialogue to
+supported. If you cannot open Steam (instead being presented with a dialog to
 quit or restart steam), follow these instructions:
 
-1. Press `Cmd-Shift-K` from the Whisky app or go to `File > Kill All Bottles`.
+1. Press `Cmd-Shift-K` from the Whisky app or go to `File > Kill All Bottles` in
+   the menu bar.
 
 2. In your Whisky Steam configuration, add the following arguments:
 
