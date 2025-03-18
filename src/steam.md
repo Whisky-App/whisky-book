@@ -45,16 +45,16 @@ quit or restart steam), follow these instructions:
     version of Steam is not recommended by Valve due to possible security risks.
     Proceed at your own risk.
 
-4. Click the Run button to launch Steam. It will launch, show an update
+3. Click the Run button to launch Steam. It will launch, show an update
    installer dialog, and then close.
 
-5. Replace the arguments you added with the following arguments:
+4. Replace the arguments you added with the following arguments:
 
     ```
     -noverifyfiles -nobootstrapupdate -skipinitialbootstrap -norepairfiles -overridepackageurl
     ```
 
-6. Click the Run button again. It should work.
+5. Click the Run button again. It should work.
 
 Note that any shortcuts you have made will have to be removed and regenerated.
 
