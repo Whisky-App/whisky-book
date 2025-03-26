@@ -206,7 +206,7 @@
   - [SONIC X SHADOW GENERATIONS](./game-support/sonic-x-shadow-generations.md)
   - [S.T.A.L.K.E.R.: Clear Sky](./game-support/stalker-clear-sky.md)
   - [The Stanley Parable: Ultra Deluxe](./game-support/stanley-parable-ultra-deluxe.md)
-  - [STAR WARS: Battlefront II \(Classic, 2005\)](./game-support/star-wars-battlefront-2-2005.md)
+  - [STAR WARS: Battlefront II \(Classic, 2005\)](./game-support/star-wars-battlefront-2-classic-2005.md)
   - [STAR WARS Jedi: Fallen Order](./game-support/star-wars-fallen-order.md)
   - [STAR WARS: Squadrons](./game-support/star-wars-squadrons.md)
   - [STAR WARS: The Old Republic](./game-support/star-wars-the-old-republic.md)
