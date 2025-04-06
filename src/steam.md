@@ -26,9 +26,8 @@ quit or restart steam), follow these instructions:
 
 2. In your Whisky Steam configuration, add the following arguments:
 
-    > [!NOTE]
-    > The link will not open in a browser, however, it is still active.  
-
+   **The link will not open in a browser, however, it is still active.**
+ 
     ```
     -forcesteamupdate -forcepackagedownload -overridepackageurl http://web.archive.org/web/20250306194830if_/media.steampowered.com/client -exitsteam
     ```

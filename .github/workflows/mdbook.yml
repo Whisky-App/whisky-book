@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MDBOOK_VERSION: 0.4.37
+      MDBOOK_VERSION: 0.4.48
       CARGO_TERM_COLOR: always
       GITHUB_ACTIONS: true
     steps:
