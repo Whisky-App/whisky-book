@@ -13,21 +13,10 @@ You should be able to run this via Whisky.
 
 ### Downloads not completing
 
-| Attribute | Description |
-| --------- | ----------- |
-| Working as of | Unknown |
-| Source | Unknown |
-
-- Restarting Steam when downloads hit 99% and get stuck can work.
-- Try changing your bottle settings from MSync to Esync, reopen Steam and wait
-  for the download to finish, and then revert your settings to MSync.
+Restart Steam if downloads become stuck. If they remain stuck, try changing your bottle
+settings from MSync to ESync, then restarting Steam.
 
 ### "Steam encountered an unexpected error during startup (0x3008)"
-
-| Attribute | Description |
-| --------- | ----------- |
-| Working as of | 3/14/2025 |
-| Source | [`@kuruae` on Discord](https://discord.com/channels/1115955071549702235/1224176817372659774/1303823720179040326), [this reddit comment](https://www.reddit.com/r/macgaming/comments/1gl55mn/comment/lvt4hu2/) |
 
 Since Whisky has stopped being actively maintained, newer Steam versions are not
 supported. If you cannot open Steam (instead being presented with a dialogue to
@@ -36,6 +25,9 @@ quit or restart steam), follow these instructions:
 1. Press `Cmd-Shift-K` from the Whisky app or go to `File > Kill All Bottles`.
 
 2. In your Whisky Steam configuration, add the following arguments:
+
+    > [!NOTE]
+    > The link will not open in a browser, however, it is still active.  
 
     ```
     -forcesteamupdate -forcepackagedownload -overridepackageurl http://web.archive.org/web/20250306194830if_/media.steampowered.com/client -exitsteam
@@ -57,7 +49,7 @@ quit or restart steam), follow these instructions:
 
 Note that any shortcuts you have made will have to be removed and regenerated.
 
-#### This fix doesn't work :(
+#### "This fix doesn't work :("
 
 If it still doesn't work, then create a new bottle and reinstall Steam there.
 You can delete your old bottle if you don't need it anymore.
