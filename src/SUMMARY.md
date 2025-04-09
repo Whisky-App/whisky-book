@@ -1,6 +1,7 @@
 # Summary
 
 - [Guide](./guide.md)
+- [Maintenance Notice](./maintenance-notice.md)
 - [Common Issues](./common-issues.md)
 - [What's Where?](./paths.md)
 - [WhiskyCmd](./whiskycmd.md)
