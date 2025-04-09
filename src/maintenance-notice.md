@@ -48,7 +48,7 @@ were only added due to pressure from Mac gamers.
     **The revenue from CrossOver is what keeps Wine on Mac alive.**
 
     By contrast, Whisky is based on CrossOver, but we don't produce any bespoke fixes. I, quite frankly, do not have
-the requisite skills or time to do so. As a result, the amount that Whisky as a whole to Wine is exactly zero.
+the requisite skills or time to do so. As a result, the amount that Whisky as a whole contributes to Wine is practically zero.
 This is not a fair trade, and continuing this parasitic relationship could easily harm CrossOver's continued
 profitibility and the existence of Wine on Mac as a whole.
 
