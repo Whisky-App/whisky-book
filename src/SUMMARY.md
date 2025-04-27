@@ -188,6 +188,7 @@
   - [The Room Two](./game-support/room-2.md)
   - [The Room Three](./game-support/room-3.md)
   - [The Room 4: Old Sins](./game-support/room-4-old-sins.md)
+  - [RUGBY 20](./game-support/rugby-20.md)
   - [RUINER](./game-support/ruiner.md)
   - [Satisfactory](./game-support/satisfactory.md)
   - [Sekiro: Shadows Die Twice](./game-support/sekiro-shadows-die-twice.md)
