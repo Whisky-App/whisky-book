@@ -132,6 +132,7 @@
   - [Lords Of The Fallen 2014](./game-support/lords-of-the-fallen-2014.md)
   - [Manifold Garden](./game-support/manifold-garden.md)
   - [Manor Lords](./game-support/manor-lords.md)
+  - [Marvel Rivals](./game-support/marvel-rivals.md)
   - [Marvel's Midnight Suns](./game-support/marvels-midnight-suns.md)
   - [METAL GEAR SOLID V: THE PHANTOM PAIN](./game-support/metal-gear-solid-5-phantom-pain.md)
   - [Metal Slug Tactics](./game-support/metal-slug-tactics.md)
