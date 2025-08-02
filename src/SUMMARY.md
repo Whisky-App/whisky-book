@@ -160,6 +160,7 @@
   - [Path of Achra](./game-support/path-of-achra.md)
   - [Path of Exile 2](./game-support/path-of-exile-2.md)
   - [Path of Exile](./game-support/path-of-exile.md)
+  - [PEAK](./game-support/peak.md)
   - [People Playground](./game-support/people-playground.md)
   - [Per Aspera](./game-support/per-aspera.md)
   - [Persona 3 Reload](./game-support/persona-3-reload.md)
