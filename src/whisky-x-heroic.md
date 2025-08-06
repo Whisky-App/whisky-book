@@ -10,5 +10,5 @@ Heroic Games Launcher allows you to install and run games from stores such as Ep
 1. After you finish installing Heroic, you'll need to configure settings within Heroic in order to use Whisky.
     1. In the sidebar, select `Settings`.
     2. Under the `Settings` tab in the sidebar, select `Game Defaults`. 
-    3. Under `Crossover/Wine Version` select `Whisky 2.3.x`.
+    3. Under `Crossover/Wine Version` select `Whisky 2.5.x`.
 2. You're all set! You can now install and run games using Heroic and Whisky.
