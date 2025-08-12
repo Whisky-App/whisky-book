@@ -1,10 +1,9 @@
 # Trackmania
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
 
 > [!WARNING]
-> - On MacOS Sonoma the games launch and finishing a map is technically possible, but pratically nothing is rendered (only trees?)
-> - To fix Ubisoft Connect, you will need to install d3dx9, d3dx10 and dotnet4.8 DLLs through winetricks.
+> To fix Ubisoft Connect, you will need to set windows version to 7.
 
 {{#template ../templates/steam.md id=2225070}}
