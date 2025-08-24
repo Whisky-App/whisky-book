@@ -3,7 +3,7 @@
     "MCDungeons"
 ] -->
 
-{{#template ../templates/rating.md status=Borked installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Garbage installs=Yes opens=Yes}}
 
 > [!WARNING]
 > Minecraft Dungeons is currently **Unplayable** on macOS Sequoia 15.5
@@ -30,9 +30,6 @@
  - ![image](https://github.com/user-attachments/assets/a1aa5eb5-5902-41e0-aaf1-6232d7720754)
  - ![Capture d’écran 2025-05-18 à 02 53 30](https://github.com/user-attachments/assets/f22828b1-d1d2-46c2-9bde-c2c2832bd0b3)
 
-
-
-
 > [!NOTE]
 > - Set graphics to low or huge doesn't change anything to the bug, it just wont work at all
 > - If someone found a fix to it, please share it and/or edit the doc, thanks in advance.
@@ -43,7 +40,6 @@
 > - Disabling DXVK in Whisky or use Asynx ON/OFF in DXVK settings in Whisky does nothing
 > - Adding env variables to the steam.exe won't doesn't fix the issue
 > - More En varriables below :
-
 
 > Environnment variables :
 > - MESA_GLSL_VERSION_OVERRIDE="450"
