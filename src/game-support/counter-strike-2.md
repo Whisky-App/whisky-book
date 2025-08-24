@@ -7,6 +7,6 @@
 {{#template ../templates/rating.md status=Garbage installs=Yes opens=No}}
 
 > [!WARNING]
-> `When you install it and click open it will try to open and then close.`
+> When you install it and click open it will try to open and then close.
 
 {{#template ../templates/steam.md id=730}}
