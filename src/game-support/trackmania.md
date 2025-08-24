@@ -3,8 +3,12 @@
 
 {{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
+> [!NOTES]
+> - On MacOS Sonoma the games launch and everything is working well.
+> - On MacOS Tahoe the game launches and is working. 
+> - The game is working nicely on a Macbook air M2 with 8 Gigabytes of RAM.
+
 > [!WARNING]
-> - On MacOS Sonoma the games launch and finishing a map is technically possible, but pratically nothing is rendered (only trees?)
-> - To fix Ubisoft Connect, you will need to install d3dx9, d3dx10 and dotnet4.8 DLLs through winetricks.
+> - To fix steam updating, follow this link [ici](https://docs.getwhisky.app/steam.html)
 
 {{#template ../templates/steam.md id=2225070}}
