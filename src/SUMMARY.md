@@ -139,6 +139,7 @@
   - [Metro 2033 Redux](./game-support/metro-2033-redux.md)
   - [Metro Exodus](./game-support/metro-exodus.md)
   - [Metro: Last Light Redux](./game-support/metro-last-light-redux.md)
+  - [Minecraft Dungeons](./game-support/minecraft-dungeons.md)
   - [MiSide](./game-support/miside.md)
   - [Monster Hunter World: Iceborne](./game-support/monster-hunter-world-iceborne.md)
   - [Mount & Blade: With Fire & Sword](./game-support/mount-and-blade-with-fire-and-sword.md)
