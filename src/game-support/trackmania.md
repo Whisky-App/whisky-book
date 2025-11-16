@@ -1,7 +1,7 @@
 # Trackmania
 <!-- script:Aliases [] -->
 
-{{#template ../templates/rating.md status=Bronze installs=Yes opens=Yes}}
+{{#template ../templates/rating.md status=Silver installs=Yes opens=Yes}}
 
 > [!NOTES]
 > - On MacOS Sonoma the games launch and everything is working well.
